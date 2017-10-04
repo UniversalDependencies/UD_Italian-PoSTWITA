@@ -1,6 +1,3 @@
-UD_Italian-ParTUT data is derived from the already-existing parallel treebank ParTUT.
-As such, it is subject to the license described there, which is pasted below.
-
 =======================================================================
 
 Attribution-NonCommercial-ShareAlike 4.0 International
