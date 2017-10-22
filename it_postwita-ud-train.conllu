@@ -17539,7 +17539,7 @@
 
 # sent_id = _____192998881947164672_____
 # text = Quell'idiota di #Grillo dice di fare default. http://t.co/Dbti2jXg Ecco perché sarebbe una follia http://t.co/8W4FCR36
-1	Quell'	quello	DET	DD	PronType=Dem	2	det	_	_
+1	Quell'	quello	DET	DD	PronType=Dem	2	det	_	SpaceAfter=No
 2	idiota	idiota	NOUN	S	Number=Sing	5	nsubj	_	_
 3	di	di	ADP	E	_	4	case	_	_
 4	#Grillo	#Grillo	SYM	SYM	_	2	nmod	_	_
@@ -18799,7 +18799,7 @@
 3	in	in	ADP	E	_	4	case	_	_
 4	ripresa	ripresa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	FF	_	4	punct	_	_
-6	+	+	SYM	SYM	_	7	advmod	_	_
+6	+	+	SYM	SYM	_	7	advmod	_	SpaceAfter=No
 7	1,9	1,9	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
 8	%	%	SYM	SYM	_	9	obl	_	_
 9	aspettando	aspettare	VERB	V	VerbForm=Ger	4	parataxis	_	_
@@ -31679,7 +31679,7 @@
 14	da	da	ADP	E	_	16	case	_	_
 15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
-17	'	'	PUNCT	FB	_	18	punct	_	_
+17	'	'	PUNCT	FB	_	18	punct	_	SpaceAfter=No
 18	80	80	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
 19	.	.	PUNCT	FS	_	10	punct	_	_
 20	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
@@ -34440,7 +34440,7 @@
 
 # sent_id = _____152776015133937664_____
 # text = Quell'efferato sarcasmo di Mario Monti che uccide il povero Maurizio Sallusti http://t.co/jPDlm3Rg
-1	Quell'	quello	DET	DD	PronType=Dem	3	det	_	_
+1	Quell'	quello	DET	DD	PronType=Dem	3	det	_	SpaceAfter=No
 2	efferato	efferato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
 3	sarcasmo	sarcasmo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 4	di	di	ADP	E	_	5	case	_	_
@@ -46536,7 +46536,7 @@
 
 # sent_id = _____189942098689142788_____
 # text = L'Italia i valori ... Lidia Undemi, nauseata dalla falsità del partito si dimette. - Raccontate la verità ,… http://t.co/8Se13vmK
-1	L'	L'	PROPN	SP	_	17	obl	_	_
+1	L'	L'	PROPN	SP	_	17	obl	_	SpaceAfter=No
 2	Italia	italia	PROPN	SP	_	1	flat:name	_	_
 3	i	i	PROPN	SP	_	1	flat:name	_	_
 4	valori	valori	PROPN	SP	_	1	flat:name	_	_
