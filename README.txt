@@ -14,13 +14,13 @@ The conversion and syntactic annotation process was carried out through alternat
 
 ## References
 
-* Manuela Sanguinetti, Cristina Bosco, Alessandro Mazzei, ALberto LAvelli, Fabio Tamburini. 2017. Annotating Italian Social Media Texts in Universal Dependencies. In: Proceedings of the Fourth International Conference on Dependency Linguistics (Depling 2017), Pisa (Italy), pp. 229–239
+* Manuela Sanguinetti, Cristina Bosco, Alessandro Mazzei, Alberto Lavelli, Fabio Tamburini. 2017. Annotating Italian Social Media Texts in Universal Dependencies. In: Proceedings of the Fourth International Conference on Dependency Linguistics (Depling 2017), Pisa (Italy), pp. 229–239
 
 * Cristina Bosco, Fabio Tamburini, Andrea Bolioli, Alessandro Mazzei. 2016. Overview of the EVALITA 2016 Part Of Speech on TWitter for ITAlian task. In: Proceedings of Evalita 2016
 
 
 
-=== Machine-readable metadata (DO NOT REMOVE!) ================================
+=== Machine-readable metadata ================================================
 Documentation status: partial
 Data source: semi-automatic
 Data available since: UD v2.1
