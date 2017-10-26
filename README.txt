@@ -8,8 +8,8 @@ The conversion and syntactic annotation process was carried out through alternat
 ## Corpus splitting
 The section of PoSTWITA that has been revised so far (approximately the first half of the corpus) has been randomly split as follows:
 * it_postwita-ud-train.conllu: 51,642 words (2008 sentences)
-* it_postwita-ud-dev.conllu: 6,380 (350 sentences)
-* it_postwita-ud-test.conllu: 6,514 (352 sentences)
+* it_postwita-ud-dev.conllu: 6,380 words (350 sentences)
+* it_postwita-ud-test.conllu: 6,514 words (352 sentences)
 
 
 ## Basic statistics
