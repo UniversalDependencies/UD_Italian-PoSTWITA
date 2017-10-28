@@ -4955,7 +4955,7 @@
 16	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	ITALIA	italia	PROPN	SP	_	7	parataxis	_	_
 18	CHE	che	PRON	PR	PronType=Rel	19	nsubj	_	_
-19	FA	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:cleft	_	_
+19	FA	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
 20	RIDERE	ridere	VERB	V	VerbForm=Inf	19	ccomp	_	SpaceAfter=No
 21	,	,	PUNCT	FF	_	25	punct	_	_
 22	lui	egli	PRON	PE	Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
@@ -5603,7 +5603,7 @@
 14	che	che	SCONJ	CS	_	17	mark	_	_
 15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
 16	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
-17	pompando	pompare	VERB	V	VerbForm=Ger	13	ccomp:cleft	_	SpaceAfter=No
+17	pompando	pompare	VERB	V	VerbForm=Ger	13	ccomp	_	SpaceAfter=No
 18	,	,	PUNCT	FF	_	22	punct	_	_
 19	manco	manco	ADV	B	_	22	advmod	_	_
 20	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
