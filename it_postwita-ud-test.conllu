@@ -1302,7 +1302,7 @@
 
 # sent_id = _____393378307552841728_____
 # text = Tobin tax: Jerusalmi, è dannosa va tolta http://t.co/7klJ49BVBj
-1	Tobin	Tobin	PROPN	SP	_	7	parataxis:obj	_	_
+1	Tobin	Tobin	PROPN	SP	_	7	parataxis:nsubj	_	_
 2	tax	tax	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	FC	_	2	punct	_	_
 4	Jerusalmi	Jerusalmi	PROPN	SP	_	7	parataxis	_	SpaceAfter=No
@@ -1999,14 +1999,14 @@
 11	,	,	PUNCT	FF	_	10	punct	_	_
 12	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
 13	:	:	PUNCT	FC	_	12	punct	_	_
-14	Oddio	oddio	INTJ	I	_	20	discourse	_	SpaceAfter=No
-15	,	,	PUNCT	FF	_	20	punct	_	_
-16	e	e	CCONJ	CC	_	20	cc	_	_
-17	mo'	mo'	INTJ	I	_	20	advmod	_	_
-18	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	20	nsubj	_	_
-19	chi	chi	PRON	PR	PronType=Rel	20	nsubj	_	_
-20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis:obj	_	SpaceAfter=No
-21	?	?	PUNCT	FS	_	20	punct	_	_
+14	Oddio	oddio	INTJ	I	_	19	discourse	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	mo'	mo'	INTJ	I	_	19	advmod	_	_
+18	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	nsubj	_	_
+19	chi	chi	PRON	PR	PronType=Rel	12	parataxis:obj	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	19	punct	_	_
 22	http://t.co/4nTehDux	http://t.co/4nTehDux	SYM	X	_	1	dep	_	_
 23	via	via	ADP	E	_	24	case	_	_
 24	@notapolitica	@notapolitica	SYM	SYM	_	1	vocative:mention	_	_
@@ -4578,7 +4578,7 @@
 24	che	che	SCONJ	CS	_	27	mark	_	_
 25	...	...	PUNCT	FS	_	27	punct	_	_
 26	“	“	PUNCT	FB	_	27	punct	_	_
-27	Basta	bastare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	parataxis:obj	_	SpaceAfter=No
+27	Basta	bastare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	ccomp	_	SpaceAfter=No
 28	!	!	PUNCT	FS	_	27	punct	_	_
 29	“	“	PUNCT	FB	_	27	punct	_	SpaceAfter=No
 30	?	?	PUNCT	FS	_	16	punct	_	_
@@ -4586,11 +4586,11 @@
 # sent_id = _____142290708227817472_____
 # text = Nuovo articolo su http://t.co/AwfD4hRn Si intitola Non c'era nulla da studiare e parla del governo Monti http://t.co/c961vqUQ.
 1	Nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
-2	articolo	articolo	NOUN	S	Gender=Masc|Number=Sing	6	parataxis:nsubj	_	_
+2	articolo	articolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 3	su	su	ADP	E	_	4	case	_	_
 4	http://t.co/AwfD4hRn	http://t.co/AwfD4hRn	SYM	X	_	2	nmod	_	_
 5	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
-6	intitola	intitolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	intitola	intitolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 7	Non	non	ADV	BN	PronType=Neg	9	advmod	_	_
 8	c'	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	9	expl	_	SpaceAfter=No
 9	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	parataxis	_	_
@@ -7605,7 +7605,7 @@
 4	governo	governo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
 5	Monti	Monti	PROPN	SP	_	4	nmod	_	SpaceAfter=No
 6	:	:	PUNCT	FC	_	5	punct	_	_
-7	Gelmini	Gelmini	PROPN	SP	_	13	parataxis:nsubj	_	_
+7	Gelmini	Gelmini	PROPN	SP	_	13	nsubj	_	_
 8-9	ai	_	_	_	_	_	_	_	_
 8	a	a	ADP	E	_	10	case	_	_
 9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_

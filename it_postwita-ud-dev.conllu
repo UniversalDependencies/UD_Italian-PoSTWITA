@@ -810,7 +810,7 @@
 9	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
 10	da	da	ADP	E	_	12	case	_	_
 11	che	che	DET	DE	PronType=Exc	12	det	_	_
-12	pulpito	pulpito	NOUN	S	Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No
+12	pulpito	pulpito	NOUN	S	Gender=Masc|Number=Sing	7	parataxis:insert	_	SpaceAfter=No
 13	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
 14	.	.	PUNCT	FS	_	7	punct	_	_
 15	Ancora	ancora	ADV	B	_	20	advmod	_	_
@@ -1225,7 +1225,7 @@
 10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
 12	Monti	Monti	PROPN	SP	_	11	nmod	_	_
-13	rinvia	rinviare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis:obj	_	_
+13	rinvia	rinviare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	entrata	entrata	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
 16	in	in	ADP	E	_	17	case	_	_
@@ -1681,7 +1681,7 @@
 21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	politici	politico	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
 23	:	:	PUNCT	FC	_	19	punct	_	_
-24	fate	fare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	parataxis:obj	_	_
+24	fate	fare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	parataxis	_	_
 25	qualcosa	qualcosa	PRON	PI	PronType=Ind	24	obj	_	_
 26	!!!	!!!	PUNCT	FS	_	19	punct	_	_
 
@@ -3904,7 +3904,7 @@
 8	campionato	campionato	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
 9	e'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	ancora	ancora	ADV	B	_	11	advmod	_	_
-11	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	3	parataxis:obj	_	_
+11	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	5	parataxis:obj	_	_
 12	ma	ma	CCONJ	CC	_	18	cc	_	_
 13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	gol	gol	NOUN	S	Gender=Masc	18	nsubj	_	_
@@ -5402,7 +5402,7 @@
 18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	conti	conto	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
 20	:	:	PUNCT	FC	_	19	punct	_	_
-21	spread	spread	NOUN	S	_	2	parataxis:obj	_	_
+21	spread	spread	NOUN	S	_	16	parataxis	_	_
 22	btp	btp	PROPN	SP	_	21	nmod	_	SpaceAfter=No
 23	/	/	PUNCT	FF	_	22	punct	_	SpaceAfter=No
 24	bund	bund	PROPN	SP	_	22	flat	_	_
@@ -5807,7 +5807,7 @@
 
 # sent_id = _____149769460050436096_____
 # text = E così professor #Monti e #Fornero? Per crescere bisogna davvero licenziare? O abbiamo frainteso?
-1	E	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+1	E	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	così	così	ADV	B	_	0	root	_	_
 3	professor	professore	NOUN	S	Gender=Masc|Number=Sing	2	vocative	_	_
 4	#Monti	#Monti	SYM	SYM	_	3	flat	_	_

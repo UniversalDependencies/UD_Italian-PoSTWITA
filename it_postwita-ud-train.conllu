@@ -346,7 +346,7 @@
 1	“	“	PUNCT	FB	_	14	punct	_	_
 2	@fattoquotidiano	@fattoquotidiano	SYM	SYM	_	14	vocative:mention	_	SpaceAfter=No
 3	:	:	PUNCT	FC	_	2	punct	_	_
-4	#Grillo	#Grillo	SYM	SYM	_	14	parataxis:nsubj	_	_
+4	#Grillo	#Grillo	SYM	SYM	_	14	parataxis	_	_
 5	e	e	CCONJ	CC	_	7	cc	_	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	teatrino	teatro	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
@@ -3467,7 +3467,7 @@
 # sent_id = _____141807182709657600_____
 # text = il governo Monti, la quota Matteoli, i due Braga. Un caso imbarazzante (non solo per il governo) http://t.co/tV3Jqny4
 1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	governo	governo	NOUN	S	Gender=Masc|Number=Sing	14	parataxis:nsubj	_	_
+2	governo	governo	NOUN	S	Gender=Masc|Number=Sing	14	parataxis	_	_
 3	Monti	Monti	PROPN	SP	_	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	6	punct	_	_
 5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -7250,12 +7250,12 @@
 17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
 18	NON	non	ADV	BN	PronType=Neg	19	advmod	_	_
 19	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
-20	-	-	PUNCT	FB	_	14	punct	_	_
-21	#TAGLI	#TAGLI	SYM	SYM	_	14	parataxis:obj	_	_
+20	-	-	PUNCT	FB	_	21	punct	_	_
+21	#TAGLI	#TAGLI	SYM	SYM	_	16	appos	_	_
 22-23	alla	_	_	_	_	_	_	_	_
 22	a	a	ADP	E	_	24	case	_	_
 23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	#POLITICA	#POLITICA	SYM	SYM	_	21	obl	_	SpaceAfter=No
+24	#POLITICA	#POLITICA	SYM	SYM	_	21	nmod	_	SpaceAfter=No
 25	!	!	PUNCT	FS	_	1	punct	_	_
 
 # sent_id = _____152380330588909569_____
@@ -8217,7 +8217,7 @@
 8	Purtroppo	purtroppo	ADV	B	_	11	advmod	_	_
 9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	animale	animale	NOUN	S	Gender=Masc|Number=Sing	6	parataxis:obj	_	_
+11	animale	animale	NOUN	S	Gender=Masc|Number=Sing	6	parataxis	_	_
 12	a	a	ADP	E	_	13	case	_	_
 13	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
 14	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
@@ -11571,7 +11571,7 @@
 16	?	?	PUNCT	FS	_	15	punct	_	_
 17	1	1	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
 18	:	:	PUNCT	FC	_	17	punct	_	_
-19	licenzierete	licenziare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	15	parataxis:obj	_	_
+19	licenzierete	licenziare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	13	parataxis:obj	_	_
 20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	po'	po'	ADV	B	_	19	advmod	_	_
 22	di	di	ADP	E	_	23	case	_	_
@@ -11979,8 +11979,8 @@
 # text = @Serv_Pubblico: Travaglio Governo Monti potrebbe aprire asta pubblica su frequenze #serviziopubblico E' OBBLIGATORIO
 1	@Serv_Pubblico	@Serv_Pubblico	SYM	SYM	_	7	vocative:mention	_	SpaceAfter=No
 2	:	:	PUNCT	FC	_	1	punct	_	_
-3	Travaglio	Travaglio	PROPN	SP	_	7	parataxis:nsubj	_	_
-4	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+3	Travaglio	Travaglio	PROPN	SP	_	7	vocative	_	_
+4	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
 5	Monti	Monti	PROPN	SP	_	4	nmod	_	_
 6	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	aprire	aprire	VERB	V	VerbForm=Inf	0	root	_	_
@@ -12354,7 +12354,7 @@
 6	Regione	Regione	PROPN	SP	_	5	flat:name	_	_
 7	Sicilia	sicilia	PROPN	SP	_	5	flat:name	_	_
 8	Nessun	nessuno	DET	DI	PronType=Ind	9	det	_	_
-9	Riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	3	parataxis:obj	_	_
+9	Riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	3	parataxis	_	_
 10-11	alla	_	_	_	_	_	_	_	_
 10	a	a	ADP	E	_	12	case	_	_
 11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -13376,7 +13376,7 @@
 # sent_id = _____194091628485550080_____
 # text = " Facciamo cambiare strada all'Italia " Gli appelli dei vip per #Salvaiciclisti - Repubblica.it http://t.co/MSy5MR97 via @repubblicait
 1	"	"	PUNCT	FB	_	2	punct	_	_
-2	Facciamo	fare	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	parataxis:obj	_	_
+2	Facciamo	fare	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	cambiare	cambiare	VERB	V	VerbForm=Inf	2	ccomp	_	_
 4	strada	strada	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
 5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
@@ -13385,7 +13385,7 @@
 7	Italia	italia	PROPN	SP	_	3	obl	_	_
 8	"	"	PUNCT	FB	_	2	punct	_	_
 9	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-10	appelli	appello	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+10	appelli	appello	NOUN	S	Gender=Masc|Number=Plur	1	parataxis	_	_
 11-12	dei	_	_	_	_	_	_	_	_
 11	di	di	ADP	E	_	13	case	_	_
 12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
@@ -14111,9 +14111,9 @@
 10	Silvia	Silvia	PROPN	SP	_	8	conj	_	_
 11	Cerami	Cerami	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
 12	.	.	PUNCT	FS	_	1	punct	_	_
-13	Oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+13	Oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	15	parataxis	_	SpaceAfter=No
 14	?	?	PUNCT	FS	_	13	punct	_	_
-15	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	13	parataxis:obj	_	_
+15	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	1	parataxis	_	_
 16	Monti	Monti	PROPN	SP	_	15	nmod	_	_
 17	chi	chi	PRON	PR	PronType=Rel	15	parataxis	_	_
 18	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	19	iobj	_	_
@@ -16354,8 +16354,8 @@
 8	imprenditore	imprenditore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
 10	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
-11	politici	politico	NOUN	S	Gender=Masc|Number=Plur	10	parataxis:obj	_	_
-12	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	nmod	_	_
+11	politici	politico	NOUN	S	Gender=Masc|Number=Plur	12	vocative	_	_
+12	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	10	parataxis:obj	_	_
 13	a	a	ADP	E	_	14	case	_	_
 14	casa	casa	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	FS	_	16	punct	_	_
@@ -17100,23 +17100,23 @@
 # sent_id = _____188195071160614913_____
 # text = " pisapia come moratti: milano = area c " dice quello di dx. " ma basta con sto gratosoglio, sto impazzendo con il pass " dice quello di sx
 1	"	"	PUNCT	FB	_	2	punct	_	_
-2	pisapia	pisapia	PROPN	SP	_	11	parataxis:obj	_	_
+2	pisapia	pisapia	PROPN	SP	_	0	root	_	_
 3	come	come	ADP	E	_	4	case	_	_
 4	moratti	moratti	PROPN	SP	_	2	nmod	_	SpaceAfter=No
 5	:	:	PUNCT	FC	_	2	punct	_	_
-6	milano	milano	PROPN	SP	_	2	appos	_	_
+6	milano	milano	PROPN	SP	_	2	parataxis	_	_
 7	=	=	PUNCT	FF	_	6	punct	_	_
 8	area	area	NOUN	S	Gender=Fem|Number=Sing	6	appos	_	_
 9	c	c	PROPN	SP	_	8	nmod	_	_
 10	"	"	PUNCT	FB	_	2	punct	_	_
-11	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis:insert	_	_
 12	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	_
 13	di	di	ADP	E	_	14	case	_	_
 14	dx	destra	NOUN	S	Gender=Fem	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	FS	_	11	punct	_	_
 16	"	"	PUNCT	FB	_	18	punct	_	_
 17	ma	ma	CCONJ	CC	_	18	discourse	_	_
-18	basta	bastare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	29	parataxis:obj	_	_
+18	basta	bastare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 19	con	con	ADP	E	_	21	case	_	_
 20	sto	questo	DET	DD	PronType=Dem	21	det	_	_
 21	gratosoglio	gratosoglio	X	X	_	18	obl	_	SpaceAfter=No
@@ -17127,7 +17127,7 @@
 26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	pass	pass	NOUN	S	_	24	obl	_	_
 28	"	"	PUNCT	FB	_	18	punct	_	_
-29	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+29	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis:insert	_	_
 30	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	29	nsubj	_	_
 31	di	di	ADP	E	_	32	case	_	_
 32	sx	sinistra	NOUN	S	Gender=Fem	30	nmod	_	_
@@ -18595,7 +18595,7 @@
 
 # sent_id = _____192685975485423616_____
 # text = #Grillo nei TT? non so se e' un bene .. preferirei vedere #M5sTour! andiamo avanti!
-1	#Grillo	#Grillo	SYM	SYM	_	7	parataxis:nsubj	_	_
+1	#Grillo	#Grillo	SYM	SYM	_	7	parataxis	_	_
 2-3	nei	_	_	_	_	_	_	_	_
 2	in	in	ADP	E	_	4	case	_	_
 3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -18606,7 +18606,7 @@
 8	se	se	SCONJ	CS	_	11	mark	_	_
 9	e'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	bene	bene	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	bene	bene	NOUN	S	Gender=Masc|Number=Sing	7	ccomp	_	_
 12	..	..	PUNCT	FS	_	7	punct	_	_
 13	preferirei	preferire	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
 14	vedere	vedere	VERB	V	VerbForm=Inf	13	xcomp	_	_
@@ -19421,7 +19421,7 @@
 5	,	,	PUNCT	FF	_	2	punct	_	_
 6	quanto	quanto	ADV	B	_	8	mark	_	_
 7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-8	bello	bello	ADJ	A	Gender=Masc|Number=Sing	2	parataxis:obj	_	_
+8	bello	bello	ADJ	A	Gender=Masc|Number=Sing	2	ccomp	_	_
 9	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
 10	?	?	PUNCT	FS	_	8	punct	_	SpaceAfter=No
 11	)	)	PUNCT	FB	_	10	punct	_	_
@@ -21346,9 +21346,9 @@
 6	cmq	cmq	SCONJ	CS	_	8	mark	_	_
 7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
 8	parlino	parlare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
-9	pro	pro	ADP	E	_	8	obl	_	_
+9	pro	pro	NOUN	S	_	8	obl	_	_
 10	o	o	CCONJ	CC	_	11	cc	_	_
-11	contro	contro	ADP	E	_	9	conj	_	_
+11	contro	contro	NOUN	S	_	9	conj	_	_
 12	#Grillo	#Grillo	SYM	SYM	_	13	nsubj	_	_
 13	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis:obj	_	_
 14	voti	voto	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
@@ -21412,7 +21412,7 @@
 13	:	:	PUNCT	FC	_	5	punct	_	_
 14	o	o	CCONJ	CC	_	16	cc	_	_
 15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:impers	_	_
-16	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis:obj	_	_
+16	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
 17	a	a	ADP	E	_	18	case	_	_
 18	messa	messa	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
 19	o	o	CCONJ	CC	_	21	cc	_	_
@@ -22149,7 +22149,7 @@
 10	GOVERNO	GOVERNO	PROPN	SP	_	13	nsubj	_	_
 11	MONTI	MONTI	PROPN	SP	_	10	flat:name	_	_
 12	CI	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	expl	_	_
-13	RIPENSI	ripensare	VERB	V	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis:obj	_	_
+13	RIPENSI	ripensare	VERB	V	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
 14	http://t.co/YvCZf7AT	http://t.co/YvCZf7AT	SYM	X	_	5	dep	_	_
 
 # sent_id = _____393383732759232512_____
@@ -34269,7 +34269,7 @@
 1	Da	da	ADP	E	_	2	mark	_	_
 2	leggere	leggere	VERB	V	VerbForm=Inf	0	root	_	_
 3	oggi	oggi	ADV	B	_	2	advmod	_	_
-4	Vincenzo	vincenzo	PROPN	SP	_	2	parataxis:obj	_	_
+4	Vincenzo	vincenzo	PROPN	SP	_	2	obj	_	_
 5	Visco	Visco	PROPN	SP	_	4	flat:name	_	_
 6-7	sull'	_	_	_	_	_	_	_	SpaceAfter=No
 6	su	su	ADP	E	_	8	case	_	_
@@ -41470,12 +41470,12 @@
 3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
 4	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	FC	_	4	punct	_	_
-6	'	'	PUNCT	FB	_	8	punct	_	_
+6	'	'	PUNCT	FB	_	10	punct	_	_
 7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Prato	Prato	PROPN	SP	_	4	parataxis:obj	_	SpaceAfter=No
+8	Prato	Prato	PROPN	SP	_	10	parataxis	_	SpaceAfter=No
 9	?	?	PUNCT	FS	_	8	punct	_	_
-10	Soffocherai	soffocare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	8	parataxis	_	_
-11	'	'	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	Soffocherai	soffocare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	4	parataxis:obj	_	_
+11	'	'	PUNCT	FB	_	10	punct	_	SpaceAfter=No
 12	,	,	PUNCT	FF	_	15	punct	_	_
 13	sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	_
 14	in	in	ADP	E	_	15	case	_	_
