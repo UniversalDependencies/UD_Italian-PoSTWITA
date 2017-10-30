@@ -11735,7 +11735,7 @@
 14	di	di	ADP	E	_	16	case	_	_
 15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 16	stagioni	stagione	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
-17	#assembleasel	#assembleasel	SYM	SYM	_	10	parataxis:insert	_	_
+17	#assembleasel	#assembleasel	SYM	SYM	_	10	parataxis:hashtag	_	_
 
 # sent_id = _____137078613425127424_____
 # text = Questo #governo #Monti ha troppe #influenze #cattoliche ... http://t.co/JiH57IQB
