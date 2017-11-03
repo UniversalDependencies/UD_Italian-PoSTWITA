@@ -43,6 +43,7 @@ Category=value feature pairs: 35
 
 
 === Machine-readable metadata =================================================
+
 Data available since: UD v2.1
 License: CC BY-NC-SA 4.0
 Includes text: yes
@@ -55,5 +56,6 @@ Relations: automatic with corrections
 Contributors: Bosco, Cristina; Sanguinetti, Manuela
 Contributing: elsewhere
 Contact: msanguin@di.unito.it
+
 ===============================================================================
 
