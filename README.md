@@ -14,6 +14,11 @@ The conversion and syntactic annotation process was carried out through alternat
 
 The treebank development has also been possible thanks to the contribution of Fabio Tamburini (University of Bologna), who used AnIta for lemmatization and morphological analysis, and of Alberto Lavelli (FBK, Trento) and Alessandro Mazzei (University of Turin),  who worked on the parsing experiments.
 
+## References
+
+* Manuela Sanguinetti, Cristina Bosco, Alessandro Mazzei, Alberto Lavelli, Fabio Tamburini. 2017. Annotating Italian Social Media Texts in Universal Dependencies. In: Proceedings of the Fourth International Conference on Dependency Linguistics (Depling 2017), Pisa (Italy), pp. 229–239
+
+* Cristina Bosco, Fabio Tamburini, Andrea Bolioli, Alessandro Mazzei. 2016. Overview of the EVALITA 2016 Part Of Speech on TWitter for ITAlian task. In: Proceedings of Evalita 2016
 
 # Corpus splitting
 
@@ -33,17 +38,11 @@ POS tags: 16
 Category=value feature pairs: 35
 
 
-# References
 
-* Manuela Sanguinetti, Cristina Bosco, Alessandro Mazzei, Alberto Lavelli, Fabio Tamburini. 2017. Annotating Italian Social Media Texts in Universal Dependencies. In: Proceedings of the Fourth International Conference on Dependency Linguistics (Depling 2017), Pisa (Italy), pp. 229–239
+# Metadata
 
-* Cristina Bosco, Fabio Tamburini, Andrea Bolioli, Alessandro Mazzei. 2016. Overview of the EVALITA 2016 Part Of Speech on TWitter for ITAlian task. In: Proceedings of Evalita 2016
-
-
-
-
+```
 === Machine-readable metadata =================================================
-
 Data available since: UD v2.1
 License: CC BY-NC-SA 4.0
 Includes text: yes
@@ -56,6 +55,5 @@ Relations: automatic with corrections
 Contributors: Bosco, Cristina; Sanguinetti, Manuela
 Contributing: elsewhere
 Contact: msanguin@di.unito.it
-
 ===============================================================================
-
+```
