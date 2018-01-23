@@ -17,10 +17,10 @@ The treebank development has also been possible thanks to the contribution of Fa
 
 # Corpus splitting
 
-The section of PoSTWITA that has been revised so far (approximately the first half of the corpus) has been randomly split as follows:
-* it_postwita-ud-train.conllu: 99,441 words (5,368 sentences)
-* it_postwita-ud-dev.conllu: 12,335 words (671 sentences)
-* it_postwita-ud-test.conllu: 12,668 words (674 sentences)
+The treebank has been randomly split as follows:
+* it_postwita-ud-train.conllu: 5,368 tweets (99,441 words)
+* it_postwita-ud-dev.conllu: 671 tweets (12,335 words)
+* it_postwita-ud-test.conllu: 674 tweets (12,668 words)
 
 
 # Basic statistics
