@@ -22,10 +22,12 @@ The treebank has been randomly split as follows:
 * it_postwita-ud-dev.conllu: 671 tweets (12,335 words)
 * it_postwita-ud-test.conllu: 674 tweets (12,668 words)
 
+:warning: The current partition of the resource is different from the version used for the EVALITA campaign in 2016.
+
 
 # Basic statistics
 
-Tree count: 6712
+Tree count: 6,712
 Word count: 124,410
 Token count: 119,238
 Dep. relations: 55 of which 20 language-specific
@@ -56,6 +58,7 @@ Category=value feature pairs: 36
 
 === Machine-readable metadata =================================================
 
+```
 Data available since: UD v2.1
 License: CC BY-NC-SA 4.0
 Includes text: yes
@@ -70,3 +73,4 @@ Contributing: elsewhere
 Contact: msanguin@di.unito.it
 
 ===============================================================================
+```
