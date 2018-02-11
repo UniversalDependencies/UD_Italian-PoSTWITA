@@ -1,0 +1,41 @@
+Sun Feb 11 20:44:43 CET 2018
+perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Italian-PoSTWITA
+Running the following version of tools/evaluate_treebank.pl:
+commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Feb 11 20:27:50 2018 +0100
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Evaluating the following revision of UD_Italian-PoSTWITA:
+commit 4a93b5691fe02d53b7b462a00cee91cca5b38b6f
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat Nov 11 14:01:20 2017 +0100
+Size: counted 64538 of 64538 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.33450839521884.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.5.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.9.
+Features: 31817 out of 64538 total words have one or more features.
+Features: source of annotation (from README) factor is 0.5.
+Universal relations: 36 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.1.
+Udapi: found 300 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 64538 words.
+Genres: found 1 out of 14 known.
+(weight=0.0769230769230769) * (score{features}=0.25) = 0.0192307692307692
+(weight=0.0769230769230769) * (score{genres}=0.0714285714285714) = 0.00549450549450549
+(weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
+(weight=0.256410256410256) * (score{size}=0.603271834236645) = 0.154685085701704
+(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
+(weight=0.0769230769230769) * (score{tags}=0.847058823529412) = 0.065158371040724
+(weight=0.307692307692308) * (score{udapi}=0.953515758157984) = 0.293389464048611
+(weight=0.0769230769230769) * (score{udeprels}=0.0972972972972973) = 0.00748440748440748
+(TOTAL score=0.601340038898156) * (availability=1) * (validity=1) = 0.601340038898156
+STARS = 3
+UD_Italian-PoSTWITA	0.601340038898156	3
+Switched to branch 'dev'
+Your branch is up-to-date with 'origin/dev'.
