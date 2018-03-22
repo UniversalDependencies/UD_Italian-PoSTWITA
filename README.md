@@ -37,7 +37,7 @@ Category=value feature pairs: 36
 
 # References
 
-* Manuela Sanguinetti, Cristina Bosco, Alberto Lavelli, Alessandro Mazzei, Fabio Tamburini. 2018. PoSTWITA-UD: an Italian Twitter Treebank in Universal Dependencies. Accepted paper at LREC 2017
+* Manuela Sanguinetti, Cristina Bosco, Alberto Lavelli, Alessandro Mazzei, Fabio Tamburini. 2018. PoSTWITA-UD: an Italian Twitter Treebank in Universal Dependencies. Accepted paper at LREC 2018
 
 * Manuela Sanguinetti, Cristina Bosco, Alessandro Mazzei, Alberto Lavelli, Fabio Tamburini. 2017. Annotating Italian Social Media Texts in Universal Dependencies. In: Proceedings of the Fourth International Conference on Dependency Linguistics (Depling 2017), Pisa (Italy), pp. 229–239
 
