@@ -12,7 +12,7 @@ The conversion and syntactic annotation process was carried out through alternat
 
 # Acknowledgements
 
-The treebank development has also been possible thanks to the contribution of Fabio Tamburini (University of Bologna), who used AnIta for lemmatization and morphological analysis, and of Alberto Lavelli (FBK, Trento) and Alessandro Mazzei (University of Turin),  who worked on the parsing experiments.
+The treebank development has also been possible thanks to the contribution of Fabio Tamburini (University of Bologna), who used AnIta for lemmatization and morphological analysis, and of Oronzo Antonelli (University of Bologna), Alberto Lavelli (FBK, Trento), and Alessandro Mazzei (University of Turin), who worked on the parsing experiments.
 
 
 # Corpus splitting
