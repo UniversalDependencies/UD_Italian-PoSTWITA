@@ -48,7 +48,7 @@ Category=value feature pairs: 36
 2018-04-15 v2.2 
 * added new data
 * added new label subtypes		
-* more systematic treatment of dates, predeterminers, and of various discourse markers
+* more systematic treatment of dates, predeterminers, coordination, and of various discourse markers
 * revised parataxis:insert
 * other minor corrections
 
@@ -71,6 +71,5 @@ Relations: automatic with corrections
 Contributors: Bosco, Cristina; Sanguinetti, Manuela
 Contributing: elsewhere
 Contact: msanguin@di.unito.it
-
-===============================================================================
 ```
+===============================================================================
