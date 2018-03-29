@@ -586,7 +586,7 @@
 21	ALLORA	allora	ADV	B	_	22	advmod	_	_
 22	VIENI	venire	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
 23	CHE	che	SCONJ	CS	_	25	mark	_	_
-24	TI	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	25	obj	_	_
+24	TI	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	25	iobj	_	_
 25	PISCIO	pisciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
 26	IN	in	ADP	E	_	27	case	_	_
 27	TESTA	testa	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
@@ -1185,10 +1185,10 @@
 3-4	del	_	_	_	_	_	_	_	_
 3	di	di	ADP	E	_	5	case	_	_
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	governo	governo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	governo	governo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
 6	Monti	Monti	PROPN	SP	_	5	nmod	_	_
 7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
-8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	expl	_	_
 9	lamento	lamentare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	per	per	ADP	E	_	11	case	_	_
 11	nulla	nulla	PRON	PI	PronType=Ind	9	obl	_	_
@@ -5617,12 +5617,12 @@
 # sent_id = _____136430516541997056_____
 # text = COSA NE PENSI DEL GOVERNO MONTI? Diventa parte del Metropolitan Panel il tuo parere per noi è importante! Clicca ... http://t.co/no42BmaQ
 1	COSA	cosa	PRON	PQ	PronType=Int	3	obj	_	_
-2	NE	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	NE	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
 3	PENSI	pensare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	DEL	_	_	_	_	_	_	_	_
 4	DI	DI	ADP	E	_	6	case	_	_
 5	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	GOVERNO	GOVERNO	PROPN	SP	_	3	obl	_	_
+6	GOVERNO	GOVERNO	PROPN	SP	_	3	dislocated	_	_
 7	MONTI	MONTI	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
 8	?	?	PUNCT	FS	_	3	punct	_	_
 9	Diventa	diventare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
@@ -7297,7 +7297,7 @@
 
 # sent_id = _____132361612685361152_____
 # text = Marc Lazar: " Napolitano? L'Europa lo ammira. Mario Monti? Può salvare l'Italia " http://t.co/vtyZmlO4 via @AddThis
-1	Marc	Marc	PROPN	SP	_	10	obl	_	_
+1	Marc	Marc	PROPN	SP	_	10	parataxis	_	_
 2	Lazar	Lazar	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
 3	:	:	PUNCT	FC	_	1	punct	_	_
 4	"	"	PUNCT	FB	_	10	punct	_	_
@@ -8611,7 +8611,7 @@
 11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	testa	testa	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
 13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
-14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
 15	scoppia	scoppiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
 16	e	e	CCONJ	CC	_	18	cc	_	_
 17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
@@ -9250,7 +9250,7 @@
 17	:	:	PUNCT	FC	_	16	punct	_	_
 18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
-20	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+20	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
 21	aumenteranno	aumentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	parataxis	_	_
 22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	#sigarette	#sigarette	SYM	SYM	_	21	nsubj	_	SpaceAfter=No
@@ -9861,7 +9861,7 @@
 2	@vitocontesi	@vitocontesi	SYM	SYM	_	7	vocative:mention	_	SpaceAfter=No
 3	:	:	PUNCT	FC	_	2	punct	_	_
 4	TU	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
-5	..	..	PUNCT	FS	_	7	obj	_	_
+5	..	..	PUNCT	FS	_	7	punct	_	_
 6	VUOI	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	RESTARE	restare	VERB	V	VerbForm=Inf	0	root	_	_
 8-9	AL	_	_	_	_	_	_	_	_
@@ -10042,7 +10042,7 @@
 17	No	No	INTJ	I	_	23	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	FF	_	17	punct	_	_
 19	perché	perché	SCONJ	CS	_	23	mark	_	_
-20	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	23	nsubj	_	_
+20	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	23	dislocated	_	_
 21	già	già	ADV	B	_	23	advmod	_	_
 22	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
 23	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
@@ -12168,7 +12168,7 @@
 4	Monti	Monti	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
 5	,	,	PUNCT	FF	_	6	punct	_	_
 6	vediamo	vedere	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
-7	domani	domani	ADV	B	_	6	advmod	_	_
+7	domani	domani	ADV	B	_	10	advmod	_	_
 8	cosa	cosa	PRON	PQ	PronType=Int	10	obj	_	_
 9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
 10	leggerà	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	ccomp	_	_
@@ -12187,7 +12187,7 @@
 22	equo	equo	ADJ	A	Gender=Masc|Number=Sing	28	advcl	_	SpaceAfter=No
 23	,	,	PUNCT	FF	_	22	punct	_	_
 24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
-25	ICI	ICI	PROPN	SP	_	28	nsubj	_	_
+25	ICI	ICI	PROPN	SP	_	28	dislocated	_	_
 26	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	28	expl	_	_
 27	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
 28	pago	pagare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
@@ -12998,9 +12998,9 @@
 13	.	.	PUNCT	FS	_	12	punct	_	_
 14	Ma	ma	CCONJ	CC	_	20	discourse	_	_
 15	chi	chi	PRON	PR	PronType=Rel	20	nsubj	_	_
-16	c*	c*	INTJ	I	_	15	discourse	_	_
+16	c*	c*	INTJ	I	_	20	discourse	_	_
 17	c'	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	20	expl	_	SpaceAfter=No
-18	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	dep	_	_
+18	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	goeswith	_	_
 19	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
 20	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
 21	oggi	oggi	ADV	B	_	20	advmod	_	_
@@ -13235,7 +13235,7 @@
 22	#rt	#rt	SYM	SYM	_	5	dep	_	_
 23-24	seguimi	_	_	_	_	_	_	_	_
 23	segui	seguire	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
-24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	obj	_	_
 25	e	e	CCONJ	CC	_	27	cc	_	_
 26	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	27	obj	_	_
 27	seguo	seguire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	conj	_	_
@@ -13381,16 +13381,16 @@
 7	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
 8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	calda	caldo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
-10	e	e	CCONJ	CC	_	13	cc	_	_
+10	e	e	CCONJ	CC	_	15	cc	_	_
 11	dove	dove	ADV	B	_	13	advmod	_	_
-12	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	13	iobj	_	_
-13	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
-14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
-15	decide	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+12	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	13	obj	_	_
+13	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	decide	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 16	lei	egli	PRON	PE	Gender=Fem|Number=Sing|PronType=Prs	15	nsubj	_	SpaceAfter=No
 17	.	.	PUNCT	FS	_	9	punct	_	_
 18	Certe	certo	DET	DI	PronType=Ind	19	det	_	_
-19	notti	notte	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+19	notti	notte	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
 20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	strada	strada	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
 22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
@@ -14141,8 +14141,8 @@
 
 # sent_id = _____135496740290838528_____
 # text = Patetico Bersani in TV, leader di opposizione inesistente. Se si votasse oggi perderebbe, e lo sa. Il governo #Monti fa comodo anche a lui
-1	Patetico	patetico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
-2	Bersani	Bersani	PROPN	SP	_	0	root	_	_
+1	Patetico	patetico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+2	Bersani	Bersani	PROPN	SP	_	1	nsubj	_	_
 3	in	in	ADP	E	_	4	case	_	_
 4	TV	tv	NOUN	S	Gender=Fem	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	FF	_	2	punct	_	_
@@ -14150,21 +14150,21 @@
 7	di	di	ADP	E	_	8	case	_	_
 8	opposizione	opposizione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
 9	inesistente	inesistente	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
-10	.	.	PUNCT	FS	_	2	punct	_	_
+10	.	.	PUNCT	FS	_	6	punct	_	_
 11	Se	se	SCONJ	CS	_	13	mark	_	_
-12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
-13	votasse	votare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
+13	votasse	votare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	_
 14	oggi	oggi	ADV	B	_	13	advmod	_	_
-15	perderebbe	perdere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	SpaceAfter=No
+15	perderebbe	perdere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
 16	,	,	PUNCT	FF	_	19	punct	_	_
 17	e	e	CCONJ	CC	_	19	cc	_	_
 18	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
-19	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	SpaceAfter=No
+19	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	SpaceAfter=No
 20	.	.	PUNCT	FS	_	13	punct	_	_
 21	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	governo	governo	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
-23	#Monti	#Monti	SYM	SYM	_	22	nummod	_	_
-24	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+23	#Monti	#Monti	SYM	SYM	_	22	nmod	_	_
+24	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
 25	comodo	comodo	ADJ	A	Gender=Masc|Number=Sing	24	xcomp	_	_
 26	anche	anche	ADV	B	_	28	advmod	_	_
 27	a	a	ADP	E	_	28	case	_	_
@@ -14626,7 +14626,7 @@
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	governo	governo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
 7	monti	monti	PROPN	SP	_	6	nmod	_	_
-8	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	9	obj	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	9	iobj	_	_
 9	costi	costare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 10	più	più	ADV	B	_	9	advmod	_	_
 11-12	del	_	_	_	_	_	_	_	_
