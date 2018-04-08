@@ -12,7 +12,7 @@ The conversion and syntactic annotation process was carried out through alternat
 
 # Acknowledgements
 
-The treebank development has also been possible thanks to the contribution of Fabio Tamburini (University of Bologna), who used AnIta for lemmatization and morphological analysis, and of Alberto Lavelli (FBK, Trento) and Alessandro Mazzei (University of Turin),  who worked on the parsing experiments.
+The treebank development has also been possible thanks to the contribution of Fabio Tamburini (University of Bologna), who used AnIta for lemmatization and morphological analysis, and of Oronzo Antonelli (University of Bologna), Alberto Lavelli (FBK, Trento), and Alessandro Mazzei (University of Turin), who worked on the parsing experiments.
 
 
 # Corpus splitting
@@ -30,14 +30,14 @@ The treebank has been randomly split as follows:
 Tree count: 6,712
 Word count: 124,410
 Token count: 119,238
-Dep. relations: 55 of which 20 language-specific
+Dep. relations: 53 of which 18 language-specific
 POS tags: 16
-Category=value feature pairs: 36
+Category=value feature pairs: 35
 
 
 # References
 
-* Manuela Sanguinetti, Cristina Bosco, Alberto Lavelli, Alessandro Mazzei, Fabio Tamburini. 2018. PoSTWITA-UD: an Italian Twitter Treebank in Universal Dependencies. Accepted paper at LREC 2017
+* Manuela Sanguinetti, Cristina Bosco, Alberto Lavelli, Alessandro Mazzei, Fabio Tamburini. 2018. PoSTWITA-UD: an Italian Twitter Treebank in Universal Dependencies. Accepted paper at LREC 2018
 
 * Manuela Sanguinetti, Cristina Bosco, Alessandro Mazzei, Alberto Lavelli, Fabio Tamburini. 2017. Annotating Italian Social Media Texts in Universal Dependencies. In: Proceedings of the Fourth International Conference on Dependency Linguistics (Depling 2017), Pisa (Italy), pp. 229–239
 
@@ -48,13 +48,14 @@ Category=value feature pairs: 36
 2018-04-15 v2.2 
 * added new data
 * added new label subtypes		
-* more systematic treatment of dates, predeterminers, and of various discourse markers
+* more systematic treatment of dates, predeterminers, coordination, pre-verbal objects, and of various discourse markers
 * revised parataxis:insert
 * other minor corrections
 
 2017-11-15 v2.1
 * initial release
 
+# Metadata
 
 === Machine-readable metadata =================================================
 
@@ -71,6 +72,5 @@ Relations: automatic with corrections
 Contributors: Bosco, Cristina; Sanguinetti, Manuela
 Contributing: elsewhere
 Contact: msanguin@di.unito.it
-
-===============================================================================
 ```
+===============================================================================
