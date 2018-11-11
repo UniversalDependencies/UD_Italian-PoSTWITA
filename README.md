@@ -8,7 +8,8 @@ PoSTWITA-UD is a collection of Italian tweets annotated in Universal Dependencie
 PoSTWITA-UD has been created by enriching the dataset used for the EVALITA 2016 task of Part-of-Speech tagging of Social Media (see (Bosco et al. 2016)).
 The original corpus consists of 6,438 tweets of the development set (114,967 tokens) and 300 tweets of the test set (4,759 tokens), annotated at PoS level only. 
 The conversion and syntactic annotation process was carried out through alternating steps of automatic scripting and manual revision, and finally with some out-of-domain parsing experiments. Parsing results also underwent a manual revision by two independent annotators.
-
+ 
+**New since v2.3**: In order to meet the requirements of the EU General Data Protection Regulation (GDPR), entered into force on May 2018, the resource content has been pseudonymized, by substituting original tweet IDs and user names.
 
 # Acknowledgements
 
@@ -44,6 +45,10 @@ Category=value feature pairs: 35
 * Cristina Bosco, Fabio Tamburini, Andrea Bolioli, Alessandro Mazzei. 2016. Overview of the EVALITA 2016 Part Of Speech on TWitter for ITAlian task. In: Proceedings of Evalita 2016
 
 # Changelog
+
+2018-11-15 v2.3
+* substituted original tweet IDs and user names
+* minor corrections
 
 2018-04-15 v2.2 
 * added new data
