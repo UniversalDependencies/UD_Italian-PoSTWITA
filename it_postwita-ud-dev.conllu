@@ -128,12 +128,12 @@
 2	si	sì	INTJ	I	_	8	discourse	_	_
 3	cazzo	cazzo	INTJ	I	_	8	discourse	_	_
 4	c'	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	expl	_	SpaceAfter=No
-5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	goeswith	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	dep	_	_
 6	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
 7	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
 9	c'	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	expl	_	SpaceAfter=No
-10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	goeswith	_	_
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	dep	_	_
 11	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 12	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
 13	fare	fare	VERB	V	VerbForm=Inf	8	conj	_	SpaceAfter=No
@@ -216,7 +216,7 @@
 5	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 6	a	a	ADP	E	_	7	case	_	_
 7	#Napolitano	#Napolitano	SYM	SYM	_	5	obl	_	SpaceAfter=No
-8	:	:	PUNCT	FC	_	2	punct	_	_
+8	:	:	PUNCT	FC	_	7	punct	_	_
 9	"	"	PUNCT	FB	_	14	punct	_	_
 10	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	mio	mio	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	nsubj	_	_
@@ -235,7 +235,7 @@
 24	bene	bene	ADV	B	_	23	advmod	_	_
 25	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	23	nsubj	_	SpaceAfter=No
 26	!	!	PUNCT	FS	_	23	punct	_	_
-27	#soncose	#soncose	SYM	SYM	_	5	parataxis:hashtag	_	_
+27	#soncose	#soncose	SYM	SYM	_	2	parataxis:hashtag	_	_
 
 # sent_id = 136
 # text = Bersani leader de che? La formazione del governo #Monti vede il Pd ancora sotto scacco della Sel e Idv...
@@ -1332,7 +1332,7 @@
 9-10	al	_	_	_	_	_	_	_	_
 9	a	a	ADP	E	_	11	case	_	_
 10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	8	advmod	_	SpaceAfter=No
+11	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 12	,	,	PUNCT	FF	_	8	punct	_	_
 13	fino	fino	ADV	B	_	16	case	_	_
 14-15	al	_	_	_	_	_	_	_	_
@@ -1841,10 +1841,10 @@
 19	borghese	borghese	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
 20	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
 21	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
-22	.	.	PUNCT	FS	_	17	punct	_	_
+22	.	.	PUNCT	FS	_	19	punct	_	_
 23	Ma	ma	CCONJ	CC	_	25	cc	_	_
 24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
-25	Mario	mario	PROPN	SP	_	19	conj	_	_
+25	Mario	mario	PROPN	SP	_	17	parataxis	_	_
 26	Monti	Monti	PROPN	SP	_	25	flat:name	_	_
 27	,...	,...	PUNCT	FS	_	3	punct	_	_
 28	http://t.co/S4sYlj8q	http://t.co/S4sYlj8q	SYM	X	_	3	dep	_	_
@@ -2179,7 +2179,7 @@
 9	sostengo	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
 10	Mario	mario	PROPN	SP	_	9	obj	_	_
 11	Monti	Monti	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
-12	.	.	PUNCT	FS	_	3	punct	_	_
+12	.	.	PUNCT	FS	_	9	punct	_	_
 13	In	in	ADP	E	_	15	case	_	_
 14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
@@ -2190,7 +2190,7 @@
 20	#flessibile	#flessibile	SYM	SYM	_	23	nsubj	_	_
 21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
 22	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
-23	#precario	#precario	SYM	SYM	_	9	parataxis:hashtag	_	SpaceAfter=No
+23	#precario	#precario	SYM	SYM	_	3	parataxis:hashtag	_	SpaceAfter=No
 24	.	.	PUNCT	FS	_	23	punct	_	_
 25	Cambiamo	cambiare	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 26	#mentalità	#mentalità	SYM	SYM	_	25	obj	_	SpaceAfter=No
@@ -2313,7 +2313,7 @@
 8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
 9	sorridere	sorridere	VERB	V	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
 10	!	!	PUNCT	FS	_	1	punct	_	_
-11	quando	quando	SCONJ	CS	_	14	advmod	_	_
+11	quando	quando	SCONJ	CS	_	14	mark	_	_
 12	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	nsubj	_	_
 13	"	"	PUNCT	FB	_	14	punct	_	_
 14	Scema	scemo	INTJ	I	_	18	csubj	_	_
@@ -2823,7 +2823,7 @@
 15	Monti	Monti	PROPN	SP	_	14	nmod	_	_
 16	e	e	CCONJ	CC	_	17	cc	_	_
 17	tecnico	tecnico	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	_
-18	sempre	sempre	ADV	B	_	1	advmod	_	SpaceAfter=No
+18	sempre	sempre	ADV	B	_	14	advmod	_	SpaceAfter=No
 19	!	!	PUNCT	FS	_	14	punct	_	_
 20	politici	politico	NOUN	S	Gender=Masc|Number=Plur	1	parataxis	_	_
 21	imbelli	imbelle	ADJ	A	Number=Plur	20	amod	_	_
@@ -3899,7 +3899,7 @@
 3	sbagliato	sbagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	a	a	ADP	E	_	5	mark	_	_
 5	dire	dire	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
-6	:	:	PUNCT	FC	_	3	punct	_	_
+6	:	:	PUNCT	FC	_	5	punct	_	_
 7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	campionato	campionato	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
 9	e'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
@@ -5919,7 +5919,7 @@
 9	conclamato	conclamato	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
 10	..	..	PUNCT	FS	_	2	punct	_	_
 11	Grillo	Grillo	PROPN	SP	_	14	nsubj	_	_
-12	+	+	SYM	SYM	_	13	advmod	_	_
+12	+	+	SYM	SYM	_	13	dep	_	_
 13	Lega	Lega	PROPN	SP	_	11	conj	_	_
 14	andrebbero	andare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 15	15	15	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
@@ -7780,13 +7780,13 @@
 7	GOVERNO	governo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
 8	12.000	12.000	NUM	N	NumType=Card	9	nummod	_	_
 9	€	€	SYM	SYM	_	4	appos	_	_
-10	+	+	SYM	SYM	_	11	advmod	_	_
+10	+	+	SYM	SYM	_	11	dep	_	_
 11	SENATORE	senatore	NOUN	S	Gender=Masc|Number=Sing	4	list	_	_
 12	A	a	ADP	E	_	13	case	_	_
 13	VITA	vita	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
 14	25.000	25.000	NUM	N	NumType=Card	15	nummod	_	_
 15	€	€	SYM	SYM	_	11	appos	_	_
-16	+	+	SYM	SYM	_	17	advmod	_	_
+16	+	+	SYM	SYM	_	17	dep	_	_
 17	PENSIONE	pensione	NOUN	S	Gender=Fem|Number=Sing	4	list	_	_
 18	35.000	35.000	NUM	N	NumType=Card	19	nummod	_	_
 19	€	€	SYM	SYM	_	17	nmod	_	_

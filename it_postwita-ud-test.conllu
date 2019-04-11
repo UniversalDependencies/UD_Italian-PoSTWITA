@@ -38,7 +38,7 @@
 4	no	no	INTJ	I	_	8	discourse	_	_
 5	Paolè	Paolè	PROPN	SP	_	8	vocative	_	SpaceAfter=No
 6	!	!	PUNCT	FS	_	5	punct	_	_
-7	mo	mo'	X	SW	_	8	advmod	_	_
+7	mo	mo'	X	SW	_	8	dep	_	_
 8	chiudemo	chiudere	X	SW	_	0	root	_	_
 9	bottega	bottega	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
 10	pure	pure	ADV	B	_	11	advmod	_	_
@@ -310,7 +310,7 @@
 
 # sent_id = 95
 # text = Perchè rovinare un decente #governo #Monti (almeno nei nomi) con Corrado #Passera? (e parlo del personaggio) Speriamo bene ...
-1	Perchè	perché	SCONJ	CS	_	2	advmod	_	_
+1	Perchè	perché	SCONJ	CS	_	2	mark	_	_
 2	rovinare	rovinare	VERB	V	VerbForm=Inf	0	root	_	_
 3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	decente	decente	ADJ	A	Number=Sing	5	amod	_	_
@@ -1405,7 +1405,7 @@
 17	morire	morire	VERB	V	VerbForm=Inf	13	conj	_	_
 18	d'	di	ADP	E	_	19	case	_	SpaceAfter=No
 19	amore	amore	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
-20	no	no	INTJ	I	_	17	advmod	_	SpaceAfter=No
+20	no	no	ADV	BN	_	17	advmod	_	SpaceAfter=No
 21	.	.	PUNCT	FS	_	5	punct	_	_
 22	Certe	certo	DET	DI	PronType=Ind	24	det	_	_
 23	antiche	antico	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
@@ -1975,7 +1975,7 @@
 23	di	di	ADP	E	_	25	case	_	_
 24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	Paese	Paese	PROPN	SP	_	22	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	FS	_	6	punct	_	_
+26	.	.	PUNCT	FS	_	25	punct	_	_
 27	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
 28	troppo	troppo	ADV	B	_	4	parataxis	_	SpaceAfter=No
 29	?	?	PUNCT	FS	_	28	punct	_	_
@@ -2002,7 +2002,7 @@
 14	Oddio	oddio	INTJ	I	_	19	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	FF	_	19	punct	_	_
 16	e	e	CCONJ	CC	_	19	cc	_	_
-17	mo'	mo'	INTJ	I	_	19	advmod	_	_
+17	mo'	mo'	X	SW	_	19	dep	_	_
 18	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	nsubj	_	_
 19	chi	chi	PRON	PR	PronType=Rel	12	parataxis:obj	_	_
 20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	SpaceAfter=No
@@ -2740,11 +2740,11 @@
 15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
 16	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	scontato	scontato	ADJ	A	Gender=Masc|Number=Sing	16	xcomp	_	_
-18	ma	ma	CCONJ	CC	_	23	cc	_	_
+18	ma	ma	CCONJ	CC	_	21	cc	_	_
 19	che	che	SCONJ	CS	_	21	mark	_	_
 20	ora	ora	ADV	B	_	21	advmod	_	_
-21	anche	anche	ADV	B	_	23	advmod	_	_
-22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+21	anche	anche	ADV	B	_	16	advmod	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	dep	_	_
 23	...	...	PUNCT	FS	_	16	punct	_	_
 24	http://t.co/ykOyL5oW	http://t.co/ykOyL5oW	SYM	X	_	16	dep	_	_
 
@@ -3218,7 +3218,7 @@
 18	57	57	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
 19	%	%	SYM	SYM	_	15	obl	_	SpaceAfter=No
 20	,	,	PUNCT	FF	_	19	punct	_	_
-21	+	+	SYM	SYM	_	22	goeswith	_	SpaceAfter=No
+21	+	+	SYM	SYM	_	22	dep	_	SpaceAfter=No
 22	4	4	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
 23	%	%	SYM	SYM	_	19	appos	_	_
 24-25	dal	_	_	_	_	_	_	_	_
