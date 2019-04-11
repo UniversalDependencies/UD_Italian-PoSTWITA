@@ -2483,7 +2483,7 @@
 7	più	più	ADV	B	_	6	advmod	_	_
 8	quanto	quanto	PRON	PQ	Gender=Masc|Number=Sing|PronType=Int	6	obj	_	_
 9	lui	egli	PRON	PE	Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-10	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	sta	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	andando	andare	VERB	V	VerbForm=Ger	8	acl:relcl	_	_
 12	su	su	ADP	E	_	14	case	_	_
 13	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
@@ -3330,7 +3330,7 @@
 
 # sent_id = 1376
 # text = #556 si a favore del Governo #Monti: cominciamo ora?
-1	#556	#556	SYM	SYM	_	2	nummod	_	_
+1	#556	#556	SYM	SYM	_	2	dep	_	_
 2	si	sì	ADV	B	_	0	root	_	_
 3	a	a	ADP	E	_	4	case	_	_
 4	favore	favore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -4721,7 +4721,7 @@
 
 # sent_id = 1948
 # text = Sta partendo il fuoco di fila contro il voto anticipato. Così ci siamo giocati anche la cartaZapatero. E se non si fa il governo Monti?
-1	Sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+1	Sta	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	partendo	partire	VERB	V	VerbForm=Ger	0	root	_	_
 3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
@@ -5719,7 +5719,7 @@
 17	,	,	PUNCT	FF	_	16	punct	_	_
 18	perché	perché	SCONJ	CS	_	21	mark	_	_
 19	sinceramente	sinceramente	ADV	B	_	21	advmod	_	_
-20	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	sto	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
 21	iniziando	iniziare	VERB	V	VerbForm=Ger	16	advcl	_	_
 22	a	a	ADP	E	_	24	mark	_	_
 23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
@@ -6947,7 +6947,7 @@
 # text = help meeeeeee sto scoppiando ... e deve ancora arrivare la pasta ... 8-X !!!
 1	help	help	X	SW	_	4	discourse	_	_
 2	meeeeeee	me	X	SW	_	1	flat:foreign	_	_
-3	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	sto	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	scoppiando	scoppiare	VERB	V	VerbForm=Ger	0	root	_	_
 5	...	...	PUNCT	FS	_	4	punct	_	_
 6	e	e	CCONJ	CC	_	9	cc	_	_
@@ -10245,7 +10245,7 @@
 4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
 5	ad	ad	ADP	E	_	6	mark	_	_
 6	abbuffare	abbuffare	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
-7	!	!	PUNCT	FS	_	6	obl	_	_
+7	!	!	PUNCT	FS	_	6	punct	_	_
 8	cornetto	cornetto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	FF	_	10	punct	_	_
 10	succo	succo	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
@@ -10925,7 +10925,7 @@
 9	dicendo	dire	VERB	V	VerbForm=Ger	8	advcl	_	_
 10	che	che	SCONJ	CS	_	14	mark	_	_
 11	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
-12	stata	stare	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
+12	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
 13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	ccomp	_	_
 15	a	a	ADP	E	_	16	mark	_	_
@@ -11731,12 +11731,12 @@
 
 # sent_id = 5280
 # text = @user ok che sono in culo al mando ma io non riesco proprio a vederla .. e pensare che al palazzetto c'è il mio posto libero ....
-1	@user	@user	SYM	SYM	_	0	root	_	_
-2	ok	ok	INTJ	I	_	1	cop	_	_
+1	@user	@user	SYM	SYM	_	2	vocative:mention	_	_
+2	ok	ok	ADV	A	_	0	root	_	_
 3	che	che	SCONJ	CS	_	6	mark	_	_
 4	sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	in	in	ADP	E	_	6	case	_	_
-6	culo	culo	NOUN	S	Gender=Masc|Number=Sing	1	ccomp	_	_
+6	culo	culo	NOUN	S	Gender=Masc|Number=Sing	2	advcl	_	_
 7-8	al	_	_	_	_	_	_	_	_
 7	a	a	ADP	E	_	9	case	_	_
 8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -11744,13 +11744,13 @@
 10	ma	ma	CCONJ	CC	_	13	cc	_	_
 11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
 12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
-13	riesco	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+13	riesco	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
 14	proprio	proprio	ADV	B	_	13	advmod	_	_
 15	a	a	ADP	E	_	16	mark	_	_
 16-17	vederla	_	_	_	_	_	_	_	_
 16	veder	vedere	VERB	V	VerbForm=Inf	13	xcomp	_	_
 17	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
-18	..	..	PUNCT	FS	_	16	xcomp	_	_
+18	..	..	PUNCT	FS	_	16	punct	_	_
 19	e	e	CCONJ	CC	_	20	cc	_	_
 20	pensare	pensare	VERB	V	VerbForm=Inf	16	conj	_	_
 21	che	che	SCONJ	CS	_	26	mark	_	_
@@ -11764,7 +11764,7 @@
 28	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
 29	posto	posto	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
 30	libero	libero	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
-31	....	....	PUNCT	FS	_	1	punct	_	_
+31	....	....	PUNCT	FS	_	29	punct	_	_
 
 # sent_id = 5283
 # text = Che monotonia un posto fisso tutta la vita! ... lo dice Mario #Monti, senatore a vita! Da che pulpito ...
@@ -11874,7 +11874,7 @@
 6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
 7	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
-9	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	sta	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	facendo	fare	VERB	V	VerbForm=Ger	2	ccomp	_	_
 11	perché	perché	SCONJ	CS	_	12	mark	_	_
 12	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
@@ -12458,13 +12458,13 @@
 2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	n'	uno	DET	RI	Definite=Ind|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	impressione	impressione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
-5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	amod	_	_
 6	o	o	CCONJ	CC	_	12	cc	_	_
 7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	donne	donna	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
 9	ricche	ricco	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
 10	so	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-11	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	12	advmod	_	_
+11	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	12	obl	_	_
 12	uguali	uguale	ADJ	A	Number=Plur	4	conj	_	SpaceAfter=No
 13	?	?	PUNCT	FS	_	12	punct	_	_
 

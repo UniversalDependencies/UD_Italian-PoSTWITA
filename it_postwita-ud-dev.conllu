@@ -1591,7 +1591,7 @@
 # text = MARIO MONTI STA FREGANDO LA GENTE CHE GIÀ HA LE TASCHE VUOTE
 1	MARIO	mario	PROPN	SP	_	4	nsubj	_	_
 2	MONTI	MONTI	PROPN	SP	_	1	flat:name	_	_
-3	STA	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	STA	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	FREGANDO	fregare	VERB	V	VerbForm=Inf	0	root	_	_
 5	LA	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	GENTE	gente	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
@@ -1641,7 +1641,7 @@
 7	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
 8	o	o	CCONJ	CC	_	11	cc	_	_
 9	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	iobj	_	_
-10	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stiamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	perdendo	perdere	VERB	V	VerbForm=Ger	7	conj	_	_
 12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	miglior	migliore	ADJ	A	Number=Sing	14	amod	_	_
@@ -5057,7 +5057,7 @@
 9	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	obl	_	_
 10	ma	ma	CCONJ	CC	_	13	cc	_	_
 11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
-12	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	sto	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
 13	saltando	saltare	VERB	V	VerbForm=Ger	7	conj	_	_
 14	come	come	ADP	E	_	16	case	_	_
 15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -5602,7 +5602,7 @@
 13	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	parataxis	_	_
 14	che	che	SCONJ	CS	_	17	mark	_	_
 15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
-16	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	stanno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	pompando	pompare	VERB	V	VerbForm=Ger	13	acl	_	SpaceAfter=No
 18	,	,	PUNCT	FF	_	22	punct	_	_
 19	manco	manco	ADV	B	_	22	advmod	_	_
@@ -6231,7 +6231,7 @@
 12	cococo	cococo	NOUN	S	_	16	nsubj:pass	_	_
 13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
 14	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
-15	stati	stare	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	aux:pass	_	_
+15	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	aux:pass	_	_
 16	aboliti	abolire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	parataxis	_	SpaceAfter=No
 17	.	.	PUNCT	FS	_	6	punct	_	_
 
@@ -6421,7 +6421,7 @@
 17	su	su	ADV	B	_	16	advmod	_	_
 18	bene	bene	ADV	B	_	16	advmod	_	_
 19	proprio	proprio	ADV	B	_	20	advmod	_	_
-20	tutta	tutto	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	16	advmod	_	_
+20	tutta	tutto	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	16	obl	_	_
 21	tutta	tutto	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	20	conj	_	_
 22	tutta	tutto	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	20	conj	_	SpaceAfter=No
 23	!	!	PUNCT	FS	_	20	punct	_	_
@@ -7268,7 +7268,7 @@
 2	che	che	SCONJ	CS	_	6	mark	_	_
 3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	gente	gente	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
-5	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	sta	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	accogliendo	accogliere	VERB	V	VerbForm=Ger	1	ccomp	_	_
 7	Mario	mario	PROPN	SP	_	6	obj	_	_
 8	Monti	Monti	PROPN	SP	_	7	flat:name	_	_
@@ -7759,7 +7759,7 @@
 3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
 5	#Monti	#Monti	SYM	SYM	_	4	nmod	_	_
-6	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	sta	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
 8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	politica	politica	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
@@ -8632,7 +8632,7 @@
 8	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	31	31	NUM	N	NumType=Card	8	obj	_	_
 10	quasi	quasi	ADV	B	_	11	advmod	_	_
-11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	advmod	_	_
+11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	obl	_	_
 12	riempiti	riempire	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	_
 13	fino	fino	ADV	B	_	16	case	_	_
 14-15	alla	_	_	_	_	_	_	_	_
@@ -8960,7 +8960,7 @@
 11	a	a	ADP	E	_	13	mark	_	_
 12	“	“	PUNCT	FB	_	13	punct	_	_
 13	creare	creare	VERB	V	VerbForm=Inf	10	advcl	_	_
-14	“	“	PUNCT	FB	_	13	obj	_	SpaceAfter=No
+14	“	“	PUNCT	FB	_	13	punct	_	SpaceAfter=No
 15	,	,	PUNCT	FF	_	16	punct	_	_
 16	chiacchierare	chiacchierare	VERB	V	VerbForm=Inf	13	conj	_	_
 17	e	e	CCONJ	CC	_	18	cc	_	_
@@ -9090,7 +9090,7 @@
 # sent_id = 4228
 # text = è tutto un gioco di poteri e noi coglioni ad ascoltare #Grillo #serviziopubblico #La7 @user
 1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-2	tutto	tutto	PRON	PI	PronType=Ind	4	advmod	_	_
+2	tutto	tutto	PRON	PI	PronType=Ind	4	obl	_	_
 3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 5	di	di	ADP	E	_	6	case	_	_
@@ -9110,7 +9110,7 @@
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	#GOVERNO	#GOVERNO	SYM	SYM	_	5	nsubj	_	_
 3	#MONTI	#MONTI	SYM	SYM	_	2	flat:name	_	_
-4	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	sta	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	realizzando	realizzare	VERB	V	VerbForm=Ger	0	root	_	_
 6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	manovra	manovra	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
@@ -9510,7 +9510,7 @@
 
 # sent_id = 4478
 # text = sta nascendo li nuovo governo monti, speriamo bene le premesse ci sono finalmente personi competenti
-1	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+1	sta	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	nascendo	nascere	VERB	V	VerbForm=Ger	0	root	_	_
 3	li	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
 4	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
@@ -9889,7 +9889,7 @@
 2	@user	@user	SYM	SYM	_	1	flat:foreign	_	SpaceAfter=No
 3	:	:	PUNCT	FC	_	1	punct	_	_
 4	GENITORI	genitore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
-5	VS	VS	X	X	_	6	nummod	_	_
+5	VS	VS	X	X	_	6	case	_	_
 6	FIGLI	figlio	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
 7	pt.	parte	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
 8	44	44	NUM	N	NumType=Card	7	nummod	_	_
@@ -9907,7 +9907,7 @@
 20	perchè	perché	ADV	B	_	21	advmod	_	_
 21	cambi	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
 22	?	?	PUNCT	FS	_	21	punct	_	_
-23	stavo	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	24	aux	_	_
+23	stavo	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	24	aux	_	_
 24	guardando	guardare	VERB	V	VerbForm=Ger	4	parataxis	_	_
 25	'	'	PUNCT	FB	_	24	punct	_	_
 26	LOST	LOST	X	SW	_	4	parataxis	_	_
@@ -9967,21 +9967,21 @@
 6	MONTI	MONTI	PROPN	SP	_	5	nmod	_	_
 7	-	-	PUNCT	FB	_	8	punct	_	_
 8	NAPOLITANO	NAPOLITANO	PROPN	SP	_	6	nmod	_	_
-9	....	....	PUNCT	FS	_	12	mark	_	_
+9	....	....	PUNCT	FS	_	8	punct	_	_
 10	NON	non	ADV	BN	PronType=Neg	12	advmod	_	_
 11	HA	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	TOCCATO	toccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
 13	LA	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	CASTA	casta	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
-15	....	....	PUNCT	FS	_	2	punct	_	_
+15	....	....	PUNCT	FS	_	14	punct	_	_
 16	LA	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	CGIL	CGIL	PROPN	SP	_	2	nsubj	_	_
+17	CGIL	CGIL	PROPN	SP	_	2	parataxis	_	_
 18	CISL	CISL	PROPN	SP	_	17	flat:name	_	_
 19	UIL	UIL	PROPN	SP	_	17	flat:name	_	_
 20	UGL	UGL	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
 21	,	,	PUNCT	FF	_	17	punct	_	_
-22	PROPRIETARI	proprietario	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
-23	...	...	PUNCT	FS	_	2	punct	_	_
+22	PROPRIETARI	proprietario	NOUN	S	Gender=Masc|Number=Plur	17	appos	_	_
+23	...	...	PUNCT	FS	_	22	punct	_	_
 24	http://t.co/w0wrDKR5	http://t.co/w0wrDKR5	SYM	X	_	2	dep	_	_
 
 # sent_id = 4676
@@ -10117,7 +10117,7 @@
 14	#mario	#mario	SYM	SYM	_	4	parataxis:hashtag	_	_
 15	monti	monti	PROPN	SP	_	14	flat:name	_	_
 16	#santo	#santo	SYM	SYM	_	4	parataxis:hashtag	_	_
-17	subit...	subit...	X	X	_	16	advmod	_	_
+17	subit...	subit...	X	X	_	16	dep	_	_
 18	http://t.co/wyvDMVem	http://t.co/wyvDMVem	SYM	X	_	4	dep	_	_
 
 # sent_id = 4716
@@ -10801,7 +10801,7 @@
 13	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
 14	,	,	PUNCT	FF	_	15	punct	_	_
 15	meritate	meritare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	conj	_	_
-16	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	15	advmod	_	_
+16	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	15	obl	_	_
 17	di	di	ADP	E	_	19	mark	_	_
 18	essere	essere	AUX	VA	VerbForm=Inf	19	aux:pass	_	_
 19	salvate	salvare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	xcomp	_	SpaceAfter=No
@@ -11689,7 +11689,7 @@
 6	partiti	partito	NOUN	S	Gender=Masc|Number=Plur	3	parataxis:appos	_	_
 7	e	e	CCONJ	CC	_	8	cc	_	_
 8	leader	leader	NOUN	S	_	6	conj	_	_
-9	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	advmod	_	_
+9	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	obl	_	_
 10	a	a	ADP	E	_	11	mark	_	_
 11	demonizzare	demonizzare	VERB	V	VerbForm=Inf	6	acl	_	_
 12	#antipolitica	#antipolitica	SYM	SYM	_	11	obj	_	_
@@ -12242,7 +12242,7 @@
 16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	crisi	crisi	NOUN	S	Gender=Fem	10	nmod	_	_
 18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
-19	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	sta	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 20	attraversando	attraversare	VERB	V	VerbForm=Ger	17	acl:relcl	_	_
 21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
 22	Europa	europa	PROPN	SP	_	20	obj	_	_
@@ -13938,7 +13938,7 @@
 13	Monti	Monti	PROPN	SP	_	12	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	FS	_	17	mark	_	_
 15	Non	non	ADV	BN	PronType=Neg	17	advmod	_	_
-16	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	sta	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	agendo	agire	VERB	V	VerbForm=Ger	2	parataxis	_	_
 18	per	per	ADP	E	_	19	mark	_	_
 19	risolvere	risolvere	VERB	V	VerbForm=Inf	17	advcl	_	_
@@ -14354,7 +14354,7 @@
 9	!	!	PUNCT	FS	_	7	punct	_	_
 10	:D	:D	SYM	SYM	_	13	discourse:emo	_	_
 11	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
-12	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	sto	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
 13	cercando	cercare	VERB	V	VerbForm=Ger	7	parataxis	_	_
 14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
