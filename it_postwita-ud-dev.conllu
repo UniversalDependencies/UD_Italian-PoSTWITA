@@ -2822,7 +2822,7 @@
 14	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	1	parataxis	_	_
 15	Monti	Monti	PROPN	SP	_	14	nmod	_	_
 16	e	e	CCONJ	CC	_	17	cc	_	_
-17	tecnico	tecnico	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	_
+17	tecnico	tecnico	ADJ	A	Gender=Masc|Number=Sing	15	conj	_	_
 18	sempre	sempre	ADV	B	_	14	advmod	_	SpaceAfter=No
 19	!	!	PUNCT	FS	_	14	punct	_	_
 20	politici	politico	NOUN	S	Gender=Masc|Number=Plur	1	parataxis	_	_
@@ -4019,7 +4019,7 @@
 15	)	)	PUNCT	FB	_	14	punct	_	_
 16	Mirko	Mirko	PROPN	SP	_	5	appos	_	_
 17	-	-	PUNCT	FB	_	22	punct	_	_
-18	anche	anche	ADV	B	_	19	advmod	_	_
+18	anche	anche	ADV	B	_	22	advmod	_	_
 19	se	se	SCONJ	CS	_	22	case	_	_
 20	con	con	ADP	E	_	22	case	_	_
 21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -4092,7 +4092,7 @@
 16	monti	monti	PROPN	SP	_	15	nmod	_	_
 17	e	e	CCONJ	CC	_	18	cc	_	_
 18	berlusconi	berlusconi	PROPN	SP	_	16	conj	_	SpaceAfter=No
-19	.	.	PUNCT	FS	_	8	punct	_	_
+19	.	.	PUNCT	FS	_	18	punct	_	_
 20	piddini	piddino	NOUN	S	Gender=Masc|Number=Plur	21	vocative	_	_
 21	aprite	aprire	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
 22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
@@ -6418,7 +6418,7 @@
 14	merda	merda	NOUN	S	Gender=Fem|Number=Sing	16	dislocated	_	_
 15	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
 16	pulisce	pulire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
-17	su	su	ADP	E	_	16	advmod	_	_
+17	su	su	ADV	B	_	16	advmod	_	_
 18	bene	bene	ADV	B	_	16	advmod	_	_
 19	proprio	proprio	ADV	B	_	20	advmod	_	_
 20	tutta	tutto	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	16	advmod	_	_
@@ -8537,7 +8537,7 @@
 15	asta	asta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
 16	per	per	ADP	E	_	19	case	_	_
 17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
-18	#frequenze	#frequenze	SYM	SYM	_	19	nummod	_	_
+18	#frequenze	#frequenze	SYM	SYM	_	15	nmod	_	_
 19	tv	tv	NOUN	S	Gender=Fem	15	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	FS	_	19	punct	_	_
 21	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	24	expl	_	_
@@ -8545,7 +8545,7 @@
 23	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 24	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	parataxis	_	SpaceAfter=No
 25	,	,	PUNCT	FF	_	24	punct	_	_
-26	come	come	ADP	E	_	29	advmod	_	_
+26	come	come	ADP	E	_	29	case	_	_
 27	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	29	det:predet	_	_
 28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	governo	governo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
@@ -8724,7 +8724,7 @@
 
 # sent_id = 4026
 # text = @user io bene e tu?
-1	@user	@user	SYM	SYM	_	2	punct	_	_
+1	@user	@user	SYM	SYM	_	2	vocative:mention	_	_
 2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	_
 3	bene	bene	ADV	B	_	2	advmod	_	_
 4	e	e	CCONJ	CC	_	5	cc	_	_

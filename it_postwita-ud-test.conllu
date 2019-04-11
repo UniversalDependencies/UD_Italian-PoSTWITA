@@ -3331,7 +3331,7 @@
 # sent_id = 1376
 # text = #556 si a favore del Governo #Monti: cominciamo ora?
 1	#556	#556	SYM	SYM	_	2	nummod	_	_
-2	si	sì	INTJ	I	_	0	root	_	_
+2	si	sì	ADV	B	_	0	root	_	_
 3	a	a	ADP	E	_	4	case	_	_
 4	favore	favore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
 5-6	del	_	_	_	_	_	_	_	_
@@ -4136,7 +4136,7 @@
 13	dire	dire	VERB	V	VerbForm=Inf	11	xcomp	_	_
 14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	tua	tuo	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	obj	_	_
-16	live	live	X	SW	_	13	advmod	_	_
+16	live	live	X	SW	_	13	dep	_	_
 17	a	a	ADP	E	_	18	case	_	_
 18	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
 19	Grazioli	Grazioli	PROPN	SP	_	18	flat	_	_
@@ -5916,7 +5916,7 @@
 10	LUX	LUX	PROPN	SP	_	7	obl	_	_
 11	E	e	CCONJ	CC	_	12	cc	_	_
 12	LIAM	LIAM	PROPN	SP	_	10	conj	_	_
-13	PRIMA	PRIMA	ADP	E	_	14	case	_	_
+13	PRIMA	PRIMA	ADP	E	_	17	mark	_	_
 14	CHE	che	SCONJ	CS	_	17	mark	_	_
 15	DANIELLE	DANIELLE	PROPN	SP	_	17	nsubj	_	_
 16	SI	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
@@ -6126,7 +6126,7 @@
 23	14	14	NUM	N	NumType=Card	24	nummod	_	_
 24	euro	euro	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
 25	in	in	ADP	E	_	26	case	_	_
-26	pi…	pi…	X	X	_	24	advmod	_	_
+26	pi…	pi…	X	X	_	24	dep	_	_
 
 # sent_id = 2615
 # text = ma un governo #monti pieno di #bocconiani non è un affronto alla scuola pubblica?
@@ -8050,7 +8050,7 @@
 9	scenario	scenario	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
 10	.	.	PUNCT	FS	_	6	punct	_	_
 11	Siamo	essere	AUX	VA	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
-12	stati	essere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	cop	_	_
+12	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	cop	_	_
 13	determinanti	determinante	ADJ	A	Number=Plur	6	parataxis	_	_
 14	per	per	ADP	E	_	16	case	_	_
 15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -8148,7 +8148,7 @@
 4	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
 5	assenze	assenza	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
 6	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
-7	stati	essere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	cop	_	_
+7	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	cop	_	_
 8	anche	anche	ADV	B	_	10	advmod	_	_
 9	troppo	troppo	ADV	B	_	10	advmod	_	_
 10	bravi	bravo	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
@@ -9980,7 +9980,7 @@
 9	c'	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	expl	_	SpaceAfter=No
 10	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	rotto	rompere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
-12	er	er	X	SW	_	13	det	_	_
+12	er	er	X	SW	_	13	dep	_	_
 13	cazzo	cazzo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
 14	che	che	SCONJ	CS	_	17	mark	_	_
 15	nn	non	ADV	BN	PronType=Neg	17	advmod	_	_
