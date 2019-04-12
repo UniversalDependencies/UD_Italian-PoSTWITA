@@ -11837,7 +11837,7 @@
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	governo	governo	NOUN	S	Gender=Masc|Number=Sing	5	parataxis:nsubj	_	_
 3	Monti	Monti	PROPN	SP	_	2	nmod	_	SpaceAfter=No
-4	?	?	PUNCT	FS	_	3	flat:name	_	_
+4	?	?	PUNCT	FS	_	2	punct	_	_
 5	Trascura	trascurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
@@ -11908,7 +11908,7 @@
 15	inutile	inutile	ADJ	A	Number=Sing	9	ccomp	_	SpaceAfter=No
 16	.	.	PUNCT	FS	_	15	punct	_	_
 17	Lucia	Lucia	PROPN	SP	_	19	nsubj	_	_
-18	s’è	s’è	X	X	_	19	aux	_	_
+18	s’è	s’è	X	X	_	19	dep	_	_
 19	gettata	gettare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	parataxis	_	_
 20-21	dal	_	_	_	_	_	_	_	_
 20	da	da	ADP	E	_	22	case	_	_
@@ -12476,8 +12476,8 @@
 15	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	obl	_	_
 16	-	-	PUNCT	FB	_	2	punct	_	_
 17	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
-18	via	via	ADP	E	_	19	case	_	_
-19	...	...	PUNCT	FS	_	20	obl	_	_
+18	via	via	ADP	E	_	20	case	_	_
+19	...	...	PUNCT	FS	_	20	punct	_	_
 20	http://t.co/Nq3qNllzgJ	http://t.co/Nq3qNllzgJ	SYM	X	_	2	dep	_	_
 
 # sent_id = 5635
@@ -12687,7 +12687,7 @@
 6	aula	aula	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
 7	martedì	martedì	NOUN	S	Gender=Masc	4	nmod	_	_
 8	Grillo	Grillo	PROPN	SP	_	15	parataxis	_	SpaceAfter=No
-9	:	:	PUNCT	FC	_	1	punct	_	_
+9	:	:	PUNCT	FC	_	8	punct	_	_
 10	perché	perché	ADV	B	_	15	advmod	_	_
 11	Letta	Letta	PROPN	SP	_	15	nsubj	_	_
 12	e	e	CCONJ	CC	_	14	cc	_	_
@@ -12822,7 +12822,7 @@
 3	#movimento5stelle	#movimento5stelle	SYM	SYM	_	8	parataxis:hashtag	_	_
 4	e'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	advmod	_	_
+6	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	obl	_	_
 7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	politica	politica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
 9-10	dei	_	_	_	_	_	_	_	_
@@ -13104,11 +13104,11 @@
 22	Adnkronos	Adnkronos	PROPN	SP	_	5	parataxis	_	SpaceAfter=No
 23	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
 24	?	?	PUNCT	FS	_	22	punct	_	_
-25	"	"	PUNCT	FB	_	29	punct	_	_
-26	Mario	mario	PROPN	SP	_	29	nsubj	_	_
+25	"	"	PUNCT	FB	_	26	punct	_	_
+26	Mario	mario	PROPN	SP	_	5	parataxis	_	_
 27	Monti	Monti	PROPN	SP	_	26	flat:name	_	_
-28	e'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
-29	...	...	PUNCT	FS	_	5	parataxis	_	_
+28	e'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+29	...	...	PUNCT	FS	_	26	punct	_	_
 30	http://t.co/3F90aBcN	http://t.co/3F90aBcN	SYM	X	_	5	dep	_	_
 
 # sent_id = 6345
@@ -13302,8 +13302,8 @@
 22	:	:	PUNCT	FC	_	18	punct	_	_
 23	Volunia	Volunia	PROPN	SP	_	18	appos	_	SpaceAfter=No
 24	,	,	PUNCT	FF	_	23	punct	_	_
-25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	…	…	PUNCT	FS	_	23	appos	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	dep	_	_
+26	…	…	PUNCT	FS	_	23	punct	_	_
 27	http://t.co/X7g5XqWE	http://t.co/X7g5XqWE	SYM	X	_	1	dep	_	_
 
 # sent_id = 6046
@@ -13604,7 +13604,7 @@
 
 # sent_id = 6187
 # text = Ecco l'Ici di Mario Monti secondo la Sora Cesira http://t.co/AtAzNmz1
-1	Ecco	Ecco	INTJ	I	_	3	advmod	_	_
+1	Ecco	ecco	ADV	B	_	3	advmod	_	_
 2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	Ici	Ici	PROPN	SP	_	0	root	_	_
 4	di	di	ADP	E	_	5	case	_	_
@@ -13645,11 +13645,11 @@
 
 # sent_id = 6535
 # text = RT @user: In teoria, Maradona deve 39mln allo Stato Italiano. In pratica, prende 100mila euro dalla tv di Stato. E tutti applaudon…
-1	RT	retweet	NOUN	S	_	8	punct	_	_
+1	RT	retweet	NOUN	S	_	8	dep	_	_
 2	@user	@user	SYM	SYM	_	8	vocative:mention	_	SpaceAfter=No
 3	:	:	PUNCT	FC	_	2	punct	_	_
 4	In	in	ADP	E	_	5	case	_	_
-5	teoria	teoria	NOUN	S	Gender=Fem|Number=Sing	8	advmod	_	SpaceAfter=No
+5	teoria	teoria	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	5	punct	_	_
 7	Maradona	Maradona	PROPN	SP	_	8	nsubj	_	_
 8	deve	dovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -13661,10 +13661,10 @@
 13	Italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
 14	.	.	PUNCT	FS	_	8	punct	_	_
 15	In	in	ADP	E	_	16	case	_	_
-16	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	18	advmod	_	SpaceAfter=No
+16	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
 17	,	,	PUNCT	FF	_	18	punct	_	_
 18	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
-19	100mila	100mila	X	X	_	20	nummod	_	_
+19	100mila	100mila	X	X	_	20	dep	_	_
 20	euro	euro	PROPN	SP	_	18	obj	_	_
 21-22	dalla	_	_	_	_	_	_	_	_
 21	da	da	ADP	E	_	23	case	_	_
@@ -13675,7 +13675,7 @@
 26	.	.	PUNCT	FS	_	18	punct	_	_
 27	E	e	CCONJ	CC	_	29	cc	_	_
 28	tutti	tutto	DET	DI	PronType=Ind	29	det	_	_
-29	applaudon…	applaudon…	X	X	_	26	conj	_	_
+29	applaudon…	applaudon…	X	X	_	18	conj	_	_
 
 # sent_id = 6090
 # text = La profezia dei #maya non e' che era Mario Monti ?!
@@ -13894,7 +13894,7 @@
 2	hahahaha	hahahaha	INTJ	I	_	5	discourse	_	_
 3	seriamente	seriamente	ADV	B	_	5	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	5	punct	_	_
-5	quanto	quanto	DET	DE	PronType=Exc	6	advmod	_	_
+5	quanto	quanto	DET	DE	PronType=Exc	6	det	_	_
 6	love	love	X	SW	_	0	root	_	SpaceAfter=No
 7	!	!	PUNCT	FS	_	6	punct	_	_
 
@@ -13936,7 +13936,7 @@
 11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	governo	governo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
 13	Monti	Monti	PROPN	SP	_	12	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	FS	_	17	mark	_	_
+14	.	.	PUNCT	FS	_	12	punct	_	_
 15	Non	non	ADV	BN	PronType=Neg	17	advmod	_	_
 16	sta	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	agendo	agire	VERB	V	VerbForm=Ger	2	parataxis	_	_
@@ -14644,7 +14644,7 @@
 3	di	di	ADP	E	_	4	case	_	_
 4	riduzione	riduzione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
 5	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
-6	+18mld	+18mld	X	X	_	2	nummod	_	_
+6	+18mld	+18mld	X	X	_	2	dep	_	_
 7	di	di	ADP	E	_	8	case	_	_
 8	tasse	tassa	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
 9	#governo	#governo	SYM	SYM	_	1	parataxis:hashtag	_	_
