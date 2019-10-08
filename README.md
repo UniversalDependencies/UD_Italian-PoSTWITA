@@ -46,7 +46,7 @@ Category=value feature pairs: 35
 
 # Changelog
 2019-11-15 v2.5
-* fixed orphan
+* changed parent of orphan to conj
 
 2019-05-15 v2.4
 * various corrections to pass validation
