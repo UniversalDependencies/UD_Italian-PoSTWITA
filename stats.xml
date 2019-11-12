@@ -74,7 +74,7 @@
   <deps unique="53">
     <dep name="acl">593</dep>
     <dep name="acl:relcl">849</dep>
-    <dep name="advcl">1244</dep>
+    <dep name="advcl">1245</dep>
     <dep name="advmod">5918</dep>
     <dep name="amod">3421</dep>
     <dep name="appos">536</dep>
@@ -97,10 +97,10 @@
     <dep name="expl">1056</dep>
     <dep name="expl:impers">190</dep>
     <dep name="expl:pass">56</dep>
-    <dep name="fixed">238</dep>
+    <dep name="fixed">237</dep>
     <dep name="flat">440</dep>
     <dep name="flat:foreign">351</dep>
-    <dep name="flat:name">2716</dep>
+    <dep name="flat:name">2717</dep>
     <dep name="goeswith">10</dep>
     <dep name="iobj">938</dep>
     <dep name="list">268</dep>
@@ -112,7 +112,7 @@
     <dep name="obj">5103</dep>
     <dep name="obl">5073</dep>
     <dep name="obl:agent">153</dep>
-    <dep name="orphan">61</dep>
+    <dep name="orphan">60</dep>
     <dep name="parataxis">5005</dep>
     <dep name="parataxis:appos">126</dep>
     <dep name="parataxis:discourse">25</dep>
