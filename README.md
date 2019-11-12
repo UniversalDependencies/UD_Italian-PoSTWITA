@@ -45,7 +45,10 @@ Category=value feature pairs: 35
 * Cristina Bosco, Fabio Tamburini, Andrea Bolioli, Alessandro Mazzei. 2016. Overview of the EVALITA 2016 Part Of Speech on TWitter for ITAlian task. In: Proceedings of Evalita 2016
 
 # Changelog
-2019-11-15 v2.4
+2019-11-15 v2.5
+* changed parent of orphan to conj
+
+2019-05-15 v2.4
 * various corrections to pass validation
 
 2018-11-15 v2.3
