@@ -56,7 +56,8 @@ Other references:
 * fixed wrong xpos
 * fixed nsubj with verb "succedere"
 * revised tokenization of wrongly merged tokens 
-* added Typo, CorrectForm and CorrectSpaceAfter features (not systematic, to be completed)
+* added CorrectForm and CorrectSpaceAfter features (not systematic, to be completed)
+* fixed non-projective punctuation
 * various fixes
 
 2019-11-15 v2.5

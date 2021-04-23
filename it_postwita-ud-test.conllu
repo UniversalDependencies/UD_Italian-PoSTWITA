@@ -893,7 +893,7 @@
 12	sindacali	sindacale	ADJ	A	Number=Plur	11	amod	_	_
 13-14	all	_	_	_	_	_	_	_	CorrectForm=all'|CorrectSpaceAfter=No
 13	a	a	ADP	E	_	15	case	_	_
-14	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art|Typo=Yes	15	det	_	_
+14	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
 15	orizzonte	orizzonte	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
 
 # sent_id = 287
@@ -934,7 +934,7 @@
 # sent_id = 312
 # text = @user si lo yogurt bianco chi lo vuole scusa hahahah poi se vede che la vaschetta accanto è vuota lo vuole ancora di meno
 1	@user	@user	SYM	SYM	_	8	vocative:mention	_	_
-2	si	sì	INTJ	I	Typo=Yes	8	discourse	_	CorrectForm=sì
+2	si	sì	INTJ	I	_	8	discourse	_	CorrectForm=sì
 3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	yogurt	yogurt	NOUN	S	Gender=Masc	8	dislocated	_	_
 5	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
@@ -1073,7 +1073,7 @@
 5	da	da	ADP	E	_	6	case	_	_
 6	Bertazzoni	Bertazzoni	PROPN	SP	_	4	obl:agent	_	_
 7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
-8	a	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	9	aux	_	CorrectForm=ha
+8	a	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	CorrectForm=ha
 9	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	cadere	cadere	VERB	V	VerbForm=Inf	9	ccomp	_	_
 11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
@@ -1765,7 +1765,7 @@
 4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	foto	foto	NOUN	S	Gender=Fem	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	8	punct	_	_
-7	cosi	così	ADV	B	Typo=Yes	8	advmod	_	CorrectForm=così
+7	cosi	così	ADV	B	_	8	advmod	_	CorrectForm=così
 8	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
 9	come	come	SCONJ	CS	_	12	mark	_	_
 10	essere	essere	AUX	V	VerbForm=Inf	12	cop	_	_
@@ -2842,7 +2842,7 @@
 
 # sent_id = 1203
 # text = Si all'Europa no all'EuroBANCA! No a Mario Monti #nomonti @user1 @user2 @user3 @user4 @user5
-1	Si	sì	ADV	B	Typo=Yes	0	root	_	CorrectForm=Sì
+1	Si	sì	ADV	B	_	0	root	_	CorrectForm=Sì
 2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
 2	a	a	ADP	E	_	4	case	_	_
 3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
@@ -3160,8 +3160,8 @@
 # text = @user *.* si si :*
 1	@user	@user	SYM	SYM	_	3	vocative:mention	_	_
 2	*.*	*.*	SYM	SYM	_	3	discourse:emo	_	_
-3	si	sì	INTJ	I	Typo=Yes	0	root	_	CorrectForm=sì
-4	si	sì	INTJ	I	Typo=Yes	3	flat	_	CorrectForm=sì
+3	si	sì	INTJ	I	_	0	root	_	CorrectForm=sì
+4	si	sì	INTJ	I	_	3	flat	_	CorrectForm=sì
 5	:*	:*	SYM	SYM	_	3	discourse:emo	_	_
 
 # sent_id = 1330
@@ -3331,7 +3331,7 @@
 # sent_id = 1376
 # text = #556 si a favore del Governo #Monti: cominciamo ora?
 1	#556	#556	SYM	SYM	_	2	dep	_	_
-2	si	sì	ADV	B	Typo=Yes	0	root	_	CorrectForm=sì
+2	si	sì	ADV	B	_	0	root	_	CorrectForm=sì
 3	a	a	ADP	E	_	4	case	_	_
 4	favore	favore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
 5-6	del	_	_	_	_	_	_	_	_
@@ -4897,7 +4897,7 @@
 
 # sent_id = 2012
 # text = Si all'Europa no all'EuroBANCA! No a Mario Monti #nomonti @user
-1	Si	sì	ADV	B	Typo=Yes	0	root	_	CorrectForm=Sì
+1	Si	sì	ADV	B	_	0	root	_	CorrectForm=Sì
 2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
 2	a	a	ADP	E	_	4	case	_	_
 3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
@@ -5386,7 +5386,7 @@
 
 # sent_id = 2320
 # text = Si all'Europa no all'EuroBANCA! No a Mario Monti #nomonti @user1 @user2
-1	Si	sì	ADV	B	Typo=Yes	0	root	_	CorrectForm=Sì
+1	Si	sì	ADV	B	_	0	root	_	CorrectForm=Sì
 2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
 2	a	a	ADP	E	_	4	case	_	_
 3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
@@ -7182,7 +7182,7 @@
 
 # sent_id = 3220
 # text = SI A MONTE MARIO ..... NO A MARIO MONTI http://t.co/XVaaX1X9
-1	SI	sì	ADV	B	Typo=Yes	0	root	_	CorrectForm=sì
+1	SI	sì	ADV	B	_	0	root	_	CorrectForm=sì
 2	A	a	ADP	E	_	3	case	_	_
 3	MONTE	MONTE	PROPN	SP	_	1	obl	_	_
 4	MARIO	mario	PROPN	SP	_	3	flat:name	_	_
@@ -7731,7 +7731,7 @@
 3	]	]	PUNCT	FB	_	2	punct	_	_
 4	Benzina	benzina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	FF	_	9	punct	_	_
-6	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art|Typo=Yes	9	det	_	CorrectForm=l'|SpaceAfter=No
+6	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	CorrectForm=l'|SpaceAfter=No
 7	?	?	PUNCT	FS	_	6	punct	_	_
 8	unico	unico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
 9	rincaro	rincaro	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
@@ -8829,7 +8829,7 @@
 # sent_id = 3982
 # text = @user si! dritti alla meta!
 1	@user	@user	SYM	SYM	_	4	vocative:mention	_	_
-2	si	sì	INTJ	I	Typo=Yes	4	discourse	_	CorrectForm=sì|SpaceAfter=No
+2	si	sì	INTJ	I	_	4	discourse	_	CorrectForm=sì|SpaceAfter=No
 3	!	!	PUNCT	FS	_	2	punct	_	_
 4	dritti	dritto	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
 5-6	alla	_	_	_	_	_	_	_	_
@@ -10067,7 +10067,7 @@
 11	.	.	PUNCT	FS	_	9	punct	_	_
 12	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
-14	e	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	15	cop	_	CorrectForm=è
+14	e	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	CorrectForm=è
 15	Kuyt	Kuyt	PROPN	SP	_	9	parataxis	_	_
 16-17	del	_	_	_	_	_	_	_	_
 16	di	di	ADP	E	_	18	case	_	_
@@ -10237,7 +10237,7 @@
 18	rispondi	rispondere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	conj	_	_
 19	con	con	ADP	E	_	21	case	_	_
 20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	SI	sì	INTJ	I	Typo=Yes	18	obl	_	CorrectForm=sì
+21	SI	sì	INTJ	I	_	18	obl	_	CorrectForm=sì
 22	...	...	PUNCT	FS	_	18	punct	_	_
 23	http://t.co/VsR1CsGO	http://t.co/VsR1CsGO	SYM	X	_	10	dep	_	_
 
@@ -10654,7 +10654,7 @@
 8	5	5	NUM	N	NumType=Card	10	nummod	_	_
 9	per	per	ADP	E	_	10	case	_	_
 10	cento	cento	NOUN	S	_	0	root	_	SpaceAfter=No|CorrectSpaceAfter=Yes
-11	Confermato	confermare	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+11	Confermato	confermare	VERB	V	Tense=Past|VerbForm=Part	10	parataxis	_	_
 12-13	al	_	_	_	_	_	_	_	_
 12	a	a	ADP	E	_	15	case	_	_
 13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -11537,7 +11537,7 @@
 16	invece	invece	ADV	B	_	18	advmod	_	_
 17	a	a	ADP	E	_	18	case	_	_
 18	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	conj	_	_
-19	si	sì	INTJ	I	Typo=Yes	18	orphan	_	CorrectForm=sì|SpaceAfter=No
+19	si	sì	INTJ	I	_	18	orphan	_	CorrectForm=sì|SpaceAfter=No
 20	.	.	PUNCT	FS	_	18	punct	_	_
 
 # sent_id = 5178

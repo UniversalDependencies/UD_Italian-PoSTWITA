@@ -5,7 +5,7 @@
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
-5	ideal	ideale	ADJ	A	Number=Sing|Typo=yes	4	amod	_	CorrectForm=ideale|SpaceAfter=No
+5	ideal	ideale	ADJ	A	Number=Sing	4	amod	_	CorrectForm=ideale|SpaceAfter=No
 6	,	,	PUNCT	FF	_	4	punct	_	_
 7	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	4	parataxis	_	_
 8	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
@@ -125,7 +125,7 @@
 # sent_id = 60
 # text = @user si cazzo c'è la devo fare c'è la posso fare!
 1	@user	@user	SYM	SYM	_	8	vocative:mention	_	_
-2	si	sì	INTJ	I	Typo=Yes	8	discourse	_	CorrectForm=sì
+2	si	sì	INTJ	I	_	8	discourse	_	CorrectForm=sì
 3	cazzo	cazzo	INTJ	I	_	8	discourse	_	_
 4	c'	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	expl	_	SpaceAfter=No
 5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	dep	_	_
@@ -367,7 +367,7 @@
 8	Se	se	SCONJ	CS	_	12	mark	_	_
 9	#Grillo	#Grillo	SYM	SYM	_	12	nsubj	_	_
 10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-11	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art|Typo=Yes	12	det	_	CorrectSpaceAfter=No
+11	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	CorrectSpaceAfter=No
 12	alternativa	alternativa	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
 13	,	,	PUNCT	FF	_	12	punct	_	_
 14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
@@ -378,7 +378,7 @@
 19	tranquilli	tranquillo	ADJ	A	Gender=Masc|Number=Plur	18	xcomp	_	SpaceAfter=No
 20	.	.	PUNCT	FS	_	18	punct	_	_
 21	W	W	INTJ	I	_	18	discourse	_	_
-22	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art|Typo=Yes	23	det	_	CorrectSpaceAfter=No
+22	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	CorrectSpaceAfter=No
 23	Italia	italia	PROPN	SP	_	18	obj	_	SpaceAfter=No
 24	.	.	PUNCT	FS	_	23	punct	_	_
 
@@ -658,7 +658,7 @@
 6	calvinista	calvinista	ADJ	A	Number=Sing	5	amod	_	_
 7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
 8	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
-9	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art|Typo=Yes	11	det	_	CorrectForm=l'|SpaceAfter=No
+9	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	CorrectForm=l'|SpaceAfter=No
 10	?	?	PUNCT	FS	_	9	punct	_	_
 11	elogio	elogio	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
 12-13	della	_	_	_	_	_	_	_	_
@@ -675,7 +675,7 @@
 21	onesti	onesto	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
 22	,	,	PUNCT	FF	_	26	punct	_	_
 23	e	e	CCONJ	CC	_	26	cc	_	_
-24	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art|Typo=Yes	26	det	_	CorrectForm=l'|SpaceAfter=No
+24	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	CorrectForm=l'|SpaceAfter=No
 25	?	?	PUNCT	FS	_	24	punct	_	_
 26	augurio	augurio	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
 27	a	a	ADP	E	_	26	nmod	_	_
@@ -2372,7 +2372,7 @@
 15	Radcliffe	Radcliffe	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
 16	?	?	PUNCT	FS	_	13	punct	_	_
 17	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	_	_
-18	si	sì	INTJ	I	Typo=Yes	17	discourse	_	CorrectForm=sì
+18	si	sì	INTJ	I	_	17	discourse	_	CorrectForm=sì
 19	che	che	SCONJ	CS	_	21	mark	_	_
 20	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
 21	vietato	vietare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	parataxis	_	_
@@ -2439,7 +2439,7 @@
 # sent_id = 938
 # text = @user si! Ma te la do solo se mi dici se stai ancora con Nina * si illumina AHAHAHAH UWU *
 1	@user	@user	SYM	SYM	_	7	vocative:mention	_	_
-2	si	sì	INTJ	I	Typo=Yes	7	discourse	_	CorrectForm=sì|SpaceAfter=No
+2	si	sì	INTJ	I	_	7	discourse	_	CorrectForm=sì|SpaceAfter=No
 3	!	!	PUNCT	FS	_	2	punct	_	_
 4	Ma	ma	CCONJ	CC	_	7	cc	_	_
 5	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
@@ -5807,7 +5807,7 @@
 
 # sent_id = 2542
 # text = E così professor #Monti e #Fornero? Per crescere bisogna davvero licenziare? O abbiamo frainteso?
-1	E	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	2	cop	_	CorrectForm=è
+1	E	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	CorrectForm=è
 2	così	così	ADV	B	_	0	root	_	_
 3	professor	professore	NOUN	S	Gender=Masc|Number=Sing	2	vocative	_	_
 4	#Monti	#Monti	SYM	SYM	_	3	flat	_	_
@@ -7990,7 +7990,7 @@
 5	governo	governo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
 6	Monti	Monti	PROPN	SP	_	5	nmod	_	_
 7	nn	non	ADV	BN	PronType=Neg	11	advmod	_	_
-8	e	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	11	cop	_	CorrectForm=è
+8	e	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	CorrectForm=è
 9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	vs	vostro	DET	AP	Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	governo	governo	NOUN	S	Gender=Masc|Number=Sing	14	advcl	_	_
@@ -8371,7 +8371,7 @@
 
 # sent_id = 3880
 # text = Si all'Europa no all'EuroBANCA! No a Mario Monti #nomonti
-1	Si	sì	ADV	B	Typo=Yes	0	root	_	CorrectForm=Sì
+1	Si	sì	ADV	B	_	0	root	_	CorrectForm=Sì
 2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
 2	a	a	ADP	E	_	4	case	_	_
 3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
@@ -11050,7 +11050,7 @@
 5	!	!	PUNCT	FS	_	3	punct	_	_
 6	@user	@user	SYM	SYM	_	3	vocative:mention	_	_
 7	anzi	anzi	ADV	B	_	8	advmod	_	_
-8	si	sì	INTJ	I	Typo=Yes	3	parataxis	_	CorrectForm=sì|SpaceAfter=No
+8	si	sì	INTJ	I	_	3	parataxis	_	CorrectForm=sì|SpaceAfter=No
 9	,	,	PUNCT	FF	_	12	punct	_	_
 10	che	che	SCONJ	CS	_	12	mark	_	_
 11	magari	magari	ADV	B	_	12	advmod	_	_
@@ -13009,7 +13009,7 @@
 # text = Ma dov' e la patrimoniale e la lotta all'evasione fiscale nella manovra del governo Monti?
 1	Ma	ma	CCONJ	CC	_	3	cc	_	_
 2	dov'	dove	ADV	B	_	3	advmod	_	_
-3	e	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=è
+3	e	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CorrectForm=è
 4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	patrimoniale	patrimoniale	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
 6	e	e	CCONJ	CC	_	8	cc	_	_
