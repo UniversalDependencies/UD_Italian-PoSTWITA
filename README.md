@@ -38,13 +38,27 @@ Category=value feature pairs: 35
 
 # References
 
+If you use the resource please cite the following:
+
 * Manuela Sanguinetti, Cristina Bosco, Alberto Lavelli, Alessandro Mazzei, Fabio Tamburini. 2018. PoSTWITA-UD: an Italian Twitter Treebank in Universal Dependencies. Accepted paper at LREC 2018
+
+
+Other references:
 
 * Manuela Sanguinetti, Cristina Bosco, Alessandro Mazzei, Alberto Lavelli, Fabio Tamburini. 2017. Annotating Italian Social Media Texts in Universal Dependencies. In: Proceedings of the Fourth International Conference on Dependency Linguistics (Depling 2017), Pisa (Italy), pp. 229–239
 
 * Cristina Bosco, Fabio Tamburini, Andrea Bolioli, Alessandro Mazzei. 2016. Overview of the EVALITA 2016 Part Of Speech on TWitter for ITAlian task. In: Proceedings of Evalita 2016
 
 # Changelog
+2021-05-15 v2.8
+* changed lemma lui/lei
+* revised tutto ADV--> DET
+* fixed wrong xpos
+* fixed nsubj with verb "succedere"
+* revised tokenization of wrongly merged tokens 
+* added Typo, CorrectForm and CorrectSpaceAfter features (not systematic, to be completed)
+* various fixes
+
 2019-11-15 v2.5
 * changed parent of orphan to conj
 
