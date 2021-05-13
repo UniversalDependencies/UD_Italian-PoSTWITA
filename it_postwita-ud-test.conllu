@@ -50,7 +50,7 @@
 16	Paolè	Paolè	PROPN	SP	_	15	vocative	_	SpaceAfter=No
 17	!	!	PUNCT	FS	_	15	punct	_	_
 18	:))	:))	SYM	SYM	_	15	discourse:emo	_	_
-19	***	***	X	X	_	15	dep	_	_
+19	***	*	SYM	SYM	_	15	dep	_	_
 
 # sent_id = 14
 # text = " Gli Stati Uniti sono la prova evidente di quanto sbagliato sia per la democrazia avere partiti privatizzati. " N. Urbinati #Grillo #radicali
@@ -225,7 +225,7 @@
 9	DI	DI	ADP	E	_	11	case	_	_
 10	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	GOVERNO	governo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
-12	MONTI	MONTI	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+12	MONTI	Monti	PROPN	SP	_	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	FS	_	1	punct	_	_
 14	martedì	martedì	NOUN	S	Gender=Masc	1	parataxis	_	_
 15	13	13	NUM	N	NumType=Card	14	flat	_	_
@@ -371,8 +371,8 @@
 2-3	AL	_	_	_	_	_	_	_	_
 2	A	A	ADP	E	_	4	case	_	_
 3	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	GOVERNO	GOVERNO	PROPN	SP	_	1	obl	_	_
-5	MONTI	MONTI	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+4	GOVERNO	governo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	MONTI	Monti	PROPN	SP	_	4	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	7	punct	_	_
 7	ELEZIONI	elezione	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
 8	SUBITO	subito	ADV	B	_	7	advmod	_	SpaceAfter=No
@@ -477,10 +477,10 @@
 1	#ITALYDESERVESONED	#ITALYDESERVESONED	SYM	SYM	_	2	parataxis:hashtag	_	_
 2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	FC	_	2	punct	_	_
-4	No	No	INTJ	I	_	2	discourse	_	_
-5	ma	ma	CCONJ	CC	_	7	cc	_	_
-6	grazie	grazie	INTJ	I	_	7	discourse	_	_
-7	eh	eh	INTJ	I	_	4	conj	_	SpaceAfter=No
+4	No	No	INTJ	I	_	6	discourse	_	_
+5	ma	ma	CCONJ	CC	_	6	cc	_	_
+6	grazie	grazie	INTJ	I	_	2	discourse	_	_
+7	eh	eh	INTJ	I	_	6	discourse	_	SpaceAfter=No
 8	.	.	PUNCT	FS	_	2	punct	_	_
 
 # sent_id = 181
@@ -845,7 +845,7 @@
 22	più	più	ADV	B	_	21	advmod	_	SpaceAfter=No
 23	.	.	PUNCT	FS	_	7	punct	_	_
 24	E	e	CCONJ	CC	_	28	cc	_	_
-25	lui	egli	PRON	PE	Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+25	lui	lui	PRON	PE	Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
 26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
 27	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
 28	incazzato	incazzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
@@ -863,7 +863,7 @@
 8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 9	grazie	grazie	ADP	E	_	11	case	_	_
 10	a	a	ADP	E	_	9	fixed	_	_
-11	lui	egli	PRON	PE	Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+11	lui	lui	PRON	PE	Number=Sing|Person=3|PronType=Prs	14	obl	_	_
 12	se	se	SCONJ	CS	_	14	mark	_	_
 13	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	imparato	imparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
@@ -891,7 +891,7 @@
 10	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 11	agitazioni	agitazione	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
 12	sindacali	sindacale	ADJ	A	Number=Plur	11	amod	_	_
-13-14	all	_	_	_	_	_	_	_	_
+13-14	all	_	_	_	_	_	_	_	CorrectForm=all'|CorrectSpaceAfter=No
 13	a	a	ADP	E	_	15	case	_	_
 14	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
 15	orizzonte	orizzonte	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
@@ -934,7 +934,7 @@
 # sent_id = 312
 # text = @user si lo yogurt bianco chi lo vuole scusa hahahah poi se vede che la vaschetta accanto è vuota lo vuole ancora di meno
 1	@user	@user	SYM	SYM	_	8	vocative:mention	_	_
-2	si	sì	INTJ	I	_	8	discourse	_	_
+2	si	sì	INTJ	I	_	8	discourse	_	CorrectForm=sì
 3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	yogurt	yogurt	NOUN	S	Gender=Masc	8	dislocated	_	_
 5	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
@@ -1073,7 +1073,7 @@
 5	da	da	ADP	E	_	6	case	_	_
 6	Bertazzoni	Bertazzoni	PROPN	SP	_	4	obl:agent	_	_
 7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
-8	a	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	a	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	CorrectForm=ha
 9	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	cadere	cadere	VERB	V	VerbForm=Inf	9	ccomp	_	_
 11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
@@ -1101,17 +1101,17 @@
 5	Cucci	Cucci	PROPN	SP	_	4	flat:name	_	_
 6	http://t.co/2iCPrIe7	http://t.co/2iCPrIe7	SYM	X	_	3	dep	_	_
 7	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
-8	vero	vero	ADJ	A	Gender=Masc|Number=Sing	3	advcl	_	SpaceAfter=No
+8	vero	vero	ADJ	A	Gender=Masc|Number=Sing	12	advcl	_	SpaceAfter=No
 9	,	,	PUNCT	FF	_	12	punct	_	_
 10	#Monti	#Monti	SYM	SYM	_	12	nsubj	_	_
 11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
-12	comincia	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+12	comincia	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 13	male	male	ADV	B	_	12	advmod	_	SpaceAfter=No
-14	.	.	PUNCT	FS	_	3	punct	_	_
-15	Va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+14	.	.	PUNCT	FS	_	12	punct	_	_
+15	Va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
 16	piano	piano	ADV	B	_	15	advmod	_	_
 17	ma	ma	CCONJ	CC	_	18	cc	_	_
-18	sano	sano	ADJ	A	Gender=Masc|Number=Sing	15	conj	_	_
+18	sano	sano	ADJ	A	Gender=Masc|Number=Sing	16	conj	_	_
 19	e	e	CCONJ	CC	_	20	cc	_	_
 20	lontano	lontano	ADV	B	_	18	conj	_	_
 21	#opencamera	#opencamera	SYM	SYM	_	3	parataxis:hashtag	_	_
@@ -1765,7 +1765,7 @@
 4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	foto	foto	NOUN	S	Gender=Fem	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	8	punct	_	_
-7	cosi	cosi	ADV	B	_	8	advmod	_	_
+7	cosi	così	ADV	B	_	8	advmod	_	CorrectForm=così
 8	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
 9	come	come	SCONJ	CS	_	12	mark	_	_
 10	essere	essere	AUX	V	VerbForm=Inf	12	cop	_	_
@@ -1803,12 +1803,12 @@
 22	,	,	PUNCT	FF	_	14	punct	_	_
 23	@user	@user	SYM	SYM	_	14	vocative:mention	_	_
 24	eh	eh	INTJ	I	_	14	discourse	_	SpaceAfter=No
-25	?	?	PUNCT	FS	_	14	punct	_	_
+25	?	?	PUNCT	FS	_	24	punct	_	_
 
 # sent_id = 760
 # text = GOVERNO MONTI E CARTE DI CREDITO: COME FAR PAGARE UN PIZZO LEGALE AGLI ITALIANI http://t.co/9nWocB4r via @user
-1	GOVERNO	GOVERNO	PROPN	SP	_	0	root	_	_
-2	MONTI	MONTI	PROPN	SP	_	1	nmod	_	_
+1	GOVERNO	governo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	MONTI	Monti	PROPN	SP	_	1	nmod	_	_
 3	E	e	CCONJ	CC	_	4	cc	_	_
 4	CARTE	carta	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
 5	DI	di	ADP	E	_	6	case	_	_
@@ -2482,7 +2482,7 @@
 6	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 7	più	più	ADV	B	_	6	advmod	_	_
 8	quanto	quanto	PRON	PQ	Gender=Masc|Number=Sing|PronType=Int	6	obj	_	_
-9	lui	egli	PRON	PE	Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+9	lui	lui	PRON	PE	Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 10	sta	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	andando	andare	VERB	V	VerbForm=Ger	8	acl:relcl	_	_
 12	su	su	ADP	E	_	14	case	_	_
@@ -2664,7 +2664,7 @@
 # sent_id = 1130
 # text = MARIO MONTI MASSONE, SERVIRE LE BANCHE LA TUA PROFESSIONE NTA
 1	MARIO	mario	PROPN	SP	_	10	vocative	_	_
-2	MONTI	MONTI	PROPN	SP	_	1	flat:name	_	_
+2	MONTI	Monti	PROPN	SP	_	1	flat:name	_	_
 3	MASSONE	massone	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	1	punct	_	_
 5	SERVIRE	servire	VERB	V	VerbForm=Inf	10	csubj	_	_
@@ -2842,18 +2842,18 @@
 
 # sent_id = 1203
 # text = Si all'Europa no all'EuroBANCA! No a Mario Monti #nomonti @user1 @user2 @user3 @user4 @user5
-1	Si	sì	INTJ	I	_	0	root	_	_
+1	Si	sì	ADV	B	_	0	root	_	CorrectForm=Sì
 2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
 2	a	a	ADP	E	_	4	case	_	_
 3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
-4	Europa	europa	PROPN	SP	_	1	nmod	_	_
-5	no	no	ADV	BN	PronType=Neg	1	conj	_	_
+4	Europa	europa	PROPN	SP	_	1	obl	_	_
+5	no	no	ADV	B	_	1	conj	_	_
 6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
 6	a	a	ADP	E	_	8	case	_	_
 7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
-8	EuroBANCA	EuroBANCA	PROPN	SP	_	5	nmod	_	SpaceAfter=No
-9	!	!	PUNCT	FS	_	8	punct	_	_
-10	No	no	ADV	BN	PronType=Neg	1	parataxis	_	_
+8	EuroBANCA	EuroBANCA	PROPN	SP	_	5	obl	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	1	punct	_	_
+10	No	No	INTJ	I	_	1	parataxis	_	_
 11	a	a	ADP	E	_	12	case	_	_
 12	Mario	mario	PROPN	SP	_	10	obl	_	_
 13	Monti	Monti	PROPN	SP	_	12	flat:name	_	_
@@ -3160,8 +3160,8 @@
 # text = @user *.* si si :*
 1	@user	@user	SYM	SYM	_	3	vocative:mention	_	_
 2	*.*	*.*	SYM	SYM	_	3	discourse:emo	_	_
-3	si	sì	INTJ	I	_	0	root	_	_
-4	si	sì	INTJ	I	_	3	conj	_	_
+3	si	sì	INTJ	I	_	0	root	_	CorrectForm=sì
+4	si	sì	INTJ	I	_	3	flat	_	CorrectForm=sì
 5	:*	:*	SYM	SYM	_	3	discourse:emo	_	_
 
 # sent_id = 1330
@@ -3331,9 +3331,9 @@
 # sent_id = 1376
 # text = #556 si a favore del Governo #Monti: cominciamo ora?
 1	#556	#556	SYM	SYM	_	2	dep	_	_
-2	si	sì	ADV	B	_	0	root	_	_
+2	si	sì	ADV	B	_	0	root	_	CorrectForm=sì
 3	a	a	ADP	E	_	4	case	_	_
-4	favore	favore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+4	favore	favore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
 5-6	del	_	_	_	_	_	_	_	_
 5	di	di	ADP	E	_	7	case	_	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -3377,8 +3377,8 @@
 3-4	DEL	_	_	_	_	_	_	_	_
 3	DI	DI	ADP	E	_	5	case	_	_
 4	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	GOVERNO	GOVERNO	PROPN	SP	_	2	nmod	_	_
-6	MONTI	MONTI	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+5	GOVERNO	governo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	MONTI	Monti	PROPN	SP	_	5	nmod	_	SpaceAfter=No
 7	:	:	PUNCT	FC	_	2	punct	_	_
 8	SONO	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	GIOVANI	giovane	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
@@ -3464,11 +3464,12 @@
 11	:	:	PUNCT	FC	_	6	punct	_	_
 12	corregge	correggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
 13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-14	erroriil	erroriil	X	X	_	12	obj	_	_
-15	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
-16	orecchione	orecchione	ADJ	A	Number=Sing	15	amod	_	_
-17	e	e	CCONJ	CC	_	18	cc	_	_
-18	occhialone	occhialone	ADJ	A	Number=Sing	16	conj	_	_
+14	errori	errore	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	obj	_	_
+16	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+17	orecchione	orecchione	ADJ	A	Number=Sing	16	amod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	occhialone	occhialone	ADJ	A	Number=Sing	17	conj	_	_
 
 # sent_id = 1419
 # text = Sono ricco, ma solo per il Governo Monti ... Purtroppo
@@ -3542,11 +3543,12 @@
 21	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 22	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
 23-24	negli	_	_	_	_	_	_	_	_
-23	in	in	ADP	E	_	25	case	_	_
-24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
-25	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	22	obl	_	_
-26	20anni	20anni	X	X	_	22	obj	_	SpaceAfter=No
-27	!	!	PUNCT	FS	_	22	punct	_	_
+23	in	in	ADP	E	_	27	case	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+25	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+26	20	20	NUM	N	NumType=Card	27	nummod	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+27	anni	anno	NOUN	S	_	22	obl	_	SpaceAfter=No
+28	!	!	PUNCT	FS	_	22	punct	_	_
 
 # sent_id = 1442
 # text = #delusionemonti a malincuore accantono speranze sul #governo #monti imbrigliato dagli #interessi di #partiti e #casta
@@ -4738,17 +4740,18 @@
 15	giocati	giocare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 16	anche	anche	ADV	B	_	18	advmod	_	_
 17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	cartaZapatero	cartaZapatero	X	X	_	15	obj	_	SpaceAfter=No
-19	.	.	PUNCT	FS	_	18	punct	_	_
-20	E	e	CCONJ	CC	_	24	cc	_	_
-21	se	se	SCONJ	CS	_	24	mark	_	_
-22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
-23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl:pass	_	_
-24	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
-25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	governo	governo	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
-27	Monti	Monti	PROPN	SP	_	26	nmod	_	SpaceAfter=No
-28	?	?	PUNCT	FS	_	24	punct	_	_
+18	carta	carta	NOUN	S	_	15	obj	_	SpaceAfter=No|CorrectSpaceAfter=No
+19	Zapatero	Zapatero	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	18	punct	_	_
+21	E	e	CCONJ	CC	_	25	cc	_	_
+22	se	se	SCONJ	CS	_	25	mark	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl:pass	_	_
+25	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	governo	governo	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	Monti	Monti	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+29	?	?	PUNCT	FS	_	25	punct	_	_
 
 # sent_id = 1959
 # text = #CAMERA I toni di PD e PDL non sembrano propriamente concilianti ... continuo a nutrire forti dubbi sul probabile governo Monti
@@ -4894,20 +4897,20 @@
 
 # sent_id = 2012
 # text = Si all'Europa no all'EuroBANCA! No a Mario Monti #nomonti @user
-1	Si	sì	INTJ	I	_	0	root	_	_
+1	Si	sì	ADV	B	_	0	root	_	CorrectForm=Sì
 2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
 2	a	a	ADP	E	_	4	case	_	_
 3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
-4	Europa	europa	PROPN	SP	_	1	nmod	_	_
-5	no	no	INTJ	I	_	1	conj	_	_
+4	Europa	europa	PROPN	SP	_	1	obl	_	_
+5	no	no	ADV	B	_	1	conj	_	_
 6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
 6	a	a	ADP	E	_	8	case	_	_
 7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
-8	EuroBANCA	EuroBANCA	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	EuroBANCA	EuroBANCA	PROPN	SP	_	5	obl	_	SpaceAfter=No
 9	!	!	PUNCT	FS	_	1	punct	_	_
-10	No	No	INTJ	I	_	1	discourse	_	_
+10	No	No	INTJ	I	_	1	parataxis	_	_
 11	a	a	ADP	E	_	12	case	_	_
-12	Mario	mario	PROPN	SP	_	10	nmod	_	_
+12	Mario	mario	PROPN	SP	_	10	obl	_	_
 13	Monti	Monti	PROPN	SP	_	12	flat:name	_	_
 14	#nomonti	#nomonti	SYM	SYM	_	1	parataxis:hashtag	_	_
 15	@user	@user	SYM	SYM	_	1	vocative:mention	_	_
@@ -5383,20 +5386,20 @@
 
 # sent_id = 2320
 # text = Si all'Europa no all'EuroBANCA! No a Mario Monti #nomonti @user1 @user2
-1	Si	sì	INTJ	I	_	0	root	_	_
+1	Si	sì	ADV	B	_	0	root	_	CorrectForm=Sì
 2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
 2	a	a	ADP	E	_	4	case	_	_
 3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
-4	Europa	europa	PROPN	SP	_	1	nmod	_	_
-5	no	no	INTJ	I	_	1	conj	_	_
+4	Europa	europa	PROPN	SP	_	1	obl	_	_
+5	no	no	ADV	B	_	1	conj	_	_
 6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
 6	a	a	ADP	E	_	8	case	_	_
 7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
-8	EuroBANCA	EuroBANCA	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	EuroBANCA	EuroBANCA	PROPN	SP	_	5	obl	_	SpaceAfter=No
 9	!	!	PUNCT	FS	_	1	punct	_	_
-10	No	No	INTJ	I	_	1	discourse	_	_
+10	No	No	INTJ	I	_	1	parataxis	_	_
 11	a	a	ADP	E	_	12	case	_	_
-12	Mario	mario	PROPN	SP	_	10	nmod	_	_
+12	Mario	mario	PROPN	SP	_	10	obl	_	_
 13	Monti	Monti	PROPN	SP	_	12	flat:name	_	_
 14	#nomonti	#nomonti	SYM	SYM	_	1	parataxis:hashtag	_	_
 15	@user1	@user1	SYM	SYM	_	1	vocative:mention	_	_
@@ -5622,8 +5625,8 @@
 4-5	DEL	_	_	_	_	_	_	_	_
 4	DI	DI	ADP	E	_	6	case	_	_
 5	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	GOVERNO	GOVERNO	PROPN	SP	_	3	dislocated	_	_
-7	MONTI	MONTI	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+6	GOVERNO	governo	NOUN	S	Gender=Masc|Number=Sing	3	dislocated	_	_
+7	MONTI	Monti	PROPN	SP	_	6	nmod	_	SpaceAfter=No
 8	?	?	PUNCT	FS	_	3	punct	_	_
 9	Diventa	diventare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	9	xcomp	_	_
@@ -6091,7 +6094,7 @@
 18	x	per	ADP	E	_	19	case	_	_
 19	coinvolgimento	coinvolgimento	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
 20	emotivo	emotivo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
-21	3	3	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
+21	3	3	NUM	N	NumType=Card	12	list	_	SpaceAfter=No
 22	)	)	PUNCT	FB	_	21	punct	_	_
 23	fare	fare	VERB	V	VerbForm=Inf	12	list	_	_
 24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -6299,7 +6302,7 @@
 9	decide	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 10	sempre	sempre	ADV	B	_	9	advmod	_	_
 11	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obj	_	_
-12	lui	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+12	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 
 # sent_id = 2728
 # text = #governo @user Licenzia 5000 precari LSU #LPU #Calabria dopo 20 di lavoronero
@@ -6314,7 +6317,8 @@
 9	dopo	dopo	ADP	E	_	10	case	_	_
 10	20	20	NUM	N	NumType=Card	3	obl	_	_
 11	di	di	ADP	E	_	12	case	_	_
-12	lavoronero	lavoronero	X	X	_	10	nmod	_	_
+12	lavoro	lavoro	NOUN	S	_	10	nmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+13	nero	nero	ADJ	A	_	12	amod	_	_
 
 # sent_id = 2729
 # text = Oggi siamo a #Piacenza alla presentazione di #OroRosso, il festival dedicato al pomodoro del Nord, dal 2 al 4 ottobre http://t.co/DaG9vBqKaz
@@ -6453,7 +6457,7 @@
 16	finalmente	finalmente	ADV	B	_	17	advmod	_	_
 17	stare	stare	VERB	V	VerbForm=Inf	11	conj	_	_
 18	con	con	ADP	E	_	19	case	_	_
-19	lui	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No
+19	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No
 20	,	,	PUNCT	FF	_	17	punct	_	_
 21-22	alla	_	_	_	_	_	_	_	_
 21	a	a	ADP	E	_	23	case	_	_
@@ -6522,7 +6526,7 @@
 14	guerrina	guerrina	PROPN	SP	_	13	nsubj	_	_
 15	e	e	CCONJ	CC	_	19	cc	_	_
 16	se	se	SCONJ	CS	_	19	mark	_	_
-17	lui	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+17	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 18	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	19	iobj	_	_
 19	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
 20	qualcosa	qualcosa	PRON	PI	PronType=Ind	19	obj	_	_
@@ -6994,8 +6998,8 @@
 5-6	DEL	_	_	_	_	_	_	_	_
 5	DI	DI	ADP	E	_	7	case	_	_
 6	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	GOVERNO	GOVERNO	PROPN	SP	_	3	nmod	_	_
-8	MONTI	MONTI	PROPN	SP	_	7	flat:name	_	_
+7	GOVERNO	governo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	MONTI	Monti	PROPN	SP	_	7	nmod	_	_
 9	PERCHE'	perché	ADV	B	_	11	advmod	_	_
 10	NON	non	ADV	BN	PronType=Neg	11	advmod	_	_
 11	ANDIAMO	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7178,15 +7182,15 @@
 
 # sent_id = 3220
 # text = SI A MONTE MARIO ..... NO A MARIO MONTI http://t.co/XVaaX1X9
-1	SI	sì	INTJ	I	_	0	root	_	_
+1	SI	sì	ADV	B	_	0	root	_	CorrectForm=sì
 2	A	a	ADP	E	_	3	case	_	_
-3	MONTE	MONTE	PROPN	SP	_	1	nmod	_	_
+3	MONTE	MONTE	PROPN	SP	_	1	obl	_	_
 4	MARIO	mario	PROPN	SP	_	3	flat:name	_	_
 5	.....	.....	PUNCT	FS	_	1	punct	_	_
-6	NO	NO	INTJ	I	_	8	discourse	_	_
+6	NO	NO	ADV	B	_	1	conj	_	_
 7	A	a	ADP	E	_	8	case	_	_
-8	MARIO	mario	PROPN	SP	_	1	conj	_	_
-9	MONTI	MONTI	PROPN	SP	_	8	flat:name	_	_
+8	MARIO	mario	PROPN	SP	_	6	obl	_	_
+9	MONTI	Monti	PROPN	SP	_	8	flat:name	_	_
 10	http://t.co/XVaaX1X9	http://t.co/XVaaX1X9	SYM	X	_	1	dep	_	_
 
 # sent_id = 3226
@@ -7558,8 +7562,8 @@
 4-5	DEL	_	_	_	_	_	_	_	_
 4	DI	di	ADP	E	_	6	case	_	_
 5	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	GOVERNO	GOVERNO	PROPN	SP	_	3	nmod	_	_
-7	MONTI	MONTI	PROPN	SP	_	6	flat:name	_	_
+6	GOVERNO	governo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	MONTI	Monti	PROPN	SP	_	6	nmod	_	_
 8	....	....	PUNCT	FS	_	1	punct	_	_
 9	INVECE	invece	ADV	B	_	11	mark	_	_
 10	DI	di	ADP	E	_	9	fixed	_	_
@@ -7727,7 +7731,7 @@
 3	]	]	PUNCT	FB	_	2	punct	_	_
 4	Benzina	benzina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	FF	_	9	punct	_	_
-6	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+6	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	CorrectForm=l'|SpaceAfter=No
 7	?	?	PUNCT	FS	_	6	punct	_	_
 8	unico	unico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
 9	rincaro	rincaro	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
@@ -8448,7 +8452,7 @@
 17	club	club	NOUN	S	Gender=Masc	14	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	FS	_	13	punct	_	_
 19	Per	per	ADP	E	_	21	mark	_	_
-20	lui	egli	PRON	PE	Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	lui	lui	PRON	PE	Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 21	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 22	tutto	tutto	DET	DI	PronType=Ind	23	det	_	_
 23	schifo	schifo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
@@ -8825,7 +8829,7 @@
 # sent_id = 3982
 # text = @user si! dritti alla meta!
 1	@user	@user	SYM	SYM	_	4	vocative:mention	_	_
-2	si	sì	INTJ	I	_	4	discourse	_	SpaceAfter=No
+2	si	sì	INTJ	I	_	4	discourse	_	CorrectForm=sì|SpaceAfter=No
 3	!	!	PUNCT	FS	_	2	punct	_	_
 4	dritti	dritto	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
 5-6	alla	_	_	_	_	_	_	_	_
@@ -9534,7 +9538,7 @@
 1	NAPOLITANO	NAPOLITANO	PROPN	SP	_	2	nsubj	_	_
 2	NOMINA	nominare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	MARIO	mario	PROPN	SP	_	2	obj	_	_
-4	MONTI	MONTI	PROPN	SP	_	3	flat:name	_	_
+4	MONTI	Monti	PROPN	SP	_	3	flat:name	_	_
 5	SENATORE	senatore	NOUN	S	Gender=Masc|Number=Sing	2	xcomp	_	_
 6	A	a	ADP	E	_	7	case	_	_
 7	VITA	vita	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
@@ -10063,7 +10067,7 @@
 11	.	.	PUNCT	FS	_	9	punct	_	_
 12	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
-14	e	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	e	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	CorrectForm=è
 15	Kuyt	Kuyt	PROPN	SP	_	9	parataxis	_	_
 16-17	del	_	_	_	_	_	_	_	_
 16	di	di	ADP	E	_	18	case	_	_
@@ -10087,7 +10091,7 @@
 # sent_id = 4594
 # text = @user Siii il PD partito della costituzione? Ma se non rispettano neppure il diritto di opinione! Vedi la vicenda #Grillo #Napolitano
 1	@user	@user	SYM	SYM	_	5	vocative:mention	_	_
-2	Siii	Siii	INTJ	I	_	5	discourse	_	_
+2	Siii	sì	INTJ	I	_	5	discourse	_	_
 3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	PD	PD	PROPN	SP	_	5	nsubj	_	_
 5	partito	partito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
@@ -10233,7 +10237,7 @@
 18	rispondi	rispondere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	conj	_	_
 19	con	con	ADP	E	_	21	case	_	_
 20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	SI	sì	INTJ	I	_	18	obl	_	_
+21	SI	sì	INTJ	I	_	18	obl	_	CorrectForm=sì
 22	...	...	PUNCT	FS	_	18	punct	_	_
 23	http://t.co/VsR1CsGO	http://t.co/VsR1CsGO	SYM	X	_	10	dep	_	_
 
@@ -10373,7 +10377,7 @@
 # sent_id = 4736
 # text = MARIO MONTI E LA MASSONERIA: UNA RELAZIONE PERICOLOSA PER L'ITALIA. http://t.co/bmruCfpZ via @user
 1	MARIO	mario	PROPN	SP	_	0	root	_	_
-2	MONTI	MONTI	PROPN	SP	_	1	flat:name	_	_
+2	MONTI	Monti	PROPN	SP	_	1	flat:name	_	_
 3	E	e	CCONJ	CC	_	5	cc	_	_
 4	LA	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	MASSONERIA	massoneria	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
@@ -10649,29 +10653,30 @@
 7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 8	5	5	NUM	N	NumType=Card	10	nummod	_	_
 9	per	per	ADP	E	_	10	case	_	_
-10	centoConfermato	centoConfermato	X	X	_	0	root	_	_
-11-12	al	_	_	_	_	_	_	_	_
-11	a	a	ADP	E	_	14	case	_	_
-12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-13	5	5	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
-14	%	%	SYM	SYM	_	10	obl	_	_
-15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
-16	aggio	aggio	NOUN	S	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
-17	per	per	ADP	E	_	19	case	_	_
-18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	gestione	gestione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
-20-21	delle	_	_	_	_	_	_	_	_
-20	di	di	ADP	E	_	22	case	_	_
-21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
-22	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
-23	intestate	intestare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
-24-25	al	_	_	_	_	_	_	_	_
-24	a	a	ADP	E	_	26	case	_	_
-25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	Fondo	Fondo	PROPN	SP	_	23	obl	_	_
-27	unico	unico	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
-28	di	di	ADP	E	_	29	case	_	_
-29	giusti…	giusti…	X	X	_	26	nmod	_	_
+10	cento	cento	NOUN	S	_	0	root	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+11	Confermato	confermare	VERB	V	Tense=Past|VerbForm=Part	10	parataxis	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	5	5	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+15	%	%	SYM	SYM	_	11	obl	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	aggio	aggio	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	gestione	gestione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21-22	delle	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+24	intestate	intestare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Fondo	Fondo	PROPN	SP	_	24	obl	_	_
+28	unico	unico	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	giusti…	giusti…	X	X	_	27	nmod	_	_
 
 # sent_id = 4875
 # text = Pesante ' uno - due ' su #manovra da Bankitalia e Corte Conti: E' recessiva. Professor #Monti bisogna #cambiarelamanovra.
@@ -11143,7 +11148,7 @@
 # text = GOVERNO: MONTI, POLITICI IN ESECUTIVO? MIO DESIDERIO MA IMPORTANTE E' APPOGGIO PARTITI http://t.co/0HKjIrJb
 1	GOVERNO	governo	NOUN	S	Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
 2	:	:	PUNCT	FC	_	1	punct	_	_
-3	MONTI	MONTI	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+3	MONTI	Monti	PROPN	SP	_	5	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	5	punct	_	_
 5	POLITICI	politico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
 6	IN	in	ADP	E	_	7	case	_	_
@@ -11160,35 +11165,36 @@
 
 # sent_id = 5019
 # text = @user1 Ma perfavore! Bossi era un poraccio e s'è fatto un impero, #Grillo non ha problemi di soldi nè di come farseli @user2
-1	@user1	@user1	SYM	SYM	_	8	vocative:mention	_	_
-2	Ma	ma	CCONJ	CC	_	3	discourse	_	_
-3	perfavore	perfavore	X	X	_	8	discourse	_	SpaceAfter=No
-4	!	!	PUNCT	FS	_	3	punct	_	_
-5	Bossi	Bossi	PROPN	SP	_	8	nsubj	_	_
-6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
-7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	poraccio	poro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
-9	e	e	CCONJ	CC	_	12	cc	_	_
-10	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	SpaceAfter=No
-11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
-12	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
-13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	impero	impero	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
-15	,	,	PUNCT	FF	_	18	punct	_	_
-16	#Grillo	#Grillo	SYM	SYM	_	18	nsubj	_	_
-17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
-18	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-19	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
-20	di	di	ADP	E	_	21	case	_	_
-21	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
-22	nè	nè	CCONJ	CC	_	25	cc	_	_
-23	di	di	ADP	E	_	25	mark	_	_
-24	come	come	ADV	B	_	25	advmod	_	_
-25-27	farseli	_	_	_	_	_	_	_	_
-25	far	fare	VERB	V	VerbForm=Inf	21	conj	_	_
-26	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
-27	li	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
-28	@user2	@user2	SYM	SYM	_	8	vocative:mention	_	_
+1	@user1	@user1	SYM	SYM	_	9	vocative:mention	_	_
+2	Ma	ma	CCONJ	CC	_	4	discourse	_	_
+3	per	per	ADP	E	_	4	case	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+4	favore	favore	NOUN	S	_	9	discourse	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+6	Bossi	Bossi	PROPN	SP	_	9	nsubj	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	poraccio	poro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	SpaceAfter=No
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	impero	impero	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	#Grillo	#Grillo	SYM	SYM	_	19	nsubj	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+20	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+23	nè	nè	CCONJ	CC	_	26	cc	_	_
+24	di	di	ADP	E	_	26	mark	_	_
+25	come	come	ADV	B	_	26	advmod	_	_
+26-28	farseli	_	_	_	_	_	_	_	_
+26	far	fare	VERB	V	VerbForm=Inf	22	conj	_	_
+27	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+28	li	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+29	@user2	@user2	SYM	SYM	_	9	vocative:mention	_	_
 
 # sent_id = 5023
 # text = @user cosa devo dirti?
@@ -11379,21 +11385,22 @@
 
 # sent_id = 5107
 # text = L'Apple Store Porta di Roma aprirà il 21 aprile alle ore 10 http://t.co/z3D3LkJp
-1	L'Apple	L'Apple	X	X	_	2	nmod	_	_
-2	Store	Store	PROPN	SP	_	6	nsubj	_	_
-3	Porta	Porta	PROPN	SP	_	2	flat:name	_	_
-4	di	di	ADP	E	_	5	case	_	_
-5	Roma	roma	PROPN	SP	_	3	nmod	_	_
-6	aprirà	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	21	21	NUM	N	NumType=Card	6	obl	_	_
-9	aprile	aprile	NOUN	S	Gender=Masc	8	flat	_	_
-10-11	alle	_	_	_	_	_	_	_	_
-10	a	a	ADP	E	_	12	case	_	_
-11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
-12	ore	ora	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
-13	10	10	NUM	N	NumType=Card	12	nummod	_	_
-14	http://t.co/z3D3LkJp	http://t.co/z3D3LkJp	SYM	X	_	6	dep	_	_
+1	L'	lo	DET	RD	PronType=Art	2	det	_	SpaceAfter=No
+2	Apple	Apple	PROPN	SP	_	7	nsubj	_	_
+3	Store	Store	X	SW	_	2	flat	_	_
+4	Porta	porta	NOUN	S	_	2	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Roma	roma	PROPN	SP	_	4	nmod	_	_
+7	aprirà	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	21	21	NUM	N	NumType=Card	7	obl	_	_
+10	aprile	aprile	NOUN	S	Gender=Masc	9	flat	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	ore	ora	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+14	10	10	NUM	N	NumType=Card	13	nummod	_	_
+15	http://t.co/z3D3LkJp	http://t.co/z3D3LkJp	SYM	X	_	7	dep	_	_
 
 # sent_id = 5111
 # text = « Il governo di Mario Monti è un governo infame ha detto Bossi dal palco di piazza del Duomo Monti fuori dai coglioni ».
@@ -11520,7 +11527,7 @@
 6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 7	perché	perché	SCONJ	CS	_	13	mark	_	_
 8	a	a	ADP	E	_	9	case	_	_
-9	lei	egli	PRON	PE	Gender=Fem|Number=Sing|PronType=Prs	13	obl	_	_
+9	lei	lei	PRON	PE	Gender=Fem|Number=Sing|PronType=Prs	13	obl	_	_
 10	Nicolò	Nicolò	PROPN	SP	_	13	nsubj	_	_
 11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
 12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
@@ -11530,7 +11537,7 @@
 16	invece	invece	ADV	B	_	18	advmod	_	_
 17	a	a	ADP	E	_	18	case	_	_
 18	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	conj	_	_
-19	si	sì	INTJ	I	_	18	orphan	_	SpaceAfter=No
+19	si	sì	INTJ	I	_	18	orphan	_	CorrectForm=sì|SpaceAfter=No
 20	.	.	PUNCT	FS	_	18	punct	_	_
 
 # sent_id = 5178
@@ -12343,7 +12350,7 @@
 27	SCELTA	scelta	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
 28	DI	di	ADP	E	_	29	case	_	_
 29	MARIO	mario	PROPN	SP	_	26	obl	_	_
-30	MONTI	MONTI	PROPN	SP	_	29	flat:name	_	SpaceAfter=No
+30	MONTI	Monti	PROPN	SP	_	29	flat:name	_	SpaceAfter=No
 31	!	!	PUNCT	FS	_	29	punct	_	_
 32	#amaramentegiusto	#amaramentegiusto	SYM	SYM	_	8	parataxis:hashtag	_	_
 
@@ -12996,7 +13003,7 @@
 11	anche	anche	ADV	B	_	12	advmod	_	_
 12	risparmiare	risparmiare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	FS	_	12	punct	_	_
-14	Ma	ma	CCONJ	CC	_	20	discourse	_	_
+14	Ma	ma	CCONJ	CC	_	20	cc	_	_
 15	chi	chi	PRON	PR	PronType=Rel	20	nsubj	_	_
 16	c*	c*	INTJ	I	_	20	discourse	_	_
 17	c'	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	20	expl	_	SpaceAfter=No
@@ -13004,12 +13011,13 @@
 19	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
 20	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
 21	oggi	oggi	ADV	B	_	20	advmod	_	_
-22	1000euro	1000euro	X	X	_	20	dislocated	_	_
-23	contanti	contante	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
-24	?	?	PUNCT	FS	_	23	punct	_	_
-25	#manovra	#manovra	SYM	SYM	_	12	parataxis:hashtag	_	_
-26	#governo	#governo	SYM	SYM	_	12	parataxis:hashtag	_	_
-27	#monti	#monti	SYM	SYM	_	12	parataxis:hashtag	_	_
+22	1000	1000	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+23	euro	euro	X	X	_	20	dislocated	_	_
+24	contanti	contante	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+25	?	?	PUNCT	FS	_	24	punct	_	_
+26	#manovra	#manovra	SYM	SYM	_	12	parataxis:hashtag	_	_
+27	#governo	#governo	SYM	SYM	_	12	parataxis:hashtag	_	_
+28	#monti	#monti	SYM	SYM	_	12	parataxis:hashtag	_	_
 
 # sent_id = 5692
 # text = Ho la sensazione che il governo Monti, che nessuno vuole, avrà #fiducia quasi unanime. Lega esclusa, ovviamente.
@@ -13387,7 +13395,7 @@
 13	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
 14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
 15	decide	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
-16	lei	egli	PRON	PE	Gender=Fem|Number=Sing|PronType=Prs	15	nsubj	_	SpaceAfter=No
+16	lei	lei	PRON	PE	Gender=Fem|Number=Sing|PronType=Prs	15	nsubj	_	SpaceAfter=No
 17	.	.	PUNCT	FS	_	9	punct	_	_
 18	Certe	certo	DET	DI	PronType=Ind	19	det	_	_
 19	notti	notte	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
@@ -13747,7 +13755,7 @@
 9	#destra	#destra	SYM	SYM	_	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	FS	_	9	punct	_	_
 11	Come	Come	ADP	E	_	16	mark	_	_
-12	lui	egli	PRON	PE	Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+12	lui	lui	PRON	PE	Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
 14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 15	di	di	ADP	E	_	16	case	_	_
@@ -13870,20 +13878,20 @@
 # sent_id = 5762
 # text = IL GOVERNO MONTI - NAPOLITANO: IL GOVERNO DELLE LOGGE, IL GOVERNO LACRIME E SANGUE PER I POPOLI ED I LAVORATORI ,... http://t.co/1OBUAFzO
 1	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	GOVERNO	GOVERNO	PROPN	SP	_	0	root	_	_
-3	MONTI	MONTI	PROPN	SP	_	2	nmod	_	_
+2	GOVERNO	governo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	MONTI	Monti	PROPN	SP	_	2	nmod	_	_
 4	-	-	PUNCT	FB	_	5	punct	_	_
 5	NAPOLITANO	NAPOLITANO	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
 6	:	:	PUNCT	FC	_	2	punct	_	_
 7	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	GOVERNO	GOVERNO	PROPN	SP	_	2	parataxis:appos	_	_
+8	GOVERNO	governo	NOUN	S	Gender=Masc|Number=Sing	2	parataxis:appos	_	_
 9-10	DELLE	_	_	_	_	_	_	_	_
 9	DI	DI	ADP	E	_	11	case	_	_
 10	LE	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	LOGGE	loggia	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	FF	_	14	punct	_	_
 13	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	GOVERNO	GOVERNO	PROPN	SP	_	8	conj	_	_
+14	GOVERNO	governo	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
 15	LACRIME	lacrima	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
 16	E	e	CCONJ	CC	_	17	cc	_	_
 17	SANGUE	sangue	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
@@ -14168,7 +14176,7 @@
 25	comodo	comodo	ADJ	A	Gender=Masc|Number=Sing	24	xcomp	_	_
 26	anche	anche	ADV	B	_	28	advmod	_	_
 27	a	a	ADP	E	_	28	case	_	_
-28	lui	egli	PRON	PE	Number=Sing|Person=3|PronType=Prs	24	obl	_	_
+28	lui	lui	PRON	PE	Number=Sing|Person=3|PronType=Prs	24	obl	_	_
 
 # sent_id = 5877
 # text = A mio avviso giornalisti e politici sbagliano a parlare di #Grillo solo come populista e demagogo, rischiano solo di fare il suo gioco. #m5s
@@ -14287,7 +14295,7 @@
 19	Mario	mario	PROPN	SP	_	17	obl	_	_
 20	Monti	Monti	PROPN	SP	_	19	flat:name	_	_
 21	se	se	SCONJ	CS	_	25	mark	_	_
-22	lui	egli	PRON	PE	Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+22	lui	lui	PRON	PE	Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 23	voglia	volere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
 24	effettivamente	effettivamente	ADV	B	_	25	advmod	_	_
 25	governare	governare	VERB	V	VerbForm=Inf	17	ccomp	_	_
@@ -14664,7 +14672,7 @@
 6	BRACE	brace	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
 7	...	...	PUNCT	FS	_	3	punct	_	_
 8	GOVERNO	governo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
-9	MONTI	MONTI	PROPN	SP	_	8	nmod	_	_
+9	MONTI	Monti	PROPN	SP	_	8	nmod	_	_
 10	LONTANISSIMO	lontano	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	9	amod	_	_
 11-12	DAL	_	_	_	_	_	_	_	_
 11	DA	DA	ADP	E	_	13	case	_	_
