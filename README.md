@@ -50,6 +50,9 @@ Other references:
 * Cristina Bosco, Fabio Tamburini, Andrea Bolioli, Alessandro Mazzei. 2016. Overview of the EVALITA 2016 Part Of Speech on TWitter for ITAlian task. In: Proceedings of Evalita 2016
 
 # Changelog
+2021-11-15 v2.9
+* removed duplicate tweet from dev set
+
 2021-05-15 v2.8
 * changed lemma lui/lei
 * revised tutto ADV--> DET
