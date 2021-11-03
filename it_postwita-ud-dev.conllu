@@ -12051,43 +12051,6 @@
 12	rinnovabili	rinnovabile	ADJ	A	Number=Plur	5	nmod	_	_
 13	http://t.co/VxuVlLBT	http://t.co/VxuVlLBT	SYM	X	_	5	dep	_	_
 
-# sent_id = 2938
-# text = TT Twitter Italia 05:30: 1. #cinemaInChiesa 2. #serviziopubblico 3. #Grillo 4. Trota 5. Levon Helm 6. Damon and Elena 7. Prince Of Persia 8. Lega
-1	TT	TT	NOUN	S	_	0	root	_	_
-2	Twitter	Twitter	PROPN	SP	_	1	nmod	_	_
-3	Italia	italia	PROPN	SP	_	2	flat	_	_
-4	05:30	05:30	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
-5	:	:	PUNCT	FC	_	1	punct	_	_
-6	1	1	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
-7	.	.	PUNCT	FS	_	6	punct	_	_
-8	#cinemaInChiesa	#cinemaInChiesa	SYM	SYM	_	1	parataxis:hashtag	_	_
-9	2	2	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
-10	.	.	PUNCT	FS	_	9	punct	_	_
-11	#serviziopubblico	#serviziopubblico	SYM	SYM	_	8	list	_	_
-12	3	3	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
-13	.	.	PUNCT	FS	_	12	punct	_	_
-14	#Grillo	#Grillo	SYM	SYM	_	8	list	_	_
-15	4	4	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
-16	.	.	PUNCT	FS	_	15	punct	_	_
-17	Trota	Trota	PROPN	SP	_	8	list	_	_
-18	5	5	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
-19	.	.	PUNCT	FS	_	18	punct	_	_
-20	Levon	Levon	PROPN	SP	_	8	list	_	_
-21	Helm	Helm	PROPN	SP	_	20	flat:name	_	_
-22	6	6	NUM	N	NumType=Card	24	nummod	_	SpaceAfter=No
-23	.	.	PUNCT	FS	_	22	punct	_	_
-24	Damon	Damon	PROPN	SP	_	8	list	_	_
-25	and	and	X	SW	_	24	flat	_	_
-26	Elena	elena	PROPN	SP	_	24	flat	_	_
-27	7	7	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
-28	.	.	PUNCT	FS	_	27	punct	_	_
-29	Prince	Prince	X	SW	_	8	list	_	_
-30	Of	Of	X	SW	_	29	flat	_	_
-31	Persia	persia	PROPN	SP	_	29	flat	_	_
-32	8	8	NUM	N	NumType=Card	34	nummod	_	SpaceAfter=No
-33	.	.	PUNCT	FS	_	32	punct	_	_
-34	Lega	Lega	PROPN	SP	_	8	list	_	_
-
 # sent_id = 5432
 # text = La strategia di immagine di Mario Monti http://t.co/R23jNNWd
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_

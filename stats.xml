@@ -5,9 +5,9 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>6713</sentences><tokens>119376</tokens><words>124557</words><fused>5153</fused></total>
+    <total><sentences>6712</sentences><tokens>119342</tokens><words>124523</words><fused>5153</fused></total>
     <train><sentences>5368</sentences><tokens>95395</tokens><words>99537</words><fused>4121</fused></train>
-    <dev><sentences>671</sentences><tokens>11859</tokens><words>12344</words><fused>481</fused></dev>
+    <dev><sentences>670</sentences><tokens>11825</tokens><words>12310</words><fused>481</fused></dev>
     <test><sentences>674</sentences><tokens>12122</tokens><words>12676</words><fused>551</fused></test>
   </size>
   <lemmas unique="13617" /><!-- il, di, ., essere, a, ,, monti, governo, :, e, @user, che, uno, non, avere -->
@@ -22,15 +22,15 @@
     <tag name="CCONJ">2981</tag><!-- e, ma, o, però, quindi, cioè, né, ne, sia, ovvero -->
     <tag name="DET">14471</tag><!-- il, uno, questo, tutto, mio, suo, che, tuo, nostro, quello -->
     <tag name="INTJ">1350</tag><!-- grazie, no, sì, ciao, buongiorno, ok, eh, ah, forza, lol -->
-    <tag name="NOUN">17921</tag><!-- governo, retweet, politica, manovra, cosa, anno, vita, partito, giorno, crisi -->
-    <tag name="NUM">1422</tag><!-- 2, 3, 1, due, 5, 4, 7, 6, 10, 20 -->
+    <tag name="NOUN">17920</tag><!-- governo, retweet, politica, manovra, cosa, anno, vita, partito, giorno, crisi -->
+    <tag name="NUM">1413</tag><!-- 2, 3, due, 1, 5, 4, 7, 6, 10, 20 -->
     <tag name="PRON">6483</tag><!-- che, si, ci, mi, tutto, lo, ti, io, chi, quello -->
-    <tag name="PROPN">10498</tag><!-- monti, mario, italia, berlusconi, roma, pd, lega, pdl, twitter, napolitano -->
-    <tag name="PUNCT">15049</tag><!-- ., ,, :, ?, !, ..., ", ), (, - -->
+    <tag name="PROPN">10489</tag><!-- monti, mario, italia, berlusconi, roma, pd, lega, pdl, twitter, napolitano -->
+    <tag name="PUNCT">15040</tag><!-- ., ,, :, ?, !, ..., ", ), (, - -->
     <tag name="SCONJ">1591</tag><!-- che, se, perché, quando, come, mentre, dopo, appena, siccome, perche -->
-    <tag name="SYM">11628</tag><!-- @user, #grillo, #monti, @user1, @user2, #governo, #serviziopubblico, :), @user3, #piazzapulita -->
+    <tag name="SYM">11625</tag><!-- @user, #grillo, #monti, @user1, @user2, #governo, #serviziopubblico, :), @user3, #piazzapulita -->
     <tag name="VERB">11260</tag><!-- fare, avere, dire, essere, andare, vedere, sapere, dare, parlare, pensare -->
-    <tag name="X">992</tag><!-- of, Prince, i, live, and, a, on, the, in, me -->
+    <tag name="X">989</tag><!-- of, Prince, i, live, a, and, on, the, in, me -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="36">
@@ -47,7 +47,7 @@
     <feat name="Mood" value="Sub" upos="AUX,VERB">443</feat><!-- sia, fosse, faccia, abbia, siano, vada, stia, fossi, possa, dica -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,PRON,VERB">11671</feat><!-- i, le, ci, gli, tutti, sono, c', hanno, siamo, anni -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,VERB,X">39567</feat><!-- il, la, governo, è, l', un, mi, ha, lo, una -->
-    <feat name="NumType" value="Card" upos="NUM">1420</feat><!-- 2, 3, 1, due, 5, 4, 7, 6, 10, 20 -->
+    <feat name="NumType" value="Card" upos="NUM">1411</feat><!-- 2, 3, due, 1, 5, 4, 7, 6, 10, 20 -->
     <feat name="NumType" value="Ord" upos="ADJ">206</feat><!-- primo, prima, primi, prime, ennesimo, seconda, terzo, terza, ennesima, 1° -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">4270</feat><!-- mi, ci, ho, io, sono, c', me, siamo, noi, abbiamo -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB,X">1876</feat><!-- ti, sei, te, tu, vi, hai, voi, siete, avete, fai -->
@@ -99,17 +99,17 @@
     <dep name="expl:impers">191</dep>
     <dep name="expl:pass">56</dep>
     <dep name="fixed">238</dep>
-    <dep name="flat">451</dep>
+    <dep name="flat">446</dep>
     <dep name="flat:foreign">350</dep>
-    <dep name="flat:name">2684</dep>
+    <dep name="flat:name">2683</dep>
     <dep name="goeswith">9</dep>
     <dep name="iobj">941</dep>
-    <dep name="list">269</dep>
+    <dep name="list">262</dep>
     <dep name="mark">2780</dep>
-    <dep name="nmod">8505</dep>
+    <dep name="nmod">8504</dep>
     <dep name="nsubj">5609</dep>
     <dep name="nsubj:pass">206</dep>
-    <dep name="nummod">1086</dep>
+    <dep name="nummod">1077</dep>
     <dep name="obj">5098</dep>
     <dep name="obl">5106</dep>
     <dep name="obl:agent">153</dep>
@@ -117,12 +117,12 @@
     <dep name="parataxis">5024</dep>
     <dep name="parataxis:appos">126</dep>
     <dep name="parataxis:discourse">25</dep>
-    <dep name="parataxis:hashtag">2253</dep>
+    <dep name="parataxis:hashtag">2252</dep>
     <dep name="parataxis:insert">41</dep>
     <dep name="parataxis:nsubj">38</dep>
     <dep name="parataxis:obj">82</dep>
-    <dep name="punct">15049</dep>
-    <dep name="root">6713</dep>
+    <dep name="punct">15040</dep>
+    <dep name="root">6712</dep>
     <dep name="vocative">481</dep>
     <dep name="vocative:mention">2578</dep>
     <dep name="xcomp">940</dep>
