@@ -6,7 +6,7 @@ PoSTWITA-UD is a collection of Italian tweets annotated in Universal Dependencie
 # Introduction
 
 PoSTWITA-UD has been created by enriching the dataset used for the EVALITA 2016 task of Part-of-Speech tagging of Social Media (see (Bosco et al. 2016)).
-The original corpus consists of 6,438 tweets of the development set (114,967 tokens) and 300 tweets of the test set (4,759 tokens), annotated at PoS level only. 
+The original corpus consists of 6,438 tweets of the development set (114,967 tokens) and 300 tweets of the test set (4,759 tokens), annotated at POS level only. 
 The conversion and syntactic annotation process was carried out through alternating steps of automatic scripting and manual revision, and finally with some out-of-domain parsing experiments. Parsing results also underwent a manual revision by two independent annotators.
  
 **New since v2.3**: In order to meet the requirements of the EU General Data Protection Regulation (GDPR), entered into force on May 2018, the resource content has been pseudonymized, by substituting original tweet IDs and user names.
@@ -40,16 +40,27 @@ Category=value feature pairs: 35
 
 If you use the resource please cite the following:
 
-* Manuela Sanguinetti, Cristina Bosco, Alberto Lavelli, Alessandro Mazzei, Fabio Tamburini. 2018. PoSTWITA-UD: an Italian Twitter Treebank in Universal Dependencies. Accepted paper at LREC 2018
+* Manuela Sanguinetti, Cristina Bosco, Alberto Lavelli, Alessandro Mazzei, Fabio Tamburini. 2018. PoSTWITA-UD: an Italian Twitter Treebank in Universal Dependencies. Proceedings of LREC 2018
 
 
 Other references:
+* Manuela Sanguinetti, Cristina Bosco, Lauren Cassidy, Özlem Çetinoğlu, Alessandra T. Cignarella, Teresa Lynn, Ines Rehbein, Joseph Ruppenhofer, Djamé Seddah, Amir Zeldes. Treebanking user-generated content: a UD based overview of guidelines, corpora and unified recommendations. Language Resources and Evaluation, 2022
 
 * Manuela Sanguinetti, Cristina Bosco, Alessandro Mazzei, Alberto Lavelli, Fabio Tamburini. 2017. Annotating Italian Social Media Texts in Universal Dependencies. In: Proceedings of the Fourth International Conference on Dependency Linguistics (Depling 2017), Pisa (Italy), pp. 229–239
 
 * Cristina Bosco, Fabio Tamburini, Andrea Bolioli, Alessandro Mazzei. 2016. Overview of the EVALITA 2016 Part Of Speech on TWitter for ITAlian task. In: Proceedings of Evalita 2016
 
 # Changelog
+2022-11-15 v2.11
+* revised ccomp/parataxis usage for reported speech
+* revised goeswith
+* vocative:mention --> vocative
+* discourse:emo --> discourse
+* non-syntactic RTs: NOUN --> SYM, dep --> parataxis
+* non-syntactic URLs: dep --> parataxis
+* markup symbols | and \*: SYM --> PUNCT, dep --> punct
+* other minor corrections to pass validation
+
 2021-11-15 v2.9
 * removed duplicate tweet from dev set
 
@@ -59,7 +70,7 @@ Other references:
 * fixed wrong xpos
 * fixed nsubj with verb "succedere"
 * revised tokenization of wrongly merged tokens 
-* added CorrectForm and CorrectSpaceAfter features (not systematic, to be completed)
+* added CorrectForm and CorrectSpaceAfter features (non-systematic, to be completed)
 * fixed non-projective punctuation
 * various fixes
 
