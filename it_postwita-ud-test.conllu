@@ -635,17 +635,16 @@
 13	Roma	roma	PROPN	SP	_	6	parataxis	_	SpaceAfter=No
 14	,	,	PUNCT	FF	_	13	punct	_	_
 15	10	10	NUM	N	NumType=Card	13	nmod	_	_
-16	nov	novembre	NOUN	S	_	15	flat	_	SpaceAfter=No
-17	.	.	PUNCT	FS	_	13	punct	_	_
-18	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
-19	Adnkronos	Adnkronos	PROPN	SP	_	25	parataxis	_	SpaceAfter=No
-20	)	)	PUNCT	FB	_	19	punct	_	SpaceAfter=No
-21	?	?	PUNCT	FS	_	19	punct	_	_
-22	Mario	mario	PROPN	SP	_	25	nsubj	_	_
-23	Monti	Monti	PROPN	SP	_	22	flat:name	_	_
-24	e'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
-25	l...	l...	X	X	_	6	parataxis	_	_
-26	http://t.co/pqImjVew	http://t.co/pqImjVew	SYM	X	_	6	parataxis	_	_
+16	nov.	novembre	NOUN	S	_	15	flat	_	_
+17	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	Adnkronos	Adnkronos	PROPN	SP	_	24	parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	18	punct	_	_
+21	Mario	mario	PROPN	SP	_	24	nsubj	_	_
+22	Monti	Monti	PROPN	SP	_	21	flat:name	_	_
+23	e'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	l...	l...	X	X	_	6	parataxis	_	_
+25	http://t.co/pqImjVew	http://t.co/pqImjVew	SYM	X	_	6	parataxis	_	_
 
 # sent_id = 232
 # text = governo #monti: più equità o più equitalia?
