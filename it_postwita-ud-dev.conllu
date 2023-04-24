@@ -6145,16 +6145,15 @@
 19	Roma	roma	PROPN	SP	_	10	parataxis	_	SpaceAfter=No
 20	,	,	PUNCT	FF	_	19	punct	_	_
 21	13	13	NUM	N	NumType=Card	19	nmod	_	_
-22	nov	novembre	NOUN	S	_	21	flat	_	SpaceAfter=No
-23	.	.	PUNCT	FS	_	22	punct	_	SpaceAfter=No
-24	?	?	PUNCT	FS	_	26	punct	_	_
-25	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
-26	Adnkronos	Adnkronos	PROPN	SP	_	19	appos	_	SpaceAfter=No
-27	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
-28	?	?	PUNCT	FS	_	26	punct	_	_
-29	"	"	PUNCT	FB	_	26	punct	_	_
-30	...	...	PUNCT	FS	_	26	punct	_	_
-31	http://t.co/EUSKgkAW	http://t.co/EUSKgkAW	SYM	X	_	10	parataxis	_	_
+22	nov.	novembre	NOUN	S	_	21	flat	_	SpaceAfter=No
+23	?	?	PUNCT	FS	_	25	punct	_	_
+24	(	(	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	Adnkronos	Adnkronos	PROPN	SP	_	19	appos	_	SpaceAfter=No
+26	)	)	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+27	?	?	PUNCT	FS	_	25	punct	_	_
+28	"	"	PUNCT	FB	_	25	punct	_	_
+29	...	...	PUNCT	FS	_	25	punct	_	_
+30	http://t.co/EUSKgkAW	http://t.co/EUSKgkAW	SYM	X	_	10	parataxis	_	_
 
 # sent_id = 2669
 # text = " E non è detto che non ci si riunisca, nella vita non si può mai dire " <3 #sacre http://t.co/9ucTyNllxx
@@ -13064,19 +13063,18 @@
 15	Bruxelles	bruxelles	PROPN	SP	_	5	parataxis	_	SpaceAfter=No
 16	,	,	PUNCT	FF	_	15	punct	_	_
 17	10	10	NUM	N	NumType=Card	18	nummod	_	_
-18	nov	novembre	NOUN	S	_	15	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	FS	_	15	punct	_	SpaceAfter=No
-20	?	?	PUNCT	FS	_	22	punct	_	_
-21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
-22	Adnkronos	Adnkronos	PROPN	SP	_	5	parataxis	_	SpaceAfter=No
-23	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
-24	?	?	PUNCT	FS	_	22	punct	_	_
-25	"	"	PUNCT	FB	_	26	punct	_	_
-26	Mario	mario	PROPN	SP	_	5	parataxis	_	_
-27	Monti	Monti	PROPN	SP	_	26	flat:name	_	_
-28	e'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
-29	...	...	PUNCT	FS	_	26	punct	_	_
-30	http://t.co/3F90aBcN	http://t.co/3F90aBcN	SYM	X	_	5	parataxis	_	_
+18	nov.	novembre	NOUN	S	_	15	nmod	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	21	punct	_	_
+20	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	Adnkronos	Adnkronos	PROPN	SP	_	5	parataxis	_	SpaceAfter=No
+22	)	)	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+23	?	?	PUNCT	FS	_	21	punct	_	_
+24	"	"	PUNCT	FB	_	25	punct	_	_
+25	Mario	mario	PROPN	SP	_	5	parataxis	_	_
+26	Monti	Monti	PROPN	SP	_	25	flat:name	_	_
+27	e'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+28	...	...	PUNCT	FS	_	25	punct	_	_
+29	http://t.co/3F90aBcN	http://t.co/3F90aBcN	SYM	X	_	5	parataxis	_	_
 
 # sent_id = 6345
 # text = Lo amo. Asd. http://t.co/A3wV2V9qXo
