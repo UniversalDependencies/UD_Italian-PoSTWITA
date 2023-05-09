@@ -5,13 +5,13 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>6712</sentences><tokens>119346</tokens><words>124527</words><fused>5153</fused></total>
-    <train><sentences>5368</sentences><tokens>95398</tokens><words>99540</words><fused>4121</fused></train>
-    <dev><sentences>670</sentences><tokens>11825</tokens><words>12310</words><fused>481</fused></dev>
-    <test><sentences>674</sentences><tokens>12123</tokens><words>12677</words><fused>551</fused></test>
+    <total><sentences>6712</sentences><tokens>119334</tokens><words>124515</words><fused>5153</fused></total>
+    <train><sentences>5368</sentences><tokens>95389</tokens><words>99531</words><fused>4121</fused></train>
+    <dev><sentences>670</sentences><tokens>11823</tokens><words>12308</words><fused>481</fused></dev>
+    <test><sentences>674</sentences><tokens>12122</tokens><words>12676</words><fused>551</fused></test>
   </size>
   <lemmas unique="13547" /><!-- il, di, ., essere, a, ,, monti, governo, :, e, @user, che, uno, non, avere -->
-  <forms unique="17572" /><!-- il, di, ., a, ,, la, monti, governo, :, e, @user, che, è, non, in -->
+  <forms unique="17574" /><!-- il, di, ., a, ,, la, monti, governo, :, e, @user, che, è, non, in -->
   <fusions unique="459" /><!-- del, della, al, alla, dei, nel, sul, dal, dell', all', alle, ai, delle, sulla, nella -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
@@ -26,7 +26,7 @@
     <tag name="NUM">1414</tag><!-- 2, 3, due, 1, 5, 4, 7, 6, 10, 20 -->
     <tag name="PRON">6486</tag><!-- che, si, ci, mi, tutto, lo, ti, io, chi, quello -->
     <tag name="PROPN">10486</tag><!-- monti, mario, italia, berlusconi, roma, pd, lega, pdl, twitter, napolitano -->
-    <tag name="PUNCT">15258</tag><!-- ., ,, :, ?, !, ..., ", ), (, - -->
+    <tag name="PUNCT">15246</tag><!-- ., ,, :, ?, !, ..., ", ), (, - -->
     <tag name="SCONJ">1590</tag><!-- che, se, perché, quando, come, mentre, dopo, appena, siccome, perche -->
     <tag name="SYM">11749</tag><!-- @user, #grillo, #monti, @user1, @user2, RT, #governo, #serviziopubblico, :), @user3 -->
     <tag name="VERB">11265</tag><!-- fare, avere, dire, essere, andare, vedere, sapere, dare, parlare, pensare -->
@@ -123,7 +123,7 @@
     <dep name="parataxis:insert">41</dep>
     <dep name="parataxis:nsubj">38</dep>
     <dep name="parataxis:obj">22</dep>
-    <dep name="punct">15258</dep>
+    <dep name="punct">15246</dep>
     <dep name="reparandum">1</dep>
     <dep name="root">6712</dep>
     <dep name="vocative">3066</dep>
