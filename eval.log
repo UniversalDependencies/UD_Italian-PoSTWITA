@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Italian-PoSTWITA:
-commit fb7ccc6db34c0f2339afd47cf61a6f0f21ce6825
-Merge: 5de21c4 f6a0366
+commit 768842919e88b5cea985144e5efa8214ed97c6d7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 10:51:37 2023 +0200
 Size: counted 124515 of 124515 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.64885238115022.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.5.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.1.
 Udapi:
-               TOTAL        511
-Udapi: found 511 bugs.
+               TOTAL        510
+Udapi: found 510 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 124515 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-PoSTWITA/it_postwita-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.698407224305432) = 0.179078775462931
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.847058823529412) = 0.065158371040724
-(weight=0.307692307692308) * (score{udapi}=0.958960767778982) = 0.295064851624302
+(weight=0.307692307692308) * (score{udapi}=0.959041079388026) = 0.295089562888623
 (weight=0.0769230769230769) * (score{udeprels}=0.0972972972972973) = 0.00748440748440748
-(TOTAL score=0.660285651464552) * (availability=1) * (validity=1) = 0.660285651464552
+(TOTAL score=0.660310362728873) * (availability=1) * (validity=1) = 0.660310362728873
 STARS = 3.5
-UD_Italian-PoSTWITA	0.660285651464552	3.5
+UD_Italian-PoSTWITA	0.660310362728873	3.5
