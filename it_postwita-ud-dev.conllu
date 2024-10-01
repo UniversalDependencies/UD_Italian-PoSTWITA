@@ -572,7 +572,7 @@
 1	I	I	X	SW	Foreign=Yes	7	dep	_	_
 2	liked	liked	X	SW	Foreign=Yes	1	flat:foreign	_	_
 3	a	a	X	SW	Foreign=Yes	1	flat:foreign	_	_
-4	@user	@user	SYM	SYM	_	1	flat:foreign	_	_
+4	@user	@user	SYM	SYM	_	1	flat	_	_
 5	video	video	X	SW	Foreign=Yes	1	flat:foreign	_	_
 6	http://t.co/pGZjRbfi	http://t.co/pGZjRbfi	SYM	X	_	7	parataxis	_	_
 7	Cominciano	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1259,7 +1259,7 @@
 15	Martone	Martone	PROPN	SP	_	14	nmod	_	SpaceAfter=No
 16	:	:	PUNCT	FC	_	11	punct	_	_
 17	#governo	#governo	SYM	SYM	_	10	parataxis:hashtag	_	_
-18	#monti	#monti	SYM	SYM	_	17	flat:foreign	_	_
+18	#monti	#monti	SYM	SYM	_	17	nmod	_	_
 19	http://t.co/da70biWc	http://t.co/da70biWc	SYM	X	_	10	parataxis	_	_
 20	via	via	ADP	E	_	21	case	_	_
 21	@user	@user	SYM	SYM	_	10	vocative	_	_
@@ -4050,9 +4050,9 @@
 8	su	su	X	SW	Foreign=Yes	5	flat:foreign	_	_
 9	favor	favor	X	SW	Foreign=Yes	5	flat:foreign	_	_
 10	en	en	X	SW	Foreign=Yes	5	flat:foreign	_	_
-11	Italia	italia	PROPN	SP	_	5	flat:foreign	_	_
+11	Italia	italia	X	SW	Foreign=Yes	5	flat:foreign	_	_
 12	El	El	X	SW	Foreign=Yes	5	flat:foreign	_	_
-13	Universal.mx	Universal.mx	SYM	X	_	5	flat:foreign	_	_
+13	Universal.mx	Universal.mx	X	SW	Foreign=Yes	5	flat:foreign	_	_
 14	http://t.co/myODb8Nr	http://t.co/myODb8Nr	SYM	X	_	1	parataxis	_	_
 15	#Italia	#Italia	SYM	SYM	_	1	parataxis:hashtag	_	_
 
@@ -4191,9 +4191,9 @@
 # sent_id = 1749
 # text = @user #Grillo ennesimo scacco alla politica: prima i tecnici poi i giullari. Sarebbe preferibile più competenza nel proprio settore.
 1	@user	@user	SYM	SYM	_	0	root	_	_
-2	#Grillo	#Grillo	SYM	SYM	_	1	flat:foreign	_	_
+2	#Grillo	#Grillo	SYM	SYM	_	1	parataxis:hashtag	_	_
 3	ennesimo	ennesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
-4	scacco	scacco	NOUN	S	Gender=Masc|Number=Sing	1	flat:foreign	_	_
+4	scacco	scacco	NOUN	S	Gender=Masc|Number=Sing	1	parataxis	_	_
 5-6	alla	_	_	_	_	_	_	_	_
 5	a	a	ADP	E	_	7	case	_	_
 6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -9886,7 +9886,7 @@
 # sent_id = 4632
 # text = RT @user: GENITORI VS FIGLI pt. 44 * dormono, io cambio canale, si svegliano * ' perchè cambi? stavo guardando ' LOST IN CONFUSION, LIKE AN I…
 1	RT	RT	SYM	SYM	_	4	parataxis	_	_
-2	@user	@user	SYM	SYM	_	1	flat:foreign	_	SpaceAfter=No
+2	@user	@user	SYM	SYM	_	1	dep	_	SpaceAfter=No
 3	:	:	PUNCT	FC	_	1	punct	_	_
 4	GENITORI	genitore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
 5	VS	VS	X	X	_	6	case	_	_
@@ -13251,7 +13251,7 @@
 6	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
 7	made	made	X	SW	Foreign=Yes	4	amod	_	_
 8	in	in	X	SW	Foreign=Yes	7	flat:foreign	_	_
-9	Italy	italy	PROPN	SP	_	8	flat:foreign	_	_
+9	Italy	italy	X	SW	Foreign=Yes	8	flat:foreign	_	_
 10	-	-	PUNCT	FB	_	18	punct	_	_
 11	Eccolo	Eccolo	INTJ	I	_	12	discourse	_	_
 12	qui	qui	ADV	B	_	18	advmod	_	SpaceAfter=No
@@ -13857,10 +13857,10 @@
 
 # sent_id = 6368
 # text = @user hahahaha seriamente, quanto love!
-1	@user	@user	SYM	SYM	_	5	vocative	_	_
-2	hahahaha	hahahaha	INTJ	I	_	5	discourse	_	_
-3	seriamente	seriamente	ADV	B	_	5	advmod	_	SpaceAfter=No
-4	,	,	PUNCT	FF	_	5	punct	_	_
+1	@user	@user	SYM	SYM	_	6	vocative	_	_
+2	hahahaha	hahahaha	INTJ	I	_	6	discourse	_	_
+3	seriamente	seriamente	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
 5	quanto	quanto	DET	DE	PronType=Exc	6	det	_	_
 6	love	love	X	SW	Foreign=Yes	0	root	_	SpaceAfter=No
 7	!	!	PUNCT	FS	_	6	punct	_	_
@@ -14594,15 +14594,15 @@
 # sent_id = 6465
 # text = bit.ly/tEXrrY #finanza #blog #crisi #governo #monti #tasse #mario #berlusconi #Roma
 1	bit.ly/tEXrrY	bit.ly/tEXrrY	SYM	X	_	0	root	_	_
-2	#finanza	#finanza	SYM	SYM	_	1	flat:foreign	_	_
-3	#blog	#blog	SYM	SYM	_	1	flat:foreign	_	_
-4	#crisi	#crisi	SYM	SYM	_	1	flat:foreign	_	_
-5	#governo	#governo	SYM	SYM	_	1	flat:foreign	_	_
-6	#monti	#monti	SYM	SYM	_	1	flat:foreign	_	_
-7	#tasse	#tasse	SYM	SYM	_	1	flat:foreign	_	_
-8	#mario	#mario	SYM	SYM	_	1	flat:foreign	_	_
-9	#berlusconi	#berlusconi	SYM	SYM	_	1	flat:foreign	_	_
-10	#Roma	#Roma	SYM	SYM	_	1	flat:foreign	_	_
+2	#finanza	#finanza	SYM	SYM	_	1	flat	_	_
+3	#blog	#blog	SYM	SYM	_	1	flat	_	_
+4	#crisi	#crisi	SYM	SYM	_	1	flat	_	_
+5	#governo	#governo	SYM	SYM	_	1	flat	_	_
+6	#monti	#monti	SYM	SYM	_	1	flat	_	_
+7	#tasse	#tasse	SYM	SYM	_	1	flat	_	_
+8	#mario	#mario	SYM	SYM	_	1	flat	_	_
+9	#berlusconi	#berlusconi	SYM	SYM	_	1	flat	_	_
+10	#Roma	#Roma	SYM	SYM	_	1	flat	_	_
 
 # sent_id = 6208
 # text = Giarda 12mld di riduzione spesa +18mld di tasse #governo #monti #italia #manovra
