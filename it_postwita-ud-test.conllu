@@ -1487,7 +1487,7 @@
 5	Come	come	ADV	B	_	8	advmod	_	_
 6	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	più	più	ADV	B	_	8	advmod	_	_
-8	comics	comics	X	SW	_	3	parataxis:obj	_	_
+8	comics	comics	X	SW	Foreign=Yes	3	parataxis:obj	_	_
 9	se	se	SCONJ	CS	_	10	mark	_	_
 10	tornassi	tornare	VERB	V	Mood=Sub|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	8	advcl	_	_
 11	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
@@ -1610,11 +1610,11 @@
 
 # sent_id = 681
 # text = I uploaded a @user video http://t.co/j6hIyiBO Mario Monti approva il blitz di Cortina e ringrazia 07.01.12
-1	I	i	X	SW	_	0	root	_	_
-2	uploaded	uploaded	X	SW	_	1	flat:foreign	_	_
-3	a	a	X	SW	_	1	flat:foreign	_	_
+1	I	i	X	SW	Foreign=Yes	0	root	_	_
+2	uploaded	uploaded	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	a	a	X	SW	Foreign=Yes	1	flat:foreign	_	_
 4	@user	@user	SYM	SYM	_	1	flat:foreign	_	_
-5	video	video	X	SW	_	1	flat:foreign	_	_
+5	video	video	X	SW	Foreign=Yes	1	flat:foreign	_	_
 6	http://t.co/j6hIyiBO	http://t.co/j6hIyiBO	SYM	X	_	1	parataxis	_	_
 7	Mario	mario	PROPN	SP	_	9	nsubj	_	_
 8	Monti	Monti	PROPN	SP	_	7	flat:name	_	_
@@ -2001,7 +2001,7 @@
 14	Oddio	oddio	INTJ	I	_	19	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	FF	_	19	punct	_	_
 16	e	e	CCONJ	CC	_	19	cc	_	_
-17	mo'	mo'	X	SW	_	19	dep	_	_
+17	mo'	mo'	X	SW	Foreign=Yes	19	dep	_	_
 18	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	nsubj	_	_
 19	chi	chi	PRON	PR	PronType=Rel	12	parataxis:obj	_	_
 20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	SpaceAfter=No
@@ -2459,16 +2459,16 @@
 1	@user	@user	SYM	SYM	_	4	vocative	_	_
 2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	4	vocative	_	_
 3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
-4	to	to	X	SW	_	0	root	_	_
-5	saindo	saindo	X	SW	_	4	flat:foreign	_	SpaceAfter=No
+4	to	to	X	SW	Foreign=Yes	0	root	_	_
+5	saindo	saindo	X	SW	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	4	punct	_	_
-7	preciso	precisare	X	SW	_	4	flat:foreign	_	_
-8	urgentemente	urgentemente	X	SW	_	4	flat:foreign	_	_
-9	comer	comer	X	SW	_	4	flat:foreign	_	_
-10	kkkk	kkkk	X	SW	_	4	flat:foreign	_	_
-11	bjss	bjss	X	SW	_	4	flat:foreign	_	_
+7	preciso	precisare	X	SW	Foreign=Yes	4	flat:foreign	_	_
+8	urgentemente	urgentemente	X	SW	Foreign=Yes	4	flat:foreign	_	_
+9	comer	comer	X	SW	Foreign=Yes	4	flat:foreign	_	_
+10	kkkk	kkkk	X	SW	Foreign=Yes	4	flat:foreign	_	_
+11	bjss	bjss	X	SW	Foreign=Yes	4	flat:foreign	_	_
 12	te	te	X	SW	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	flat:foreign	_	_
-13	amo	amare	X	SW	_	4	flat:foreign	_	_
+13	amo	amare	X	SW	Foreign=Yes	4	flat:foreign	_	_
 14	*-*	*-*	SYM	SYM	_	4	discourse	_	_
 
 # sent_id = 1090
@@ -2715,7 +2715,7 @@
 3-4	alla	_	_	_	_	_	_	_	_
 3	a	a	ADP	E	_	5	case	_	_
 4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	styles	styles	X	SW	_	2	nmod	_	SpaceAfter=No
+5	styles	styles	X	SW	Foreign=Yes	2	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	FS	_	2	punct	_	_
 
 # sent_id = 1138
@@ -2774,7 +2774,7 @@
 # text = Betty la fea mi ha traumatizzata ahahaha o.o
 1	Betty	Betty	PROPN	SP	_	6	nsubj	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	flat:name	_	_
-3	fea	fea	X	SW	_	1	flat:name	_	_
+3	fea	fea	X	SW	Foreign=Yes	1	flat:name	_	_
 4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
 5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	traumatizzata	traumatizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -3165,7 +3165,7 @@
 
 # sent_id = 1330
 # text = Happy 11/11/11, speriamo ci sia una svolta sul Governo Monti ..
-1	Happy	happy	X	SW	_	4	discourse	_	_
+1	Happy	happy	X	SW	Foreign=Yes	4	discourse	_	_
 2	11/11/11	11/11/11	NUM	N	NumType=Card	1	flat	_	SpaceAfter=No
 3	,	,	PUNCT	FF	_	1	punct	_	_
 4	speriamo	sperare	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3454,7 +3454,7 @@
 3	Giarda	Giarda	PROPN	SP	_	6	nsubj	_	_
 4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Wolf	Wolf	X	SW	_	0	root	_	_
+6	Wolf	Wolf	X	SW	Foreign=Yes	0	root	_	_
 7-8	del	_	_	_	_	_	_	_	_
 7	di	di	ADP	E	_	9	case	_	_
 8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -3608,8 +3608,8 @@
 2	hahahahha	hahahahha	INTJ	I	_	5	discourse	_	_
 3	ma	ma	CCONJ	CC	_	5	cc	_	_
 4	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
-5	si	si	X	SW	_	0	root	_	_
-6	scem	scemo	X	SW	_	5	flat:foreign	_	_
+5	si	si	X	SW	Foreign=Yes	0	root	_	_
+6	scem	scemo	X	SW	Foreign=Yes	5	flat:foreign	_	_
 7	uu	uu	INTJ	I	_	5	discourse	_	_
 8	*	*	PUNCT	FB	_	9	punct	_	_
 9	ride	ridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
@@ -3977,7 +3977,7 @@
 2	ribadisce	ribadire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	FC	_	2	punct	_	_
 4	«	«	PUNCT	FB	_	5	punct	_	_
-5	Aut-aut	Aut-aut	X	SW	_	2	parataxis:obj	_	_
+5	Aut-aut	Aut-aut	X	SW	Foreign=Yes	2	parataxis:obj	_	_
 6	a	a	ADP	E	_	7	case	_	_
 7	Silvio	silvio	PROPN	SP	_	5	nmod	_	_
 8	o	o	CCONJ	CC	_	9	cc	_	_
@@ -4102,7 +4102,7 @@
 13	candidature	candidatura	NOUN	S	Gender=Fem|Number=Plur	18	nsubj:pass	_	_
 14	e	e	CCONJ	CC	_	16	cc	_	_
 15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	desiderata	desideratum	X	SW	_	13	conj	_	_
+16	desiderata	desideratum	X	SW	Foreign=Yes	13	conj	_	_
 17	vanno	andare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
 18	stroncati	stroncare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 19	subito	subito	ADV	B	_	18	advmod	_	SpaceAfter=No
@@ -4117,7 +4117,7 @@
 5	SUBITO	subito	ADV	B	_	4	advmod	_	_
 6	CHRISTIAN	CHRISTIAN	PROPN	SP	_	1	parataxis	_	_
 7	MARTYR	MARTYR	PROPN	SP	_	6	flat:name	_	_
-8	MASSACRE	MASSACRE	X	SW	_	6	flat:foreign	_	_
+8	MASSACRE	MASSACRE	X	SW	Foreign=Yes	6	flat:foreign	_	_
 9	http://t.co/XnffsuhG	http://t.co/XnffsuhG	SYM	X	_	1	parataxis	_	_
 
 # sent_id = 1752
@@ -4386,8 +4386,8 @@
 23	,	,	PUNCT	FF	_	22	punct	_	_
 24	NON	non	ADV	BN	PronType=Neg	25	advmod	_	_
 25	ROMPETE	rompere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
-26	LI	li	X	SW	_	25	obj	_	_
-27	COJONI	cojoni	X	SW	_	26	flat:foreign	_	SpaceAfter=No
+26	LI	li	X	SW	Foreign=Yes	25	obj	_	_
+27	COJONI	cojoni	X	SW	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
 28	!	!	PUNCT	FS	_	25	punct	_	_
 29	#fatepresto	#fatepresto	SYM	SYM	_	8	parataxis:hashtag	_	_
 
@@ -4407,7 +4407,7 @@
 12	w	w	X	X	_	9	nmod	_	SpaceAfter=No
 13	/	/	PUNCT	FF	_	12	punct	_	SpaceAfter=No
 14	14	14	NUM	N	NumType=Card	15	nummod	_	_
-15	others	others	X	SW	_	12	flat:foreign	_	SpaceAfter=No
+15	others	others	X	SW	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
 16	)	)	PUNCT	FB	_	9	punct	_	_
 17	http://t.co/1ai88kJ7	http://t.co/1ai88kJ7	SYM	X	_	2	parataxis	_	_
 
@@ -4541,7 +4541,7 @@
 11	servo	servo	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
 12	fedele	fedele	ADJ	A	Number=Sing	11	amod	_	_
 13	di	di	ADP	E	_	14	case	_	_
-14	Mr.	Mr.	X	SW	_	11	nmod	_	_
+14	Mr.	Mr.	X	SW	Foreign=Yes	11	nmod	_	_
 15	Rockefeller	Rockefeller	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
 16	.	.	PUNCT	FS	_	1	punct	_	_
 17	Fuori	fuori	ADP	E	_	18	case	_	_
@@ -5142,7 +5142,7 @@
 23	oggi	oggi	ADV	B	_	21	advmod	_	SpaceAfter=No
 24	.	.	PUNCT	FS	_	11	punct	_	_
 25	NO	NO	INTJ	I	_	7	discourse	_	_
-26	COMMENT	comment	X	SW	_	25	flat:foreign	_	SpaceAfter=No
+26	COMMENT	comment	X	SW	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
 27	!	!	PUNCT	FS	_	25	punct	_	_
 
 # sent_id = 2208
@@ -5485,8 +5485,8 @@
 1	#Grillo	#Grillo	SYM	SYM	_	4	nsubj	_	_
 2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	best	best	X	SW	_	0	root	_	_
-5	teller	teller	X	SW	_	4	flat:foreign	_	SpaceAfter=No
+4	best	best	X	SW	Foreign=Yes	0	root	_	_
+5	teller	teller	X	SW	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	10	punct	_	_
 7	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
 8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
@@ -6751,9 +6751,9 @@
 24	ma	ma	CCONJ	CC	_	27	cc	_	_
 25	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
 26	sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	cop	_	_
-27	lovatic	lovatic	X	SW	_	23	conj	_	SpaceAfter=No
+27	lovatic	lovatic	X	SW	Foreign=Yes	23	conj	_	SpaceAfter=No
 28	,	,	PUNCT	FF	_	29	punct	_	_
-29	belieber	belieber	X	SW	_	27	conj	_	_
+29	belieber	belieber	X	SW	Foreign=Yes	27	conj	_	_
 30	ecc	eccetera	ADV	B	_	27	conj	_	_
 31	..	..	PUNCT	FS	_	16	punct	_	_
 
@@ -7029,8 +7029,8 @@
 14	#piazzapulita	#piazzapulita	SYM	SYM	_	8	list	_	_
 15	4	4	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
 16	.	.	PUNCT	FS	_	15	punct	_	_
-17	Prince	Prince	X	SW	_	8	list	_	_
-18	Of	Of	X	SW	_	17	flat	_	_
+17	Prince	Prince	X	SW	Foreign=Yes	8	list	_	_
+18	Of	Of	X	SW	Foreign=Yes	17	flat	_	_
 19	Persia	persia	PROPN	SP	_	17	flat	_	_
 20	5	5	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
 21	.	.	PUNCT	FS	_	20	punct	_	_
@@ -7632,7 +7632,7 @@
 3	Napolitano	Napolitano	PROPN	SP	_	1	nmod	_	SpaceAfter=No
 4	:	:	PUNCT	FC	_	1	punct	_	_
 5	"	"	PUNCT	FB	_	6	punct	_	_
-6	Terùn	terùn	X	SW	_	12	discourse	_	_
+6	Terùn	terùn	X	SW	Foreign=Yes	12	discourse	_	_
 7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
 8	.	.	PUNCT	FS	_	6	punct	_	_
 9	"	"	PUNCT	FB	_	12	punct	_	_
@@ -7926,7 +7926,7 @@
 2	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	che	che	SCONJ	CS	_	7	mark	_	_
 4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
-5	downgrading	downgrading	X	SW	_	7	nsubj	_	_
+5	downgrading	downgrading	X	SW	Foreign=Yes	7	nsubj	_	_
 6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 7	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	2	ccomp	_	_
 8-9	del	_	_	_	_	_	_	_	_
@@ -7961,12 +7961,12 @@
 20	6	6	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
 21	.	.	PUNCT	FS	_	20	punct	_	_
 22	Damon	Damon	PROPN	SP	_	6	list	_	_
-23	and	and	X	SW	_	22	flat	_	_
+23	and	and	X	SW	Foreign=Yes	22	flat	_	_
 24	Elena	elena	PROPN	SP	_	22	flat	_	_
 25	7	7	NUM	N	NumType=Card	27	nummod	_	SpaceAfter=No
 26	.	.	PUNCT	FS	_	25	punct	_	_
 27	Prince	Prince	PROPN	SP	_	6	list	_	_
-28	Of	Of	X	SW	_	27	flat	_	_
+28	Of	Of	X	SW	Foreign=Yes	27	flat	_	_
 29	Persia	persia	PROPN	SP	_	27	flat	_	_
 30	8	8	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
 31	.	.	PUNCT	FS	_	30	punct	_	_
@@ -8025,8 +8025,8 @@
 14	#piazzapulita	#piazzapulita	SYM	SYM	_	8	list	_	_
 15	4	4	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
 16	.	.	PUNCT	FS	_	15	punct	_	_
-17	Prince	Prince	X	SW	_	8	list	_	_
-18	Of	Of	X	SW	_	17	flat	_	_
+17	Prince	Prince	X	SW	Foreign=Yes	8	list	_	_
+18	Of	Of	X	SW	Foreign=Yes	17	flat	_	_
 19	Persia	persia	PROPN	SP	_	17	flat	_	_
 20	5	5	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
 21	.	.	PUNCT	FS	_	20	punct	_	_
@@ -8593,10 +8593,10 @@
 9	di	di	ADP	E	_	10	case	_	_
 10	Roma	roma	PROPN	SP	_	5	parataxis	_	SpaceAfter=No
 11	!	!	PUNCT	FS	_	10	punct	_	_
-12	What	What	X	SW	_	5	parataxis	_	SpaceAfter=No
-13	's	's	X	SW	_	12	flat:foreign	_	_
-14	Your	Your	X	SW	_	12	flat:foreign	_	_
-15	name	name	X	SW	_	12	flat:foreign	_	SpaceAfter=No
+12	What	What	X	SW	Foreign=Yes	5	parataxis	_	SpaceAfter=No
+13	's	's	X	SW	Foreign=Yes	12	flat:foreign	_	_
+14	Your	Your	X	SW	Foreign=Yes	12	flat:foreign	_	_
+15	name	name	X	SW	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
 16	?	?	PUNCT	FS	_	12	punct	_	_
 17	xD	xD	SYM	SYM	_	12	discourse	_	_
 
@@ -9461,7 +9461,7 @@
 18	che	che	SCONJ	CS	_	21	mark	_	_
 19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
 20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	expl	_	_
-21	fo	fare	X	SW	_	17	advcl	_	_
+21	fo	fare	X	SW	Foreign=Yes	17	advcl	_	_
 22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	sigarette	sigaretta	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
 24	e	e	CCONJ	CC	_	26	cc	_	_
@@ -9984,7 +9984,7 @@
 9	c'	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	expl	_	SpaceAfter=No
 10	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	rotto	rompere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
-12	er	er	X	SW	_	13	dep	_	_
+12	er	er	X	SW	Foreign=Yes	13	dep	_	_
 13	cazzo	cazzo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
 14	che	che	SCONJ	CS	_	17	mark	_	_
 15	nn	non	ADV	BN	PronType=Neg	17	advmod	_	_
@@ -11387,7 +11387,7 @@
 # text = L'Apple Store Porta di Roma aprirà il 21 aprile alle ore 10 http://t.co/z3D3LkJp
 1	L'	lo	DET	RD	PronType=Art	2	det	_	SpaceAfter=No
 2	Apple	Apple	PROPN	SP	_	7	nsubj	_	_
-3	Store	Store	X	SW	_	2	flat	_	_
+3	Store	Store	X	SW	Foreign=Yes	2	flat	_	_
 4	Porta	porta	NOUN	S	_	2	nmod	_	_
 5	di	di	ADP	E	_	6	case	_	_
 6	Roma	roma	PROPN	SP	_	4	nmod	_	_
@@ -11939,7 +11939,7 @@
 20	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	cop	_	_
 21	come	come	ADP	E	_	23	case	_	_
 22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
-23	charmings	charmings	X	SW	_	4	parataxis	_	SpaceAfter=No
+23	charmings	charmings	X	SW	Foreign=Yes	4	parataxis	_	SpaceAfter=No
 24	,	,	PUNCT	FF	_	26	punct	_	_
 25	più	più	ADV	B	_	26	advmod	_	_
 26	idiota	idiota	ADJ	A	Number=Sing	23	amod	_	_
@@ -13330,8 +13330,8 @@
 5	a	a	ADP	E	_	6	mark	_	_
 6	puzzare	puzzare	VERB	V	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
 7	.	.	PUNCT	FS	_	4	punct	_	_
-8	Quanno	quanno	X	SW	_	9	dep	_	_
-9	votamo	votamo	X	SW	_	4	parataxis	_	SpaceAfter=No
+8	Quanno	quanno	X	SW	Foreign=Yes	9	dep	_	_
+9	votamo	votamo	X	SW	Foreign=Yes	4	parataxis	_	SpaceAfter=No
 10	?	?	PUNCT	FS	_	9	punct	_	_
 11	http://t.co/rckJPXaD	http://t.co/rckJPXaD	SYM	X	_	4	parataxis	_	_
 
@@ -13923,7 +13923,7 @@
 1	A	a	ADP	E	_	2	case	_	_
 2	Montecitorio	Montecitorio	PROPN	SP	_	0	root	_	_
 3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	MegaCondom	MegaCondom	X	SW	_	2	nsubj	_	_
+4	MegaCondom	MegaCondom	X	SW	Foreign=Yes	2	nsubj	_	_
 5	per	per	ADP	E	_	7	case	_	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	#WorldAIDSDay	#WorldAIDSDay	SYM	SYM	_	2	nmod	_	SpaceAfter=No
@@ -14344,8 +14344,8 @@
 7	Mario	mario	PROPN	SP	_	6	nmod	_	_
 8	Monti	Monti	PROPN	SP	_	7	flat:name	_	_
 9	riceve	ricevere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	ad	ad	X	SW	_	9	obl	_	_
-11	honorem	honorem	X	SW	_	10	flat:foreign	_	_
+10	ad	ad	X	SW	Foreign=Yes	9	obl	_	_
+11	honorem	honorem	X	SW	Foreign=Yes	10	flat:foreign	_	_
 12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	prestigiosa	prestigioso	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
 14	tessera	tessera	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
@@ -14645,7 +14645,7 @@
 15	di	di	ADP	E	_	16	case	_	_
 16	peracottari	peracottaro	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	FS	_	3	punct	_	_
-18	namo	andare	X	SW	_	3	parataxis	_	_
+18	namo	andare	X	SW	Foreign=Yes	3	parataxis	_	_
 19	bene	bene	ADV	B	_	18	advmod	_	SpaceAfter=No
 20	.	.	PUNCT	FS	_	3	punct	_	_
 
@@ -15222,8 +15222,8 @@
 24	?	?	PUNCT	FS	_	21	punct	_	_
 25	Mario	mario	PROPN	SP	_	12	parataxis	_	_
 26	#Monti	#Monti	SYM	SYM	_	25	compound	_	_
-27	EPIC	epic	X	SW	_	26	flat:foreign	_	_
-28	FAIL	fail	X	SW	_	26	flat:foreign	_	SpaceAfter=No
+27	EPIC	epic	X	SW	Foreign=Yes	26	flat:foreign	_	_
+28	FAIL	fail	X	SW	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
 29	!	!	PUNCT	FS	_	25	punct	_	_
 
 # sent_id = 6572
