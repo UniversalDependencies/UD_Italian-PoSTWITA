@@ -288,8 +288,8 @@
 1	In	in	ADP	E	_	2	case	_	_
 2	Mario	mario	PROPN	SP	_	4	obl	_	_
 3	Monti	Monti	PROPN	SP	_	2	flat:name	_	_
-4	we	we	X	SW	_	0	root	_	_
-5	trust	trust	X	SW	_	4	flat:foreign	_	SpaceAfter=No
+4	we	we	X	SW	Foreign=Yes	0	root	_	_
+5	trust	trust	X	SW	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
 6	!	!	PUNCT	FS	_	4	punct	_	_
 7	#acasa	#acasa	SYM	SYM	_	4	parataxis:hashtag	_	_
 
@@ -569,11 +569,11 @@
 
 # sent_id = 235
 # text = I liked a @user video http://t.co/pGZjRbfi Cominciano i guai per il governo Monti
-1	I	I	X	SW	_	7	dep	_	_
-2	liked	liked	X	SW	_	1	flat:foreign	_	_
-3	a	a	X	SW	_	1	flat:foreign	_	_
-4	@user	@user	SYM	SYM	_	1	flat:foreign	_	_
-5	video	video	X	SW	_	1	flat:foreign	_	_
+1	I	I	X	SW	Foreign=Yes	7	dep	_	_
+2	liked	liked	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	a	a	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	@user	@user	SYM	SYM	_	1	flat	_	_
+5	video	video	X	SW	Foreign=Yes	1	flat:foreign	_	_
 6	http://t.co/pGZjRbfi	http://t.co/pGZjRbfi	SYM	X	_	7	parataxis	_	_
 7	Cominciano	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
@@ -789,12 +789,12 @@
 3	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	fare	fare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	FS	_	4	punct	_	_
-6	Fides	Fides	X	SW	_	4	parataxis	_	_
-7	fidei	fidei	X	SW	_	6	flat:foreign	_	_
-8	fidei	fidei	X	SW	_	6	flat:foreign	_	_
-9	fidem	fidem	X	SW	_	6	flat:foreign	_	_
-10	fides	fides	X	SW	_	6	flat:foreign	_	_
-11	fide	fido	X	SW	_	6	flat:foreign	_	SpaceAfter=No
+6	Fides	Fides	X	SW	Foreign=Yes	4	parataxis	_	_
+7	fidei	fidei	X	SW	Foreign=Yes	6	flat:foreign	_	_
+8	fidei	fidei	X	SW	Foreign=Yes	6	flat:foreign	_	_
+9	fidem	fidem	X	SW	Foreign=Yes	6	flat:foreign	_	_
+10	fides	fides	X	SW	Foreign=Yes	6	flat:foreign	_	_
+11	fide	fido	X	SW	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
 12	.	.	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = 333
@@ -1259,7 +1259,7 @@
 15	Martone	Martone	PROPN	SP	_	14	nmod	_	SpaceAfter=No
 16	:	:	PUNCT	FC	_	11	punct	_	_
 17	#governo	#governo	SYM	SYM	_	10	parataxis:hashtag	_	_
-18	#monti	#monti	SYM	SYM	_	17	flat:foreign	_	_
+18	#monti	#monti	SYM	SYM	_	17	nmod	_	_
 19	http://t.co/da70biWc	http://t.co/da70biWc	SYM	X	_	10	parataxis	_	_
 20	via	via	ADP	E	_	21	case	_	_
 21	@user	@user	SYM	SYM	_	10	vocative	_	_
@@ -1809,7 +1809,7 @@
 5	boh	boh	INTJ	I	_	4	discourse	_	_
 6	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	expl	_	_
 7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
-8	vó	vó	X	SW	_	0	root	_	_
+8	vó	vó	X	SW	Foreign=Yes	0	root	_	_
 9	in	in	ADP	E	_	10	case	_	_
 10	palestra	palestra	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 11	,	,	PUNCT	FF	_	14	punct	_	_
@@ -3089,8 +3089,8 @@
 14	con	con	ADP	E	_	15	case	_	_
 15	croci	croce	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
 16	,	,	PUNCT	FF	_	17	punct	_	_
-17	stay	stay	X	SW	_	15	conj	_	_
-18	strong	strong	X	SW	_	17	flat:foreign	_	_
+17	stay	stay	X	SW	Foreign=Yes	15	conj	_	_
+18	strong	strong	X	SW	Foreign=Yes	17	flat:foreign	_	_
 19-20	sui	_	_	_	_	_	_	_	_
 19	su	su	ADP	E	_	21	case	_	_
 20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
@@ -3162,9 +3162,9 @@
 
 # sent_id = 1239
 # text = Fog in Rome: Il #governo #Monti subisce i primi attacchi mentre l'#Euro fatica a trovare equilibrio http://t.co/vlxbGWVR
-1	Fog	Fog	X	SW	_	8	obl	_	_
-2	in	in	X	SW	_	1	flat:foreign	_	_
-3	Rome	Rome	X	SW	_	1	flat:foreign	_	SpaceAfter=No
+1	Fog	Fog	X	SW	Foreign=Yes	8	obl	_	_
+2	in	in	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	Rome	Rome	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
 4	:	:	PUNCT	FC	_	1	punct	_	_
 5	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	#governo	#governo	SYM	SYM	_	8	nsubj	_	_
@@ -3628,8 +3628,8 @@
 2	@user1	@user1	SYM	SYM	_	4	vocative	_	SpaceAfter=No
 3	:	:	PUNCT	FC	_	2	punct	_	_
 4	@user2	@user2	SYM	SYM	_	0	root	_	_
-5	number	number	X	SW	_	4	flat:foreign	_	_
-6	one	one	X	SW	_	4	flat:foreign	_	_
+5	number	number	X	SW	Foreign=Yes	4	flat:foreign	_	_
+6	one	one	X	SW	Foreign=Yes	4	flat:foreign	_	_
 7	da	da	ADP	E	_	8	case	_	_
 8	Rocco	rocco	PROPN	SP	_	4	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	FS	_	4	punct	_	_
@@ -3677,23 +3677,23 @@
 # text = Lionel Messi Cuma Mencetak 1 Gol dalam 7 Pertemuan Melawan Klub Italia: Ancaman serius melanda kubu Barcelona me ... http://t.co/VKSzzjhZ
 1	Lionel	Lionel	PROPN	SP	_	0	root	_	_
 2	Messi	Messi	PROPN	SP	_	1	flat:name	_	_
-3	Cuma	Cuma	X	SW	_	1	flat:foreign	_	_
-4	Mencetak	Mencetak	X	SW	_	1	flat:foreign	_	_
+3	Cuma	Cuma	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	Mencetak	Mencetak	X	SW	Foreign=Yes	1	flat:foreign	_	_
 5	1	1	NUM	N	NumType=Card	6	nummod	_	_
-6	Gol	gol	X	SW	_	1	flat	_	_
-7	dalam	dalam	X	SW	_	1	flat:foreign	_	_
+6	Gol	gol	X	SW	Foreign=Yes	1	flat	_	_
+7	dalam	dalam	X	SW	Foreign=Yes	1	flat:foreign	_	_
 8	7	7	NUM	N	NumType=Card	1	flat	_	_
-9	Pertemuan	Pertemuan	X	SW	_	1	flat:foreign	_	_
-10	Melawan	Melawan	X	SW	_	1	flat:foreign	_	_
-11	Klub	Klub	X	SW	_	1	flat:foreign	_	_
+9	Pertemuan	Pertemuan	X	SW	Foreign=Yes	1	flat:foreign	_	_
+10	Melawan	Melawan	X	SW	Foreign=Yes	1	flat:foreign	_	_
+11	Klub	Klub	X	SW	Foreign=Yes	1	flat:foreign	_	_
 12	Italia	italia	PROPN	SP	_	1	flat	_	SpaceAfter=No
 13	:	:	PUNCT	FC	_	1	punct	_	_
-14	Ancaman	Ancaman	X	SW	_	1	flat:foreign	_	_
-15	serius	serius	X	SW	_	1	flat:foreign	_	_
-16	melanda	melanda	X	SW	_	1	flat:foreign	_	_
-17	kubu	kubu	X	SW	_	1	flat:foreign	_	_
+14	Ancaman	Ancaman	X	SW	Foreign=Yes	1	flat:foreign	_	_
+15	serius	serius	X	SW	Foreign=Yes	1	flat:foreign	_	_
+16	melanda	melanda	X	SW	Foreign=Yes	1	flat:foreign	_	_
+17	kubu	kubu	X	SW	Foreign=Yes	1	flat:foreign	_	_
 18	Barcelona	Barcelona	PROPN	SP	_	1	flat	_	_
-19	me	me	X	SW	_	1	flat:foreign	_	_
+19	me	me	X	SW	Foreign=Yes	1	flat:foreign	_	_
 20	...	...	PUNCT	FS	_	1	punct	_	_
 21	http://t.co/VKSzzjhZ	http://t.co/VKSzzjhZ	SYM	X	_	1	parataxis	_	_
 
@@ -4044,15 +4044,15 @@
 2	Monti	Monti	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
 3	,	,	PUNCT	FF	_	1	punct	_	_
 4	con	con	ADP	E	_	5	case	_	_
-5	el	el	X	SW	_	1	appos	_	_
-6	viento	viento	X	SW	_	5	flat:foreign	_	_
-7	a	a	X	SW	_	5	flat:foreign	_	_
-8	su	su	X	SW	_	5	flat:foreign	_	_
-9	favor	favor	X	SW	_	5	flat:foreign	_	_
-10	en	en	X	SW	_	5	flat:foreign	_	_
-11	Italia	italia	PROPN	SP	_	5	flat:foreign	_	_
-12	El	El	X	SW	_	5	flat:foreign	_	_
-13	Universal.mx	Universal.mx	SYM	X	_	5	flat:foreign	_	_
+5	el	el	X	SW	Foreign=Yes	1	appos	_	_
+6	viento	viento	X	SW	Foreign=Yes	5	flat:foreign	_	_
+7	a	a	X	SW	Foreign=Yes	5	flat:foreign	_	_
+8	su	su	X	SW	Foreign=Yes	5	flat:foreign	_	_
+9	favor	favor	X	SW	Foreign=Yes	5	flat:foreign	_	_
+10	en	en	X	SW	Foreign=Yes	5	flat:foreign	_	_
+11	Italia	italia	X	SW	Foreign=Yes	5	flat:foreign	_	_
+12	El	El	X	SW	Foreign=Yes	5	flat:foreign	_	_
+13	Universal.mx	Universal.mx	X	SW	Foreign=Yes	5	flat:foreign	_	_
 14	http://t.co/myODb8Nr	http://t.co/myODb8Nr	SYM	X	_	1	parataxis	_	_
 15	#Italia	#Italia	SYM	SYM	_	1	parataxis:hashtag	_	_
 
@@ -4191,9 +4191,9 @@
 # sent_id = 1749
 # text = @user #Grillo ennesimo scacco alla politica: prima i tecnici poi i giullari. Sarebbe preferibile più competenza nel proprio settore.
 1	@user	@user	SYM	SYM	_	0	root	_	_
-2	#Grillo	#Grillo	SYM	SYM	_	1	flat:foreign	_	_
+2	#Grillo	#Grillo	SYM	SYM	_	1	parataxis:hashtag	_	_
 3	ennesimo	ennesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
-4	scacco	scacco	NOUN	S	Gender=Masc|Number=Sing	1	flat:foreign	_	_
+4	scacco	scacco	NOUN	S	Gender=Masc|Number=Sing	1	parataxis	_	_
 5-6	alla	_	_	_	_	_	_	_	_
 5	a	a	ADP	E	_	7	case	_	_
 6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -4588,8 +4588,8 @@
 24	MAI	mai	ADV	B	_	26	advmod	_	_
 25	COME	come	ADP	E	_	26	case	_	_
 26	LORO	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	conj	_	_
-27	CASE	case	X	SW	_	26	parataxis	_	_
-28	CLOSED	closed	X	SW	_	27	flat:foreign	_	SpaceAfter=No
+27	CASE	case	X	SW	Foreign=Yes	26	parataxis	_	_
+28	CLOSED	closed	X	SW	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
 29	.	.	PUNCT	FS	_	27	punct	_	_
 
 # sent_id = 1930
@@ -4669,8 +4669,8 @@
 
 # sent_id = 1955
 # text = New comment: Mario Monti: torna l'Ici. Riforma di pensioni e lavoro. Lotta all'evasione http://t.co/AdPkSsS5
-1	New	new	X	SW	_	7	parataxis	_	_
-2	comment	comment	X	SW	_	1	flat:foreign	_	SpaceAfter=No
+1	New	new	X	SW	Foreign=Yes	7	parataxis	_	_
+2	comment	comment	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
 3	:	:	PUNCT	FC	_	1	punct	_	_
 4	Mario	mario	PROPN	SP	_	7	parataxis	_	_
 5	Monti	Monti	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
@@ -5033,12 +5033,12 @@
 20	6	6	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
 21	.	.	PUNCT	FS	_	20	punct	_	_
 22	Damon	Damon	PROPN	SP	_	6	list	_	_
-23	and	and	X	SW	_	22	flat	_	_
+23	and	and	X	SW	Foreign=Yes	22	flat	_	_
 24	Elena	elena	PROPN	SP	_	22	flat	_	_
 25	7	7	NUM	N	NumType=Card	27	nummod	_	SpaceAfter=No
 26	.	.	PUNCT	FS	_	25	punct	_	_
-27	Prince	Prince	X	SW	_	6	list	_	_
-28	Of	Of	X	SW	_	27	flat	_	_
+27	Prince	Prince	X	SW	Foreign=Yes	6	list	_	_
+28	Of	Of	X	SW	Foreign=Yes	27	flat	_	_
 29	Persia	persia	PROPN	SP	_	27	flat	_	_
 30	8	8	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
 31	.	.	PUNCT	FS	_	30	punct	_	_
@@ -5168,12 +5168,12 @@
 
 # sent_id = 2251
 # text = acordei com 7 sms quanto amor
-1	acordei	acordei	X	SW	_	0	root	_	_
-2	com	com	X	SW	_	1	flat:foreign	_	_
+1	acordei	acordei	X	SW	Foreign=Yes	0	root	_	_
+2	com	com	X	SW	Foreign=Yes	1	flat:foreign	_	_
 3	7	7	NUM	N	NumType=Card	4	nummod	_	_
-4	sms	sms	X	SW	_	1	flat:foreign	_	_
-5	quanto	quanto	X	SW	_	1	flat:foreign	_	_
-6	amor	amor	X	SW	_	1	flat:foreign	_	_
+4	sms	sms	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	quanto	quanto	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	amor	amor	X	SW	Foreign=Yes	1	flat:foreign	_	_
 
 # sent_id = 2254
 # text = @user già l'hai scritto e ho continuato io, dopo lo copio (:
@@ -5780,8 +5780,8 @@
 1	“	“	PUNCT	FB	_	4	punct	_	_
 2	@user	@user	SYM	SYM	_	4	vocative	_	SpaceAfter=No
 3	:	:	PUNCT	FC	_	2	punct	_	_
-4	Street	Street	X	SW	_	0	root	_	_
-5	art	art	X	SW	_	4	flat:foreign	_	_
+4	Street	Street	X	SW	Foreign=Yes	0	root	_	_
+5	art	art	X	SW	Foreign=Yes	4	flat:foreign	_	_
 6	in	in	ADP	E	_	7	case	_	_
 7	Milano	milano	PROPN	SP	_	4	nmod	_	_
 8	|	|	PUNCT	FS	_	4	punct	_	_
@@ -6933,8 +6933,8 @@
 12	Irap	Irap	PROPN	SP	_	11	flat:name	_	_
 13	per	per	ADP	E	_	15	case	_	_
 14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
-15	start	start	X	SW	_	11	nmod	_	_
-16	up	up	X	SW	_	15	flat:foreign	_	_
+15	start	start	X	SW	Foreign=Yes	11	nmod	_	_
+16	up	up	X	SW	Foreign=Yes	15	flat:foreign	_	_
 17	"	"	PUNCT	FB	_	9	punct	_	_
 18	http://t.co/FJPrPEoJ7l	http://t.co/FJPrPEoJ7l	SYM	X	_	2	parataxis	_	_
 
@@ -6981,9 +6981,9 @@
 10	governo	governo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
 11	#Monti	#Monti	SYM	SYM	_	10	nmod	_	_
 12	Ora	ora	ADV	B	_	13	advmod	_	_
-13	Lavurà	Lavurà	X	SW	_	4	parataxis	_	_
-14	lavurà	lavurà	X	SW	_	13	flat:foreign	_	_
-15	lavurà	lavurà	X	SW	_	13	flat:foreign	_	_
+13	Lavurà	Lavurà	X	SW	Foreign=Yes	4	parataxis	_	_
+14	lavurà	lavurà	X	SW	Foreign=Yes	13	flat:foreign	_	_
+15	lavurà	lavurà	X	SW	Foreign=Yes	13	flat:foreign	_	_
 
 # sent_id = 3136
 # text = governo Monti: nuovi tagli alla sanita' ... ecco i primi risultati ... http://t.co/dNd5xvEb
@@ -7022,9 +7022,9 @@
 
 # sent_id = 3163
 # text = I 'm at Tutti Frutti SM Centerpoint (Quezon City, Metro Manila) http://t.co/d5GRIWlp
-1	I	i	X	SW	_	4	nmod	_	_
-2	'm	'm	X	SW	_	1	flat:foreign	_	_
-3	at	at	X	SW	_	1	flat:foreign	_	_
+1	I	i	X	SW	Foreign=Yes	4	nmod	_	_
+2	'm	'm	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	at	at	X	SW	Foreign=Yes	1	flat:foreign	_	_
 4	Tutti	Tutti	PROPN	SP	_	0	root	_	_
 5	Frutti	Frutti	PROPN	SP	_	4	flat:name	_	_
 6	SM	SM	PROPN	SP	_	4	flat:name	_	_
@@ -8085,8 +8085,8 @@
 # text = Mario Monti for president? Che fatica essere di sinistra. Dalla Jena di oggi
 1	Mario	mario	PROPN	SP	_	7	parataxis	_	_
 2	Monti	Monti	PROPN	SP	_	1	flat:name	_	_
-3	for	for	X	SW	_	1	nmod	_	_
-4	president	president	X	SW	_	3	flat:foreign	_	SpaceAfter=No
+3	for	for	X	SW	Foreign=Yes	1	nmod	_	_
+4	president	president	X	SW	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
 5	?	?	PUNCT	FS	_	1	punct	_	_
 6	Che	che	DET	DE	PronType=Exc	7	det	_	_
 7	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
@@ -8296,8 +8296,8 @@
 
 # sent_id = 3777
 # text = New comment: Mario Monti: torna l'Ici. Riforma di pensioni e lavoro. Lotta all'evasione http://t.co/AdPkSsS5
-1	New	new	X	SW	_	7	parataxis	_	_
-2	comment	comment	X	SW	_	1	flat:foreign	_	SpaceAfter=No
+1	New	new	X	SW	Foreign=Yes	7	parataxis	_	_
+2	comment	comment	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
 3	:	:	PUNCT	FC	_	1	punct	_	_
 4	Mario	mario	PROPN	SP	_	7	parataxis	_	_
 5	Monti	Monti	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
@@ -9037,7 +9037,7 @@
 11	di	di	ADP	E	_	14	case	_	_
 12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	'	'	PUNCT	FB	_	14	punct	_	_
-14	rigor	rigor	X	SW	_	2	conj	_	_
+14	rigor	rigor	X	SW	Foreign=Yes	2	conj	_	_
 15	montis	montis	X	X	_	14	flat	_	_
 16	'	'	PUNCT	FB	_	14	punct	_	_
 17	a	a	ADP	E	_	18	case	_	_
@@ -9712,7 +9712,7 @@
 11	o	o	CCONJ	CC	_	14	cc	_	_
 12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	fake	fake	X	SW	_	10	conj	_	SpaceAfter=No
+14	fake	fake	X	SW	Foreign=Yes	10	conj	_	SpaceAfter=No
 15	?	?	PUNCT	FS	_	10	punct	_	_
 
 # sent_id = 4565
@@ -9886,7 +9886,7 @@
 # sent_id = 4632
 # text = RT @user: GENITORI VS FIGLI pt. 44 * dormono, io cambio canale, si svegliano * ' perchè cambi? stavo guardando ' LOST IN CONFUSION, LIKE AN I…
 1	RT	RT	SYM	SYM	_	4	parataxis	_	_
-2	@user	@user	SYM	SYM	_	1	flat:foreign	_	SpaceAfter=No
+2	@user	@user	SYM	SYM	_	1	dep	_	SpaceAfter=No
 3	:	:	PUNCT	FC	_	1	punct	_	_
 4	GENITORI	genitore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
 5	VS	VS	X	X	_	6	case	_	_
@@ -9910,12 +9910,12 @@
 23	stavo	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	24	aux	_	_
 24	guardando	guardare	VERB	V	VerbForm=Ger	4	parataxis	_	_
 25	'	'	PUNCT	FB	_	24	punct	_	_
-26	LOST	LOST	X	SW	_	4	parataxis	_	_
-27	IN	IN	X	SW	_	26	flat:foreign	_	_
-28	CONFUSION	CONFUSION	X	SW	_	26	flat:foreign	_	SpaceAfter=No
+26	LOST	LOST	X	SW	Foreign=Yes	4	parataxis	_	_
+27	IN	IN	X	SW	Foreign=Yes	26	flat:foreign	_	_
+28	CONFUSION	CONFUSION	X	SW	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
 29	,	,	PUNCT	FF	_	26	punct	_	_
-30	LIKE	LIKE	X	SW	_	26	flat:foreign	_	_
-31	AN	an	X	SW	_	26	flat:foreign	_	_
+30	LIKE	LIKE	X	SW	Foreign=Yes	26	flat:foreign	_	_
+31	AN	an	X	SW	Foreign=Yes	26	flat:foreign	_	_
 32	I…	I…	X	X	_	26	dep	_	_
 
 # sent_id = 4656
@@ -9948,8 +9948,8 @@
 1	@user	@user	SYM	SYM	_	2	vocative	_	_
 2	Mario	mario	PROPN	SP	_	0	root	_	_
 3	Monti	Monti	PROPN	SP	_	2	flat:name	_	_
-4	super	super	X	SW	_	2	appos	_	_
-5	partes	partes	X	SW	_	4	flat:foreign	_	_
+4	super	super	X	SW	Foreign=Yes	2	appos	_	_
+5	partes	partes	X	SW	Foreign=Yes	4	flat:foreign	_	_
 6	=	=	PUNCT	FF	_	7	punct	_	_
 7	martirio	martirio	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
 8	o	o	CCONJ	CC	_	10	cc	_	_
@@ -10882,7 +10882,7 @@
 1	Mario	mario	PROPN	SP	_	7	nsubj	_	_
 2	Monti	Monti	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
 3	,	,	PUNCT	FF	_	1	punct	_	_
-4	the	the	X	SW	_	5	case	_	_
+4	the	the	X	SW	Foreign=Yes	5	case	_	_
 5	Tinkerman	Tinkerman	PROPN	SP	_	1	appos	_	_
 6	..	..	PUNCT	FS	_	5	punct	_	_
 7	rimette	rimettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10979,8 +10979,8 @@
 
 # sent_id = 5052
 # text = bom dia amore @user :)
-1	bom	bom	X	SW	_	0	root	_	_
-2	dia	dia	X	SW	_	1	flat:foreign	_	_
+1	bom	bom	X	SW	Foreign=Yes	0	root	_	_
+2	dia	dia	X	SW	Foreign=Yes	1	flat:foreign	_	_
 3	amore	amore	NOUN	S	Gender=Masc|Number=Sing	1	vocative	_	_
 4	@user	@user	SYM	SYM	_	1	vocative	_	_
 5	:)	:)	SYM	SYM	_	1	discourse	_	_
@@ -11268,8 +11268,8 @@
 17	Renzi	Renzi	PROPN	SP	_	8	list	_	_
 18	5	5	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
 19	.	.	PUNCT	FS	_	18	punct	_	_
-20	Prince	Prince	X	SW	_	8	list	_	_
-21	Of	Of	X	SW	_	20	flat	_	_
+20	Prince	Prince	X	SW	Foreign=Yes	8	list	_	_
+21	Of	Of	X	SW	Foreign=Yes	20	flat	_	_
 22	Persia	persia	PROPN	SP	_	20	flat	_	_
 23	6	6	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
 24	.	.	PUNCT	FS	_	23	punct	_	_
@@ -11370,8 +11370,8 @@
 12	#Grillo	#Grillo	SYM	SYM	_	6	list	_	_
 13	4	4	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
 14	.	.	PUNCT	FS	_	13	punct	_	_
-15	Prince	Prince	X	SW	_	6	list	_	_
-16	Of	Of	X	SW	_	15	flat	_	_
+15	Prince	Prince	X	SW	Foreign=Yes	6	list	_	_
+16	Of	Of	X	SW	Foreign=Yes	15	flat	_	_
 17	Persia	persia	PROPN	SP	_	15	flat	_	_
 18	5	5	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
 19	.	.	PUNCT	FS	_	18	punct	_	_
@@ -11854,8 +11854,8 @@
 16	di	di	ADP	E	_	18	case	_	_
 17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	precari	precario	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
-19	ad	ad	X	SW	_	18	compound	_	_
-20	libitum	libitum	X	SW	_	19	flat:foreign	_	SpaceAfter=No
+19	ad	ad	X	SW	Foreign=Yes	18	compound	_	_
+20	libitum	libitum	X	SW	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
 21	.	.	PUNCT	FS	_	18	punct	_	_
 22	http://t.co/BBXRfxtF	http://t.co/BBXRfxtF	SYM	X	_	5	parataxis	_	_
 
@@ -13249,9 +13249,9 @@
 4	motore	motore	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
 5	di	di	ADP	E	_	6	case	_	_
 6	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
-7	made	made	X	SW	_	4	amod	_	_
-8	in	in	X	SW	_	7	flat:foreign	_	_
-9	Italy	italy	PROPN	SP	_	8	flat:foreign	_	_
+7	made	made	X	SW	Foreign=Yes	4	amod	_	_
+8	in	in	X	SW	Foreign=Yes	7	flat:foreign	_	_
+9	Italy	italy	X	SW	Foreign=Yes	8	flat:foreign	_	_
 10	-	-	PUNCT	FB	_	18	punct	_	_
 11	Eccolo	Eccolo	INTJ	I	_	12	discourse	_	_
 12	qui	qui	ADV	B	_	18	advmod	_	SpaceAfter=No
@@ -13857,12 +13857,12 @@
 
 # sent_id = 6368
 # text = @user hahahaha seriamente, quanto love!
-1	@user	@user	SYM	SYM	_	5	vocative	_	_
-2	hahahaha	hahahaha	INTJ	I	_	5	discourse	_	_
-3	seriamente	seriamente	ADV	B	_	5	advmod	_	SpaceAfter=No
-4	,	,	PUNCT	FF	_	5	punct	_	_
+1	@user	@user	SYM	SYM	_	6	vocative	_	_
+2	hahahaha	hahahaha	INTJ	I	_	6	discourse	_	_
+3	seriamente	seriamente	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
 5	quanto	quanto	DET	DE	PronType=Exc	6	det	_	_
-6	love	love	X	SW	_	0	root	_	SpaceAfter=No
+6	love	love	X	SW	Foreign=Yes	0	root	_	SpaceAfter=No
 7	!	!	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = 5933
@@ -14542,7 +14542,7 @@
 4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-7	indignatos	indignatos	X	SW	_	5	obj	_	SpaceAfter=No
+7	indignatos	indignatos	X	SW	Foreign=Yes	5	obj	_	SpaceAfter=No
 8	?	?	PUNCT	FS	_	5	punct	_	_
 9	Arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
 10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -14594,15 +14594,15 @@
 # sent_id = 6465
 # text = bit.ly/tEXrrY #finanza #blog #crisi #governo #monti #tasse #mario #berlusconi #Roma
 1	bit.ly/tEXrrY	bit.ly/tEXrrY	SYM	X	_	0	root	_	_
-2	#finanza	#finanza	SYM	SYM	_	1	flat:foreign	_	_
-3	#blog	#blog	SYM	SYM	_	1	flat:foreign	_	_
-4	#crisi	#crisi	SYM	SYM	_	1	flat:foreign	_	_
-5	#governo	#governo	SYM	SYM	_	1	flat:foreign	_	_
-6	#monti	#monti	SYM	SYM	_	1	flat:foreign	_	_
-7	#tasse	#tasse	SYM	SYM	_	1	flat:foreign	_	_
-8	#mario	#mario	SYM	SYM	_	1	flat:foreign	_	_
-9	#berlusconi	#berlusconi	SYM	SYM	_	1	flat:foreign	_	_
-10	#Roma	#Roma	SYM	SYM	_	1	flat:foreign	_	_
+2	#finanza	#finanza	SYM	SYM	_	1	flat	_	_
+3	#blog	#blog	SYM	SYM	_	1	flat	_	_
+4	#crisi	#crisi	SYM	SYM	_	1	flat	_	_
+5	#governo	#governo	SYM	SYM	_	1	flat	_	_
+6	#monti	#monti	SYM	SYM	_	1	flat	_	_
+7	#tasse	#tasse	SYM	SYM	_	1	flat	_	_
+8	#mario	#mario	SYM	SYM	_	1	flat	_	_
+9	#berlusconi	#berlusconi	SYM	SYM	_	1	flat	_	_
+10	#Roma	#Roma	SYM	SYM	_	1	flat	_	_
 
 # sent_id = 6208
 # text = Giarda 12mld di riduzione spesa +18mld di tasse #governo #monti #italia #manovra
@@ -14695,7 +14695,7 @@
 13	,	,	PUNCT	FF	_	12	punct	_	_
 14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
 15	come	come	ADP	E	_	16	case	_	_
-16	mausolei	i	X	SW	_	17	obl	_	_
+16	mausolei	i	X	SW	Foreign=Yes	17	obl	_	_
 17	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
 18	paura	paura	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
 19	di	di	ADP	E	_	21	mark	_	_
