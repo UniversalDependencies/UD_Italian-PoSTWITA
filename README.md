@@ -102,6 +102,7 @@ Other references:
 Data available since: UD v2.1
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: social
 Lemmas: automatic with corrections
 UPOS: converted with corrections
