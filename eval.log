@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Italian-PoSTWITA:
-commit 7855db12594d980f5eafba7d2878897fd6e45127
-Merge: f0d1f67 881521b
+commit c83607f36e71508162153e1126d1232d4aa7a522
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 19:50:56 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'it_postwita'
 Language code (from CoNLL-U file name) = 'it'
@@ -25,44 +25,85 @@ Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-PoSTWITA/it_postwita-ud-dev.conllu
-[Line 2107 Sent 840]: [L3 Warning fixed-without-extpos] Fixed expression 'fuori da' does not have the 'ExtPos' feature
-[Line 2265 Sent 886]: [L3 Warning fixed-without-extpos] Fixed expression 'fino ad' does not have the 'ExtPos' feature
-[Line 2973 Sent 1184]: [L3 Warning fixed-without-extpos] Fixed expression 'su di' does not have the 'ExtPos' feature
-[Line 11067 Sent 5097]: [L3 Warning fixed-without-extpos] Fixed expression 'come a' does not have the 'ExtPos' feature
-[Line 12221 Sent 5562]: [L3 Warning fixed-without-extpos] Fixed expression 'Fino a' does not have the 'ExtPos' feature
-[Line 14246 Sent 5813]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'Gianni') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 14357 Sent 6597]: [L3 Warning obl-should-be-nmod] The parent (node [17] 'mano') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-Warnings: 7
-*** PASSED ***
+[Line 2107 Sent 840]: [L3 WARNING fixed-without-extpos] Fixed expression 'fuori da' does not have the 'ExtPos' feature
+[Line 2265 Sent 886]: [L3 WARNING fixed-without-extpos] Fixed expression 'fino ad' does not have the 'ExtPos' feature
+[Line 2973 Sent 1184]: [L3 WARNING fixed-without-extpos] Fixed expression 'su di' does not have the 'ExtPos' feature
+[Line 11067 Sent 5097]: [L3 WARNING fixed-without-extpos] Fixed expression 'come a' does not have the 'ExtPos' feature
+[Line 12221 Sent 5562]: [L3 WARNING fixed-without-extpos] Fixed expression 'Fino a' does not have the 'ExtPos' feature
+[Line 14246 Sent 5813]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'Gianni') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+Warnings: 5
+SYNTAX errors: 1
+*** FAILED *** with 1 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-PoSTWITA/it_postwita-ud-test.conllu
-[Line 863 Sent 283]: [L3 Warning fixed-without-extpos] Fixed expression 'grazie a' does not have the 'ExtPos' feature
-[Line 1025 Sent 386]: [L3 Warning fixed-without-extpos] Fixed expression 'grazie a' does not have the 'ExtPos' feature
-[Line 2096 Sent 883]: [L3 Warning fixed-without-extpos] Fixed expression 'rispetto a' does not have the 'ExtPos' feature
-[Line 2470 Sent 1084]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2634 Sent 1120]: [L3 Warning fixed-without-extpos] Fixed expression 'invece di' does not have the 'ExtPos' feature
-[Line 2969 Sent 1217]: [L3 Warning fixed-without-extpos] Fixed expression 'piuttosto che' does not have the 'ExtPos' feature
-[Line 4118 Sent 1703]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4243 Sent 1773]: [L3 Warning fixed-without-extpos] Fixed expression 'fuori da' does not have the 'ExtPos' feature
-[Line 4407 Sent 1810]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 5014 Sent 2138]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-...suppressing further errors regarding Warning
-Warnings: 38
-*** PASSED ***
+[Line 863 Sent 283]: [L3 WARNING fixed-without-extpos] Fixed expression 'grazie a' does not have the 'ExtPos' feature
+[Line 1025 Sent 386]: [L3 WARNING fixed-without-extpos] Fixed expression 'grazie a' does not have the 'ExtPos' feature
+[Line 2096 Sent 883]: [L3 WARNING fixed-without-extpos] Fixed expression 'rispetto a' does not have the 'ExtPos' feature
+[Line 2470 Sent 1084]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 2634 Sent 1120]: [L3 WARNING fixed-without-extpos] Fixed expression 'invece di' does not have the 'ExtPos' feature
+[Line 2969 Sent 1217]: [L3 WARNING fixed-without-extpos] Fixed expression 'piuttosto che' does not have the 'ExtPos' feature
+[Line 4118 Sent 1703]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 4243 Sent 1773]: [L3 WARNING fixed-without-extpos] Fixed expression 'fuori da' does not have the 'ExtPos' feature
+[Line 4407 Sent 1810]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 5014 Sent 2138]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 5013 Sent 2138]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 5144 Sent 2206]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 5275 Sent 2235]: [L3 WARNING fixed-without-extpos] Fixed expression 'invece di' does not have the 'ExtPos' feature
+[Line 5351 Sent 2299]: [L3 WARNING fixed-without-extpos] Fixed expression 'Più che' does not have the 'ExtPos' feature
+[Line 6059 Sent 2544]: [L3 WARNING fixed-without-extpos] Fixed expression 'Come a' does not have the 'ExtPos' feature
+[Line 6122 Sent 2606]: [L3 WARNING fixed-without-extpos] Fixed expression 'piuttosto che' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 7402 Sent 3290]: [L3 SYNTAX obl-should-be-nmod] The parent (node [17] 'cazzo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 13440 Sent 5817]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'spinta') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 13721 Sent 6008]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'riflessi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 14977 Sent 6195]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'Lettera') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 15079 Sent 6334]: [L3 SYNTAX obl-should-be-nmod] The parent (node [12] 'Vendola') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 15112 Sent 6185]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'interessi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 15224 Sent 6656]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 15224 Sent 6656]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 32
+SYNTAX errors: 6
+*** FAILED *** with 6 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-PoSTWITA/it_postwita-ud-train.conllu
-[Line 516 Sent 42]: [L3 Warning fixed-without-extpos] Fixed expression 'grazie a' does not have the 'ExtPos' feature
-[Line 1844 Sent 111]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
-[Line 1935 Sent 114]: [L3 Warning fixed-without-extpos] Fixed expression 'fino ad' does not have the 'ExtPos' feature
-[Line 2579 Sent 153]: [L3 Warning fixed-without-extpos] Fixed expression 'grazie a' does not have the 'ExtPos' feature
-[Line 2692 Sent 160]: [L3 Warning fixed-without-extpos] Fixed expression 'prima a' does not have the 'ExtPos' feature
-[Line 3507 Sent 211]: [L3 Warning fixed-without-extpos] Fixed expression 'attorno a' does not have the 'ExtPos' feature
-[Line 4550 Sent 270]: [L3 Warning fixed-without-extpos] Fixed expression 'Con #Vespa' does not have the 'ExtPos' feature
-[Line 5630 Sent 334]: [L3 Warning fixed-without-extpos] Fixed expression 'Grazie a' does not have the 'ExtPos' feature
-[Line 5900 Sent 346]: [L3 Warning fixed-without-extpos] Fixed expression 'rispetto a' does not have the 'ExtPos' feature
-[Line 6335 Sent 369]: [L3 Warning fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Warnings: 253
-*** PASSED ***
-Validity: 1
+[Line 516 Sent 42]: [L3 WARNING fixed-without-extpos] Fixed expression 'grazie a' does not have the 'ExtPos' feature
+[Line 1844 Sent 111]: [L3 WARNING fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
+[Line 1935 Sent 114]: [L3 WARNING fixed-without-extpos] Fixed expression 'fino ad' does not have the 'ExtPos' feature
+[Line 2579 Sent 153]: [L3 WARNING fixed-without-extpos] Fixed expression 'grazie a' does not have the 'ExtPos' feature
+[Line 2692 Sent 160]: [L3 WARNING fixed-without-extpos] Fixed expression 'prima a' does not have the 'ExtPos' feature
+[Line 3507 Sent 211]: [L3 WARNING fixed-without-extpos] Fixed expression 'attorno a' does not have the 'ExtPos' feature
+[Line 4550 Sent 270]: [L3 WARNING fixed-without-extpos] Fixed expression 'Con #Vespa' does not have the 'ExtPos' feature
+[Line 5630 Sent 334]: [L3 WARNING fixed-without-extpos] Fixed expression 'Grazie a' does not have the 'ExtPos' feature
+[Line 5900 Sent 346]: [L3 WARNING fixed-without-extpos] Fixed expression 'rispetto a' does not have the 'ExtPos' feature
+[Line 6335 Sent 369]: [L3 WARNING fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 9118 Sent 537]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 9118 Sent 537]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 9118 Sent 537]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 9198 Sent 542]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 17770 Sent 1021]: [L3 SYNTAX obl-should-be-nmod] The parent (node [17] 'scontro') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 20131 Sent 1160]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 22582 Sent 1287]: [L3 SYNTAX obl-should-be-nmod] The parent (node [12] 'tassa') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 30100 Sent 1718]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 31635 Sent 1799]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 31635 Sent 1799]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 34684 Sent 1972]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 34684 Sent 1972]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further messages regarding WARNING/MORPHO
+[Line 49549 Sent 2794]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'legge') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 65033 Sent 3666]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'governo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 101498 Sent 5882]: [L3 SYNTAX obl-should-be-nmod] The parent (node [18] 'suicidi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 104990 Sent 6252]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'puntata') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 104999 Sent 6252]: [L3 SYNTAX obl-should-be-nmod] The parent (node [14] 'mercoledi'') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 105159 Sent 6258]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'Mario') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 106201 Sent 6408]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'insulto') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 109080 Sent 6541]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'Corso') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 237
+SYNTAX errors: 15
+*** FAILED *** with 15 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.25) = 0.0277777777777778
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.5) = 0.0555555555555556
@@ -70,6 +111,6 @@ Validity: 1
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.847058823529412) = 0.0941176470588235
 (weight=0.111111111111111) * (score{udeprels}=0.0972972972972973) = 0.0108108108108108
-(TOTAL score=0.52717804711856) * (availability=1) * (validity=1) = 0.52717804711856
-STARS = 2.5
-UD_Italian-PoSTWITA	0.52717804711856	2.5
+(TOTAL score=0.52717804711856) * (availability=1) * (validity=0.01) = 0.0052717804711856
+STARS = 0
+UD_Italian-PoSTWITA	0.0052717804711856	0
