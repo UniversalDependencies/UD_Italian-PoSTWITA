@@ -106106,7 +106106,7 @@
 7	tranne	tranne	ADP	E	_	8	case	_	_
 8	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	6	nmod	_	_
 9	'	'	PUNCT	FB	_	6	punct	_	_
-10	–	–	PUNCT	FS	_	6	discourse	_	_
+10	–	–	PUNCT	FS	_	6	punct	_	_
 11	adesso	adesso	ADV	B	_	13	advmod	_	_
 12	in	in	ADP	E	_	13	case	_	_
 13	onda	onda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
