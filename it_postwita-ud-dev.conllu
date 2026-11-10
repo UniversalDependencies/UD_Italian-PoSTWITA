@@ -1212,7 +1212,7 @@
 19	http://t.co/DAlfShQL	http://t.co/DAlfShQL	SYM	X	_	7	parataxis	_	_
 
 # sent_id = 496
-# text = Classico esempio di polemica stupida: CGIL: � il Governo Monti rinvia l'entrata in vigore del SISTRI � http://t.co/pyzWOeTP via @user
+# text = Classico esempio di polemica stupida: CGIL: « il Governo Monti rinvia l'entrata in vigore del SISTRI » http://t.co/pyzWOeTP via @user
 1	Classico	classico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
 2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 3	di	di	ADP	E	_	4	case	_	_
@@ -1221,7 +1221,7 @@
 6	:	:	PUNCT	FC	_	2	punct	_	_
 7	CGIL	CGIL	PROPN	SP	_	13	parataxis	_	SpaceAfter=No
 8	:	:	PUNCT	FC	_	7	punct	_	_
-9	�	�	X	X	_	13	dep	_	_
+9	«	«	PUNCT	FB	_	13	punct	_	_
 10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
 12	Monti	Monti	PROPN	SP	_	11	nmod	_	_
@@ -1234,7 +1234,7 @@
 18	di	di	ADP	E	_	20	case	_	_
 19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	SISTRI	SISTRI	PROPN	SP	_	17	nmod	_	_
-21	�	�	X	X	_	13	dep	_	_
+21	»	»	PUNCT	FB	_	13	punct	_	_
 22	http://t.co/pyzWOeTP	http://t.co/pyzWOeTP	SYM	X	_	2	parataxis	_	_
 23	via	via	ADP	E	_	24	case	_	_
 24	@user	@user	SYM	SYM	_	2	vocative	_	_

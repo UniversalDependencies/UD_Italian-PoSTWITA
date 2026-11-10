@@ -10,8 +10,8 @@
     <dev><sentences>670</sentences><tokens>11823</tokens><words>12308</words><fused>481</fused></dev>
     <test><sentences>674</sentences><tokens>12122</tokens><words>12676</words><fused>551</fused></test>
   </size>
-  <lemmas unique="13549" /><!-- il, di, ., essere, a, ,, monti, governo, :, e, @user, che, uno, non, avere -->
-  <forms unique="17574" /><!-- il, di, ., a, ,, la, monti, governo, :, e, @user, che, è, non, in -->
+  <lemmas unique="13548" /><!-- il, di, ., essere, a, ,, monti, governo, :, e, @user, che, uno, non, avere -->
+  <forms unique="17573" /><!-- il, di, ., a, ,, la, monti, governo, :, e, @user, che, è, non, in -->
   <fusions unique="459" /><!-- del, della, al, alla, dei, nel, sul, dal, dell', all', alle, ai, delle, sulla, nella -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
@@ -26,11 +26,11 @@
     <tag name="NUM">1414</tag><!-- 2, 3, due, 1, 5, 4, 7, 6, 10, 20 -->
     <tag name="PRON">6488</tag><!-- che, si, ci, mi, tutto, lo, ti, io, chi, quello -->
     <tag name="PROPN">10481</tag><!-- monti, mario, italia, berlusconi, roma, pd, lega, pdl, twitter, napolitano -->
-    <tag name="PUNCT">15246</tag><!-- ., ,, :, ?, !, ..., ", ), (, - -->
+    <tag name="PUNCT">15251</tag><!-- ., ,, :, ?, !, ..., ", ), (, - -->
     <tag name="SCONJ">1593</tag><!-- che, se, perché, quando, come, mentre, dopo, appena, siccome, perche -->
-    <tag name="SYM">11745</tag><!-- @user, #grillo, #monti, @user1, @user2, RT, #governo, #serviziopubblico, :), @user3 -->
+    <tag name="SYM">11742</tag><!-- @user, #grillo, #monti, @user1, @user2, RT, #governo, #serviziopubblico, :), @user3 -->
     <tag name="VERB">11264</tag><!-- fare, avere, dire, essere, andare, vedere, sapere, dare, parlare, pensare -->
-    <tag name="X">978</tag><!-- of, Prince, i, live, _, a, and, on, the, in -->
+    <tag name="X">976</tag><!-- of, Prince, i, live, _, a, and, on, the, in -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="40">
@@ -92,11 +92,11 @@
     <dep name="conj">3677</dep>
     <dep name="cop">2171</dep>
     <dep name="csubj">210</dep>
-    <dep name="dep">274</dep>
+    <dep name="dep">270</dep>
     <dep name="det">13668</dep>
     <dep name="det:poss">593</dep>
     <dep name="det:predet">146</dep>
-    <dep name="discourse">2179</dep>
+    <dep name="discourse">2178</dep>
     <dep name="dislocated">141</dep>
     <dep name="expl">1057</dep>
     <dep name="expl:impers">191</dep>
@@ -125,7 +125,7 @@
     <dep name="parataxis:insert">41</dep>
     <dep name="parataxis:nsubj">38</dep>
     <dep name="parataxis:obj">22</dep>
-    <dep name="punct">15246</dep>
+    <dep name="punct">15251</dep>
     <dep name="reparandum">1</dep>
     <dep name="root">6712</dep>
     <dep name="vocative">3066</dep>
